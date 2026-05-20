@@ -60,11 +60,11 @@ export default function ProductDetail() {
 <div className="font-display-lg text-display-lg text-primary">₹ 450</div>
 <div className="flex items-center gap-2 mb-2">
 <div className="flex text-secondary text-[20px]">
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 0.5;">star_half</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0.5" }}>star_half</span>
 </div>
 <span className="font-label-sm text-label-sm text-on-surface-variant underline cursor-pointer">124 Reviews</span>
 </div>
@@ -76,7 +76,7 @@ export default function ProductDetail() {
                     </h3>
 <div className="flex items-start gap-4">
 <div className="bg-green-100 text-green-700 p-2 rounded-full shrink-0">
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
 </div>
 <div>
 <p className="font-body-md text-body-md text-on-surface font-semibold">Exact fit for your vehicle</p>
@@ -270,11 +270,11 @@ export default function ProductDetail() {
 <span className="font-display-lg text-display-lg text-on-surface leading-none">4.8</span>
 <div className="flex flex-col">
 <div className="flex text-secondary text-[20px]">
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 </div>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Based on 124 ratings</span>
 </div>
@@ -326,11 +326,11 @@ export default function ProductDetail() {
 <div>
 <h4 className="font-label-md text-label-md text-on-surface">Rahul Sharma</h4>
 <div className="flex text-secondary text-[16px] mt-1">
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 </div>
 </div>
 <span className="font-label-sm text-label-sm text-on-surface-variant">2 days ago</span>
@@ -346,11 +346,11 @@ export default function ProductDetail() {
 <div>
 <h4 className="font-label-md text-label-md text-on-surface">Vikram Singh</h4>
 <div className="flex text-secondary text-[16px] mt-1">
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span className="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>star</span>
 </div>
 </div>
 <span className="font-label-sm text-label-sm text-on-surface-variant">1 week ago</span>

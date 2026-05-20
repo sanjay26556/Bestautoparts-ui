@@ -43,34 +43,34 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-gutter">
               {/* Brand Card 1 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="BMW" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMuXV6GoqL4ajQLVNbFU2InfFeAHdAalP4Aq1ZDVm2eF2iFc5YLZar-dPboRxJWkj2QcX0Hs2-RLGscyojcdhnyIY_CoND_ld7_TIFvzaRYXliSLiZJThFQkMaPV7kfcaa3XtM8i3-0e6KL5B6PoNW1VdCkcmJbLoxP5EvRHgj7QMujnsANW5h4IDFThCh_uqTr63j8XgeGlxdGX9rFmYbtEGi1QN_zXJFjRyQaHfvsQDidjaGNhOVt5VLALgOo-s59eeoCh3Wu4n-" />
-                <div className="text-center"><div className="font-label-md text-on-surface">BMW</div><div className="text-body-sm text-on-surface-variant text-[11px]">12 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/bmw">
+                <img alt="BMW" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">BMW</div></div>
               </Link>
               {/* Brand Card 2 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDghV-k-Bo9q6ycI2uUv_Falls5YRKU39YAuDR1v2IHR-dIctWBJMZC0j4lG6O-T3ZyR_EWRLuNw3q9wJErRla3Wo1fUXRIP8_ln9vipv3K3K73FHeADNfp5aLFeW42yFtmtrm6AkekpomnvRTCHWsMniUhGo_U59qKpxMm8QKTLSnSp6sw0exIN5u5X3YotDpQ62VnPZoplU_8kqlKHEhTTPSJFdvNS8TpTM27l1PM6uDgcsL3i6Yvb7h-SH-lyPAc4c8NbwXXQT-U" />
-                <div className="text-center"><div className="font-label-md text-on-surface">Audi</div><div className="text-body-sm text-on-surface-variant text-[11px]">15 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/audi">
+                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Audi</div></div>
               </Link>
               {/* Brand Card 3 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="Mercedes" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7QoOnDcFxKwsCUZHI578qy_RZfscxK8zLFzesvWrLKj5qhDg5JO7D133l_iF6Xnan4vU1VstKFyd6xifE4CJ4_Z8F63YrLiHJEXSKLz2NiY7aIbdk5ERWzp9e02-rpSpdw45ROJ-2QYEP813ZhNd1FrVR6bpBt1o3btU0s_9FCiWNU9uHx34H-y_L83YNq9swYCD0TrfJNC4ik7AzdTHno_nVeP6jOdZfnfUhLePCYhxKfLaCHFNoA_o2AeSeCvUYdMuRDSffKG_O" />
-                <div className="text-center"><div className="font-label-md text-on-surface">Mercedes</div><div className="text-body-sm text-on-surface-variant text-[11px]">18 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/mercedes">
+                <img alt="Mercedes" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Mercedes</div></div>
               </Link>
               {/* Brand Card 4 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="Porsche" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnA7ixtG4XUhAeWEYAW6W7RuscDKN5uUCCEByDGvTqGkD3GJprJEtE4PWbkYCVR3EsX5FiphuHimkyFtt5dkNeS1lZwX6k0plCa-zqJ2SyskuEopV-qLCQFZx9XxxpuaTuVzduHRUBg-o1vxbBriKUklU_dzSLPglqb1e3EH1EvvK54N4FcYe0SwgZbszAIaPkQUVQE9ncvLgC3ktjJPSd5MxU8p5-7BGxK1VTPHT7aj4qxhG9e7MwxUmXJ3GqhBlLdoN2uNgj_37J" />
-                <div className="text-center"><div className="font-label-md text-on-surface">Porsche</div><div className="text-body-sm text-on-surface-variant text-[11px]">10 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/porsche">
+                <img alt="Porsche" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Porsche</div></div>
               </Link>
               {/* Brand Card 5 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://png.pngtree.com/png-vector/20250217/ourmid/pngtree-sleek-red-honda-civic-sedan-sporty-design-aggressive-front-grille-black-png-image_15456934.png" />
-                <div className="text-center"><div className="font-label-md text-on-surface">Honda</div><div className="text-body-sm text-on-surface-variant text-[11px]">8 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/honda">
+                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Honda</div></div>
               </Link>
               {/* Brand Card 6 */}
-              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/brands">
-                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uiPpzqUDDQ6K9OVAKCZDiv3uKl45VaoJWhNi1lh8Qj0vP-Q-nvNufm54A5uz6RCEl15Ip9pdAK8ciNVrazScDGnQo2_QEEbhP0kicMhnwOgDH3ASXjPHcldxasYKy1-8Dsb1KVsIWNg9KwxztKvFnsisQIdzyy3KCmPn5NcZqWCwXCkMbGn3rmKuprbcs8t6uYDLl3wv7TUrVIem4bKdYJ_jNhfAoURBhoMd4oK0jzxdGAG6j5lrznDsAmc" />
-                <div className="text-center"><div className="font-label-md text-on-surface">Mahindra</div><div className="text-body-sm text-on-surface-variant text-[11px]">14 Models</div></div>
+              <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/mahindra">
+                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=300" />
+                <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Mahindra</div></div>
               </Link>
             </div>
           </section>
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter h-[600px]">
               {/* Large Feature Box */}
               <Link className="md:col-span-2 md:row-span-2 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant hover:shadow-md transition-shadow" to="/marketplace">
-                <img alt="Engine Parts" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCYf6z-K6JRWELD6cvJtThP5M9H-VHPSBn8g0zMCw5tehVyOaAJCcFx5LLPzGeYhwnDPPGhcONp7Xd30_4wLCf3mJ6_0YF1U8lrBl4ZaS7Zc7jHp8sI6ukjheRGGDvOpjiD69SH3GggkNUcInTWsrmDQomAHI3k5w1-FsHkiL1n6z9CBCA0Oh2pabHvsQC6mn7QK-r9_ox7dIWk9kZ9QcIEZlp4Sy38HVhn06zezL96upTeyc4LK7-BVmTS9Oi6QoowKLyOMLnqiGI" />
+                <img alt="Engine Parts" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=800" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
                   <h3 className="text-white font-headline-md">Engine &amp; Performance</h3>
                   <p className="text-white/80 text-body-sm">High-performance OEM internal components</p>
@@ -89,13 +89,13 @@ export default function Home() {
               </Link>
               {/* Smaller Grid Boxes */}
               <Link className="relative rounded-xl overflow-hidden group bg-surface border border-outline-variant hover:shadow-md transition-shadow" to="/marketplace">
-                <img alt="Brakes &amp; Suspension" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_tt5FUGreCuFpuUuwHn6G4bsPvpb2orteC1_kZYz546ep0-YOTV_nuQ3GkYumn1lsp-w-wgEuJRDlQSYP0fDT5XsZdNSSYCqaRqct3Q5JzCsFkpGbMlXlN5nv6Uk0tIdXRDhIoGY_7i1QmqGXPxC79FTqkRRvSWn_99tUpwuYaCSXNB-GECbOx2lX1UleOVpzvlS605_h00TnT5hlf0pmX03j53YTI1PJ-BpMDxyIDKcLH-tH7SLioprAV591CrnLRC7kVjM__99D" />
+                <img alt="Brakes & Suspension" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=600" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-4">
                   <h3 className="text-white font-label-md">Brakes &amp; Suspension</h3>
                 </div>
               </Link>
               <Link className="relative rounded-xl overflow-hidden group bg-surface border border-outline-variant hover:shadow-md transition-shadow" to="/marketplace">
-                <img alt="Electrical Systems" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfKoanOcBJmCPbdY1X5Rk7UUd1HOX8-13d3R8KnCyzVOmKGc8sEh5WIxe2goRMa7lVk52sSj_jPVPrrvI-NadAjLaAi2rRi4mpJFiI2avXmEwM3Nlmj7H3wKSGcKP3CT9O5RlKs8A6FgOLoeLSggP8JuabhvTK7nAM9W_Sfakluv_SOvir4L4flQeYpIC6ic06bz8nuUhhMwfaASb4P7GUoTaohaP2JT42jsC6cnB61QqQdNF3JntmsZEvS6tHF-HZ_jpcvT5HSAGf" />
+                <img alt="Electrical Systems" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=600" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-4">
                   <h3 className="text-white font-label-md">Electrical Systems</h3>
                 </div>

@@ -139,7 +139,7 @@ export default function MahindraXUV700() {
 <div className="text-label-sm text-secondary mb-1">M-GENUINE BRAKES</div>
 <h4 className="font-bold text-body-lg mb-2 hover:text-secondary"><Link to="/product">Front Ceramic Brake Pads</Link></h4>
 <div className="flex items-center space-x-1 mb-4">
-<span className="material-symbols-outlined text-yellow-400 text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined text-yellow-400 text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 <span className="text-label-sm font-bold">4.8</span>
 <span className="text-label-sm text-outline">(124)</span>
 </div>
@@ -159,7 +159,7 @@ export default function MahindraXUV700() {
 <div className="text-label-sm text-secondary mb-1">MAX-FILTER TECH</div>
 <h4 className="font-bold text-body-lg mb-2 hover:text-secondary"><Link to="/product">Performance Oil Filter Kit</Link></h4>
 <div className="flex items-center space-x-1 mb-4">
-<span className="material-symbols-outlined text-yellow-400 text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined text-yellow-400 text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 <span className="text-label-sm font-bold">4.9</span>
 <span className="text-label-sm text-outline">(89)</span>
 </div>
@@ -179,7 +179,7 @@ export default function MahindraXUV700() {
 <div className="text-label-sm text-secondary mb-1">LUMINA DYNAMICS</div>
 <h4 className="font-bold text-body-lg mb-2 hover:text-secondary"><Link to="/product">Matrix LED Headlight Unit</Link></h4>
 <div className="flex items-center space-x-1 mb-4">
-<span className="material-symbols-outlined text-yellow-400 text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined text-yellow-400 text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 <span className="text-label-sm font-bold">4.7</span>
 <span className="text-label-sm text-outline">(42)</span>
 </div>
@@ -199,7 +199,7 @@ export default function MahindraXUV700() {
 <div className="text-label-sm text-secondary mb-1">AERO-SWEEP</div>
 <h4 className="font-bold text-body-lg mb-2 hover:text-secondary"><Link to="/product">Rain-X Silicon Wipers</Link></h4>
 <div className="flex items-center space-x-1 mb-4">
-<span className="material-symbols-outlined text-yellow-400 text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span className="material-symbols-outlined text-yellow-400 text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 <span className="text-label-sm font-bold">4.5</span>
 <span className="text-label-sm text-outline">(256)</span>
 </div>

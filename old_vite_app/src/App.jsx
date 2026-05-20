@@ -16,6 +16,17 @@ import HyundaiModels from './pages/HyundaiModels';
 import TataModels from './pages/TataModels';
 import MahindraModels from './pages/MahindraModels';
 import MarutiSuzukiModels from './pages/MarutiSuzukiModels';
+import AudiModels from './pages/AudiModels';
+import ToyotaModels from './pages/ToyotaModels';
+import HondaModels from './pages/HondaModels';
+import MercedesModels from './pages/MercedesModels';
+import PorscheModels from './pages/PorscheModels';
+import VolkswagenModels from './pages/VolkswagenModels';
+import KiaModels from './pages/KiaModels';
+
+import Offers from './pages/Offers';
+import Profile from './pages/Profile';
+import CarDetail from './pages/CarDetail';
 
 import MahindraXUV700 from './pages/MahindraXUV700';
 import MarutiSwift from './pages/MarutiSwift';
@@ -43,7 +54,19 @@ function App() {
           <Route path="/models/tata" element={<TataModels />} />
           <Route path="/models/mahindra" element={<MahindraModels />} />
           <Route path="/models/maruti-suzuki" element={<MarutiSuzukiModels />} />
+          <Route path="/models/audi" element={<AudiModels />} />
+          <Route path="/models/toyota" element={<ToyotaModels />} />
+          <Route path="/models/honda" element={<HondaModels />} />
+          <Route path="/models/mercedes" element={<MercedesModels />} />
+          <Route path="/models/porsche" element={<PorscheModels />} />
+          <Route path="/models/volkswagen" element={<VolkswagenModels />} />
+          <Route path="/models/kia" element={<KiaModels />} />
 
+          {/* Offers & Profile & Dynamic Car Details */}
+          <Route path="/offers" element={<Offers />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/models/:brand/:carId" element={<CarDetail />} />
+          
           {/* Specific Car Variant Pages */}
           <Route path="/models/mahindra/xuv700" element={<MahindraXUV700 />} />
           <Route path="/models/maruti-suzuki/swift" element={<MarutiSwift />} />

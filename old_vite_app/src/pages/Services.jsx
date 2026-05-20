@@ -16,11 +16,11 @@ export default function Services() {
 <div className="flex flex-wrap gap-4">
 <a className="bg-secondary text-on-secondary px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary/90 transition-all shadow-sm flex items-center gap-2" href="#booking">
 <span>Schedule Service</span>
-<span className="material-symbols-outlined" style="font-size: 18px;">calendar_month</span>
+<span className="material-symbols-outlined" style={{ fontSize: "18px" }}>calendar_month</span>
 </a>
 <a className="bg-transparent border border-on-primary text-on-primary px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-on-primary/10 transition-all flex items-center gap-2" href="#offers">
 <span>View Offers</span>
-<span className="material-symbols-outlined" style="font-size: 18px;">local_offer</span>
+<span className="material-symbols-outlined" style={{ fontSize: "18px" }}>local_offer</span>
 </a>
 </div>
 </div>
@@ -34,7 +34,7 @@ export default function Services() {
 {/* Annual Maintenance */}
 <div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-gutter hover:shadow-[0_20px_25px_-5px_rgba(15,23,42,0.1)] transition-all duration-300 group flex flex-col">
 <div className="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-stack-md text-secondary">
-<span className="material-symbols-outlined" style="font-size: 24px;">car_repair</span>
+<span className="material-symbols-outlined" style={{ fontSize: "24px" }}>car_repair</span>
 </div>
 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm">Annual Maintenance</h3>
 <p className="font-body-md text-body-md text-on-surface-variant flex-grow mb-stack-lg">Comprehensive 50-point inspection, oil change, filter replacement, and fluid top-up.</p>
@@ -48,28 +48,28 @@ export default function Services() {
 {/* Brake Overhaul */}
 <div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-gutter hover:shadow-[0_20px_25px_-5px_rgba(15,23,42,0.1)] transition-all duration-300 group flex flex-col">
 <div className="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-stack-md text-secondary">
-<span className="material-symbols-outlined" style="font-size: 24px;">tire_repair</span>
+<span className="material-symbols-outlined" style={{ fontSize: "24px" }}>tire_repair</span>
 </div>
 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm">Brake Overhaul</h3>
 <p className="font-body-md text-body-md text-on-surface-variant flex-grow mb-stack-lg">Pad replacement, rotor resurfacing or replacement, and brake fluid flush for optimal stopping power.</p>
 <div className="mt-auto flex items-center justify-between border-t border-surface-variant pt-stack-md">
 <span className="font-headline-md text-body-lg text-primary">From $299</span>
 <button className="text-secondary font-label-md text-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                            Book Now <span className="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                            Book Now <span className="material-symbols-outlined" style={{ fontSize: "16px" }}>arrow_forward</span>
 </button>
 </div>
 </div>
 {/* Engine Health Check */}
 <div className="bg-surface-container-lowest border border-outline-variant rounded-xl p-gutter hover:shadow-[0_20px_25px_-5px_rgba(15,23,42,0.1)] transition-all duration-300 group flex flex-col">
 <div className="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-stack-md text-secondary">
-<span className="material-symbols-outlined" style="font-size: 24px;">engineering</span>
+<span className="material-symbols-outlined" style={{ fontSize: "24px" }}>engineering</span>
 </div>
 <h3 className="font-headline-md text-headline-md text-on-surface mb-stack-sm">Engine Health Check</h3>
 <p className="font-body-md text-body-md text-on-surface-variant flex-grow mb-stack-lg">Advanced computer diagnostics, spark plug inspection, and performance optimization tuning.</p>
 <div className="mt-auto flex items-center justify-between border-t border-surface-variant pt-stack-md">
 <span className="font-headline-md text-body-lg text-primary">From $89</span>
 <button className="text-secondary font-label-md text-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                            Book Now <span className="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                            Book Now <span className="material-symbols-outlined" style={{ fontSize: "16px" }}>arrow_forward</span>
 </button>
 </div>
 </div>

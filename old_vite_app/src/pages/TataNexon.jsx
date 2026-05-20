@@ -32,11 +32,11 @@ export default function TataNexon() {
 </div>
 <div className="space-y-4">
 <label className="block group cursor-pointer">
-<input checked="" className="hidden peer" name="variant" type="radio"/>
+<input defaultChecked={true} className="hidden peer" name="variant" type="radio"/>
 <div className="p-4 rounded-lg border-2 border-outline-variant peer-checked:border-secondary-container peer-checked:bg-secondary-fixed/20 transition-all">
 <div className="flex justify-between items-center">
 <span className="font-label-md text-on-surface">Smart (O)</span>
-<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
 </div>
 <p className="text-label-sm text-outline mt-1">1.2L Turbo Petrol / Manual</p>
 </div>
@@ -46,7 +46,7 @@ export default function TataNexon() {
 <div className="p-4 rounded-lg border-2 border-outline-variant peer-checked:border-secondary-container peer-checked:bg-secondary-fixed/20 transition-all">
 <div className="flex justify-between items-center">
 <span className="font-label-md text-on-surface">Pure</span>
-<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
 </div>
 <p className="text-label-sm text-outline mt-1">1.5L Revotorq Diesel / Manual</p>
 </div>
@@ -56,7 +56,7 @@ export default function TataNexon() {
 <div className="p-4 rounded-lg border-2 border-outline-variant peer-checked:border-secondary-container peer-checked:bg-secondary-fixed/20 transition-all">
 <div className="flex justify-between items-center">
 <span className="font-label-md text-on-surface">Creative +</span>
-<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
 </div>
 <p className="text-label-sm text-outline mt-1">1.2L Turbo Petrol / DCA</p>
 </div>
@@ -66,7 +66,7 @@ export default function TataNexon() {
 <div className="p-4 rounded-lg border-2 border-outline-variant peer-checked:border-secondary-container peer-checked:bg-secondary-fixed/20 transition-all">
 <div className="flex justify-between items-center">
 <span className="font-label-md text-on-surface">Fearless PR</span>
-<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span className="material-symbols-outlined text-secondary opacity-0 peer-checked:opacity-100" data-icon="check_circle" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
 </div>
 <p className="text-label-sm text-outline mt-1">Top Tier Diesel AMT / Sunroof</p>
 </div>

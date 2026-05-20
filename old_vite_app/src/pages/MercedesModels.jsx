@@ -1,66 +1,56 @@
 import { Link } from 'react-router-dom';
 
-export default function BMWModels() {
+export default function MercedesModels() {
   const modelsData = [
     {
-      id: "m5",
-      name: "BMW M5",
-      subtitle: "Pure Track Performance Sealed in a Sedan.",
-      category: "Super Sedan",
-      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed M Steptronic",
-      engine: "4.4L TwinPower V8 Bi-Turbo",
-      path: "/models/bmw/m5"
+      id: "amggt",
+      name: "Mercedes-AMG GT",
+      subtitle: "Driving Performance in Exquisite Form.",
+      category: "Supercar",
+      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600",
+      transmission: "7-Speed AMG SPEEDSHIFT DCT",
+      engine: "4.0L V8 Biturbo AMG",
+      path: "/models/mercedes/amggt"
     },
     {
-      id: "3series",
-      name: "BMW 3 Series",
-      subtitle: "The Benchmark for Sports Sedans.",
-      category: "Sports Sedan",
-      image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic Sport",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/3series"
-    },
-    {
-      id: "5series",
-      name: "BMW 5 Series",
-      subtitle: "Business Athlete Sedan.",
+      id: "sclass",
+      name: "Mercedes-Benz S-Class",
+      subtitle: "The Pinnacle of Automotive Luxury.",
       category: "Luxury Sedan",
-      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/5series"
+      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+      transmission: "9G-TRONIC 9-Speed AT",
+      engine: "3.0L Turbocharged I6",
+      path: "/models/mercedes/sclass"
     },
     {
-      id: "x5",
-      name: "BMW X5",
-      subtitle: "The Boss of Luxury SUVs.",
-      category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic",
-      engine: "3.0L TwinPower Turbo I6",
-      path: "/models/bmw/x5"
+      id: "eclass",
+      name: "Mercedes-Benz E-Class",
+      subtitle: "Masterpiece of Intelligence.",
+      category: "Premium Sedan",
+      image: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?auto=format&fit=crop&q=80&w=600",
+      transmission: "9G-TRONIC Automatic",
+      engine: "2.0L Turbocharged I4",
+      path: "/models/mercedes/eclass"
     },
     {
-      id: "x1",
-      name: "BMW X1",
-      subtitle: "Spirited Performance in a Compact Package.",
-      category: "SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
-      transmission: "7-Speed Dual-Clutch AT",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/x1"
+      id: "cclass",
+      name: "Mercedes-Benz C-Class",
+      subtitle: "Dynamic Sophistication in Motion.",
+      category: "Premium Sedan",
+      image: "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?auto=format&fit=crop&q=80&w=600",
+      transmission: "9G-TRONIC Automatic",
+      engine: "1.5L Turbocharged I4",
+      path: "/models/mercedes/cclass"
     },
     {
-      id: "ix",
-      name: "BMW iX",
-      subtitle: "Pioneering a New Age of Electrified Utility.",
-      category: "Electric SUV",
-      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
-      transmission: "Single-Speed Automatic",
-      engine: "Dual Electric Motors",
-      path: "/models/bmw/ix"
+      id: "gle",
+      name: "Mercedes-Benz GLE",
+      subtitle: "Commanding Power with Premium Space.",
+      category: "Luxury SUV",
+      image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&q=80&w=600",
+      transmission: "9G-TRONIC 4MATIC",
+      engine: "3.0L Turbocharged Diesel I6",
+      path: "/models/mercedes/gle"
     }
   ];
 
@@ -75,9 +65,9 @@ export default function BMWModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">BMW Genuine Parts</h1>
+              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Mercedes-Benz Spares</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                Maintain the Sheer Driving Pleasure with factory-certified precision parts designed specifically for your BMW. Sourced directly for perfect compatibility.
+                The best or nothing. Sourced exactly to OEM specifications, protecting your luxury investment with authentic Mercedes-Benz parts.
               </p>
               <div className="flex gap-4">
                 <Link to="/marketplace" className="bg-secondary text-on-secondary px-8 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary/90 transition-all shadow-lg active:scale-95 flex items-center justify-center">
@@ -90,7 +80,7 @@ export default function BMWModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Mercedes-Benz" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -101,7 +91,7 @@ export default function BMWModels() {
             <div className="flex justify-between items-end mb-12">
               <div className="text-left">
                 <h2 className="font-headline-lg text-headline-lg text-primary mb-2">Select Your Model</h2>
-                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every BMW series.</p>
+                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every Mercedes-Benz model.</p>
               </div>
             </div>
 
@@ -144,7 +134,7 @@ export default function BMWModels() {
               <div className="flex flex-col items-center text-center p-6">
                 <span className="material-symbols-outlined text-secondary text-[48px] mb-4">verified_user</span>
                 <h4 className="font-headline-md text-headline-md text-primary mb-2">Genuine Guarantee</h4>
-                <p className="font-body-md text-body-md text-on-surface-variant">All BMW parts are sourced from authorized manufacturers with 100% authenticity certification.</p>
+                <p className="font-body-md text-body-md text-on-surface-variant">All Mercedes parts are sourced from authorized manufacturers with 100% authenticity certification.</p>
               </div>
               <div className="flex flex-col items-center text-center p-6">
                 <span className="material-symbols-outlined text-secondary text-[48px] mb-4">local_shipping</span>

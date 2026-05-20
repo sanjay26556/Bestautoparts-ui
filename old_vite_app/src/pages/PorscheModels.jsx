@@ -1,66 +1,46 @@
 import { Link } from 'react-router-dom';
 
-export default function BMWModels() {
+export default function PorscheModels() {
   const modelsData = [
     {
-      id: "m5",
-      name: "BMW M5",
-      subtitle: "Pure Track Performance Sealed in a Sedan.",
-      category: "Super Sedan",
-      image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed M Steptronic",
-      engine: "4.4L TwinPower V8 Bi-Turbo",
-      path: "/models/bmw/m5"
+      id: "911",
+      name: "Porsche 911",
+      subtitle: "The Eternal Sports Car Icon.",
+      category: "Sports Car",
+      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+      transmission: "8-speed PDK",
+      engine: "3.0L Twin-Turbocharged Flat-6",
+      path: "/models/porsche/911"
     },
     {
-      id: "3series",
-      name: "BMW 3 Series",
-      subtitle: "The Benchmark for Sports Sedans.",
-      category: "Sports Sedan",
-      image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic Sport",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/3series"
-    },
-    {
-      id: "5series",
-      name: "BMW 5 Series",
-      subtitle: "Business Athlete Sedan.",
-      category: "Luxury Sedan",
-      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/5series"
-    },
-    {
-      id: "x5",
-      name: "BMW X5",
-      subtitle: "The Boss of Luxury SUVs.",
+      id: "cayenne",
+      name: "Porsche Cayenne",
+      subtitle: "Sports Car Performance for Five.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Steptronic",
-      engine: "3.0L TwinPower Turbo I6",
-      path: "/models/bmw/x5"
+      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
+      transmission: "8-speed Tiptronic S",
+      engine: "3.0L Turbocharged V6 Engine",
+      path: "/models/porsche/cayenne"
     },
     {
-      id: "x1",
-      name: "BMW X1",
-      subtitle: "Spirited Performance in a Compact Package.",
-      category: "SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
-      transmission: "7-Speed Dual-Clutch AT",
-      engine: "2.0L TwinPower Turbo I4",
-      path: "/models/bmw/x1"
+      id: "panamera",
+      name: "Porsche Panamera",
+      subtitle: "Pure Racing Soul Configured for Four.",
+      category: "Sports Sedan",
+      image: "https://images.unsplash.com/photo-1611245781467-33e1431f478a?auto=format&fit=crop&q=80&w=600",
+      transmission: "8-speed PDK Automatic",
+      engine: "2.9L Twin-Turbocharged V6",
+      path: "/models/porsche/panamera"
     },
     {
-      id: "ix",
-      name: "BMW iX",
-      subtitle: "Pioneering a New Age of Electrified Utility.",
-      category: "Electric SUV",
-      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
-      transmission: "Single-Speed Automatic",
-      engine: "Dual Electric Motors",
-      path: "/models/bmw/ix"
+      id: "taycan",
+      name: "Porsche Taycan",
+      subtitle: "Electrified Performance Art in Motion.",
+      category: "Electric Sedan",
+      image: "https://images.unsplash.com/photo-1611245798538-4e1b3cb1c1d0?auto=format&fit=crop&q=80&w=600",
+      transmission: "2-Speed Automatic",
+      engine: "Permanent Magnet Synchronous Motors",
+      path: "/models/porsche/taycan"
     }
   ];
 
@@ -75,9 +55,9 @@ export default function BMWModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">BMW Genuine Parts</h1>
+              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Porsche Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
-                Maintain the Sheer Driving Pleasure with factory-certified precision parts designed specifically for your BMW. Sourced directly for perfect compatibility.
+                There is no substitute. Sourced directly from Porsche authorized networks, keeping your racing machine performing at peak German precision.
               </p>
               <div className="flex gap-4">
                 <Link to="/marketplace" className="bg-secondary text-on-secondary px-8 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary/90 transition-all shadow-lg active:scale-95 flex items-center justify-center">
@@ -90,7 +70,7 @@ export default function BMWModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Porsche 911" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -101,7 +81,7 @@ export default function BMWModels() {
             <div className="flex justify-between items-end mb-12">
               <div className="text-left">
                 <h2 className="font-headline-lg text-headline-lg text-primary mb-2">Select Your Model</h2>
-                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every BMW series.</p>
+                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every Porsche series.</p>
               </div>
             </div>
 
@@ -144,7 +124,7 @@ export default function BMWModels() {
               <div className="flex flex-col items-center text-center p-6">
                 <span className="material-symbols-outlined text-secondary text-[48px] mb-4">verified_user</span>
                 <h4 className="font-headline-md text-headline-md text-primary mb-2">Genuine Guarantee</h4>
-                <p className="font-body-md text-body-md text-on-surface-variant">All BMW parts are sourced from authorized manufacturers with 100% authenticity certification.</p>
+                <p className="font-body-md text-body-md text-on-surface-variant">All Porsche parts are sourced from authorized manufacturers with 100% authenticity certification.</p>
               </div>
               <div className="flex flex-col items-center text-center p-6">
                 <span className="material-symbols-outlined text-secondary text-[48px] mb-4">local_shipping</span>
