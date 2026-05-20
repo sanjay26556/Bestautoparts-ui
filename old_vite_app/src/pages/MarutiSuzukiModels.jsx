@@ -7,7 +7,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Swift",
       subtitle: "The Sporty Hatchback Icon.",
       category: "Hatchback",
-      image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=600",
+      // Small sporty hatchback car
+      image: "https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Z-Series 3-Cylinder Petrol",
       path: "/models/maruti-suzuki/swift"
@@ -17,7 +18,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Baleno",
       subtitle: "Modern Luxury Re-engineered.",
       category: "Premium Hatchback",
-      image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=600",
+      // White premium hatchback / compact sedan
+      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / AGS Automatic",
       engine: "1.2L DualJet 4-Cylinder Petrol",
       path: "/models/maruti-suzuki/baleno"
@@ -27,7 +29,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Brezza",
       subtitle: "The Bold, Dynamic City SUV.",
       category: "Compact SUV",
-      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+      // Compact city crossover SUV
+      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / 6-Speed AT",
       engine: "1.5L K15C Smart Hybrid I4",
       path: "/models/maruti-suzuki/brezza"
@@ -37,6 +40,7 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Grand Vitara",
       subtitle: "The Premium Intelligent Hybrid SUV.",
       category: "SUV",
+      // Mid-size hybrid SUV
       image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
       transmission: "e-CVT / 6-Speed AT / 5-Speed MT",
       engine: "1.5L Intelligent Strong Hybrid",
@@ -70,26 +74,20 @@ export default function MarutiSuzukiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800"/>
+              {/* Maruti Suzuki Swift hatchback - correct car image */}
+              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
 
-        {/* Model Selection Grid */}
+        {/* Model Grid - NO "Select Your Model" header as requested */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="flex justify-between items-end mb-12">
-              <div className="text-left">
-                <h2 className="font-headline-lg text-headline-lg text-primary mb-2">Select Your Model</h2>
-                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every Maruti Suzuki model.</p>
-              </div>
-            </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">
-                    <img className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" alt={model.name} src={model.image} />
+                  <Link to={model.path} className="aspect-[16/10] bg-surface-container-low overflow-hidden flex items-center justify-center relative block">
+                    <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt={model.name} src={model.image} />
                     <div className="absolute top-4 left-4">
                       <span className="bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase">{model.category}</span>
                     </div>
@@ -97,7 +95,7 @@ export default function MarutiSuzukiModels() {
                   <div className="p-6 text-left">
                     <h3 className="font-headline-md text-headline-md text-primary mb-1">{model.name}</h3>
                     <p className="text-body-sm text-on-surface-variant mb-4">{model.subtitle}</p>
-                    <div className="flex gap-4 mb-6">
+                    <div className="flex flex-wrap gap-3 mb-6">
                       <div className="flex items-center gap-1 text-on-surface-variant">
                         <span className="material-symbols-outlined text-[18px]">settings_input_component</span>
                         <span className="font-body-sm text-body-sm">{model.transmission}</span>

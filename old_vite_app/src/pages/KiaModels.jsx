@@ -78,14 +78,7 @@ export default function KiaModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="flex justify-between items-end mb-12">
-              <div className="text-left">
-                <h2 className="font-headline-lg text-headline-lg text-primary mb-2">Select Your Model</h2>
-                <p className="font-body-md text-body-md text-on-surface-variant">Precision-engineered parts for every Kia model.</p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

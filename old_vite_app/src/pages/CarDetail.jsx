@@ -366,7 +366,7 @@ const vehicleDatabase = {
         name: "Toyota Glanza",
         subtitle: "Hatchback Elegance Sourced with Efficiency.",
         category: "Premium Hatchback",
-        image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L K-Series Dual Jet Engine",
           power: "89 bhp @ 6,000 rpm",
@@ -615,7 +615,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Swift",
         subtitle: "The Sporty Hatchback Icon.",
         category: "Hatchback",
-        image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Z-Series 3-Cylinder Petrol",
           power: "80 bhp @ 5,700 rpm",
@@ -815,7 +815,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Brembo Premium Braking Kit",
       brand: "BREMBO",
       price: 4850,
-      image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=300",
       description: "High-friction carbon-ceramic brake pads engineered to exceed OEM durability and temperature standards.",
       category: "Brakes"
     },
@@ -824,7 +824,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Bosch Premium Double-Filtration Oil Filter",
       brand: "BOSCH",
       price: 650,
-      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1631651365765-c6b06e741453?auto=format&fit=crop&q=80&w=300",
       description: "Advanced synthetic blend media captures 99% of engine wear contaminants, ensuring perfect lubrication flow.",
       category: "Filters"
     },
@@ -833,7 +833,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "NGK Laser Iridium Spark Plug (Set of 4)",
       brand: "NGK",
       price: 2450,
-      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=300",
       description: "Laser-welded iridium electrode tips deliver ultimate spark precision, complete fuel ignition, and better throttle response.",
       category: "Engine Parts"
     },
@@ -842,7 +842,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Bosch High-Flow Cabin Active Carbon Air Filter",
       brand: "BOSCH",
       price: 890,
-      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=300",
       description: "Active carbon layers block fine dust, pollen, exhaust smells, and airborne micro-particles from cabin vents.",
       category: "Filters"
     }

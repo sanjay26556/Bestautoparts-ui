@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link className="relative rounded-xl overflow-hidden group bg-surface border border-outline-variant hover:shadow-md transition-shadow" to="/marketplace">
-                <img alt="Electrical Systems" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=600" />
+                <img alt="Electrical Systems" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=600" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-4">
                   <h3 className="text-white font-label-md">Electrical Systems</h3>
                 </div>
