@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Maruti Suzuki Parts - BEST AUTOPARTS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-fixed": "#d5e3fd",
+                      "on-surface-variant": "#45464d",
+                      "on-surface": "#191c1e",
+                      "on-background": "#191c1e",
+                      "on-tertiary-fixed": "#0d1c2f",
+                      "error": "#ba1a1a",
+                      "inverse-surface": "#2d3133",
+                      "inverse-primary": "#bec6e0",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "tertiary": "#000000",
+                      "on-tertiary": "#ffffff",
+                      "background": "#f7f9fb",
+                      "primary-container": "#131b2e",
+                      "error-container": "#ffdad6",
+                      "on-error": "#ffffff",
+                      "surface": "#f7f9fb",
+                      "primary-fixed-dim": "#bec6e0",
+                      "secondary-fixed-dim": "#ffb690",
+                      "on-secondary": "#ffffff",
+                      "tertiary-container": "#0d1c2f",
+                      "outline-variant": "#c6c6cd",
+                      "on-secondary-container": "#5c2400",
+                      "surface-container-highest": "#e0e3e5",
+                      "on-primary": "#ffffff",
+                      "surface-variant": "#e0e3e5",
+                      "on-primary-fixed": "#131b2e",
+                      "on-secondary-fixed-variant": "#783200",
+                      "outline": "#76777d",
+                      "primary": "#000000",
+                      "secondary": "#9d4300",
+                      "on-secondary-fixed": "#341100",
+                      "on-error-container": "#93000a",
+                      "surface-container-low": "#f2f4f6",
+                      "on-tertiary-container": "#76859b",
+                      "surface-tint": "#565e74",
+                      "inverse-on-surface": "#eff1f3",
+                      "primary-fixed": "#dae2fd",
+                      "on-tertiary-fixed-variant": "#3a485c",
+                      "surface-dim": "#d8dadc",
+                      "on-primary-container": "#7c839b",
+                      "secondary-fixed": "#ffdbca",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-container": "#eceef0",
+                      "secondary-container": "#fd761a",
+                      "surface-container-high": "#e6e8ea",
+                      "surface-bright": "#f7f9fb",
+                      "tertiary-fixed-dim": "#b9c7e0"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "stack-sm": "4px",
+                      "base": "8px",
+                      "stack-lg": "24px",
+                      "stack-md": "12px",
+                      "margin-mobile": "16px",
+                      "container-max": "1280px",
+                      "margin-desktop": "40px"
+              },
+              "fontFamily": {
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "display-lg": [
+                              "Poppins"
+                      ],
+                      "headline-md": [
+                              "Poppins"
+                      ],
+                      "headline-lg": [
+                              "Poppins"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "body-sm": [
+                              "Inter"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "headline-lg-mobile": [
+                              "Poppins"
+                      ]
+              },
+              "fontSize": {
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-sm": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[data-weight="fill"] {
+            font-variation-settings: 'FILL' 1;
+        }
+        
+        /* Custom Utilities for shadows and layout */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05);
+        }
+        
+        .card-hover:hover {
+            box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.08);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex flex-col pt-[88px]">
+<!-- TopNavBar -->
+<header class="bg-surface/80 dark:bg-surface/80 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm transition-all duration-300 hidden md:block">
+<div class="flex justify-between items-center px-gutter py-stack-md max-w-container-max mx-auto">
+<div class="flex items-center gap-gutter">
+<a class="font-display-lg text-headline-md font-bold tracking-tighter text-primary dark:text-inverse-primary" href="#">BEST AUTOPARTS</a>
+<nav class="hidden lg:flex items-center gap-stack-lg ml-stack-lg">
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed border-b-2 border-secondary dark:border-secondary-fixed pb-1" href="#">Brands</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors" href="#">Models</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors" href="#">Marketplace</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors" href="#">Services</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors" href="#">Offers</a>
+</nav>
+</div>
+<div class="flex items-center gap-stack-md">
+<div class="relative hidden lg:block">
+<input class="pl-10 pr-4 py-2 rounded-full border border-outline-variant bg-surface-container-lowest focus:ring-2 focus:ring-secondary/20 focus:border-secondary w-64 transition-all" placeholder="Search parts..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant" data-icon="search">search</span>
+</div>
+<button class="p-2 text-on-surface hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="p-2 text-on-surface hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Mobile Header -->
+<header class="bg-surface/90 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm md:hidden px-margin-mobile py-stack-md flex justify-between items-center">
+<a class="font-display-lg text-headline-lg-mobile font-bold tracking-tighter text-primary" href="#">BEST AUTOPARTS</a>
+<div class="flex gap-stack-sm">
+<button class="p-2 text-on-surface"><span class="material-symbols-outlined" data-icon="search">search</span></button>
+<button class="p-2 text-on-surface"><span class="material-symbols-outlined" data-icon="menu">menu</span></button>
+</div>
+</header>
+<main class="flex-grow flex flex-col max-w-container-max mx-auto w-full px-margin-mobile md:px-gutter py-stack-lg gap-stack-lg">
+<!-- Brand Hero -->
+<section class="relative w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden mb-stack-lg">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container/90 to-transparent z-10"></div>
+<img alt="Maruti Suzuki Dealership" class="absolute inset-0 w-full h-full object-cover" data-alt="A sleek, modern automotive showroom featuring a pristine white Maruti Suzuki vehicle under bright, studio-quality lighting. The environment is highly polished with reflective flooring, conveying a premium, high-tech automotive engineering atmosphere. The overall color palette emphasizes clean whites, deep architectural blacks, and subtle metallic accents to match a professional, corporate modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6UeTOP9zbNlrtu2PUCNOzKckQ2NXCrFlc-59g8oYoPg78SDCwgabMC9DbDtPT5NCooZ1uBuYKGVZwZHR2ER6-haQOHfzQiEPn3TP7E8m7ynmDdfeQhgCQuevayb8-StirH_9htdtIGU77BflZLlG4kRiIcs2uLxUuMJk3nG3gTGnKRGZG5b5uEKoc_ksXTKtteio-pBY9P2Oorepw1F5b4Ur6HEdniWOCMT8VzorcuCEsFoFMSTo0OWQe03NHqaQwECGSopyjgYG4"/>
+<div class="relative z-20 h-full flex flex-col justify-center p-stack-lg md:p-[48px] max-w-2xl">
+<div class="flex items-center gap-stack-md mb-stack-sm">
+<div class="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="directions_car">directions_car</span>
+</div>
+<span class="font-label-md text-label-md text-on-primary tracking-widest uppercase opacity-80">Official Partner</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-primary mb-stack-md leading-tight">Maruti Suzuki <br/><span class="text-secondary-fixed">Genuine Parts</span></h1>
+<p class="font-body-lg text-body-lg text-on-primary/90 mb-stack-lg">Precision-engineered components for every Maruti Suzuki model. Ensure peak performance, reliability, and longevity with 100% authentic spares.</p>
+<div class="flex gap-stack-md">
+<button class="bg-secondary text-on-secondary px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary-container transition-colors shadow-sm flex items-center gap-2">
+                        Browse Catalog
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Marketplace Context / Stats Bento -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-stack-md mb-stack-lg">
+<div class="glass-panel p-stack-lg rounded-xl flex items-start gap-stack-md card-shadow">
+<div class="p-3 bg-tertiary-fixed rounded-lg text-on-tertiary-fixed">
+<span class="material-symbols-outlined" data-icon="verified">verified</span>
+</div>
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface mb-1">100% Genuine</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sourced directly from MGP authorized distributors.</p>
+</div>
+</div>
+<div class="glass-panel p-stack-lg rounded-xl flex items-start gap-stack-md card-shadow">
+<div class="p-3 bg-tertiary-fixed rounded-lg text-on-tertiary-fixed">
+<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
+</div>
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface mb-1">50k+ Spares</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Comprehensive inventory for current and legacy models.</p>
+</div>
+</div>
+<div class="glass-panel p-stack-lg rounded-xl flex items-start gap-stack-md card-shadow">
+<div class="p-3 bg-tertiary-fixed rounded-lg text-on-tertiary-fixed">
+<span class="material-symbols-outlined" data-icon="local_shipping">local_shipping</span>
+</div>
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface mb-1">Express Delivery</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Next-day dispatch for critical mechanical components.</p>
+</div>
+</div>
+</section>
+<!-- Main Content Area: Sidebar + Grid -->
+<div class="flex flex-col md:flex-row gap-stack-lg w-full">
+<!-- Sidebar Filters -->
+<aside class="w-full md:w-64 flex-shrink-0 flex flex-col gap-stack-md">
+<div class="bg-surface-container-lowest rounded-xl p-stack-md border border-outline-variant card-shadow">
+<h3 class="font-headline-md text-body-lg font-semibold mb-stack-md pb-stack-sm border-b border-outline-variant text-on-surface">Filter Models</h3>
+<!-- Search within models -->
+<div class="relative mb-stack-md">
+<input class="w-full pl-8 pr-3 py-2 bg-surface rounded-lg border border-outline-variant text-body-sm focus:ring-1 focus:ring-secondary focus:border-secondary outline-none" placeholder="Quick search..." type="text"/>
+<span class="material-symbols-outlined absolute left-2 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm" data-icon="search">search</span>
+</div>
+<!-- Fuel Type -->
+<div class="mb-stack-md">
+<h4 class="font-label-md text-label-sm text-on-surface-variant uppercase tracking-wider mb-2">Fuel Type</h4>
+<div class="flex flex-col gap-2">
+<label class="flex items-center gap-2 cursor-pointer group">
+<input checked="" class="rounded border-outline-variant text-secondary focus:ring-secondary/20 w-4 h-4" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-secondary transition-colors">Petrol</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-secondary focus:ring-secondary/20 w-4 h-4" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-secondary transition-colors">Diesel</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input checked="" class="rounded border-outline-variant text-secondary focus:ring-secondary/20 w-4 h-4" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-secondary transition-colors">CNG</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer group">
+<input class="rounded border-outline-variant text-secondary focus:ring-secondary/20 w-4 h-4" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-secondary transition-colors">Hybrid</span>
+</label>
+</div>
+</div>
+<!-- Body Type -->
+<div class="mb-stack-md">
+<h4 class="font-label-md text-label-sm text-on-surface-variant uppercase tracking-wider mb-2">Body Type</h4>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm rounded-full">Hatchback</button>
+<button class="px-3 py-1 bg-surface text-on-surface border border-outline-variant font-label-sm text-label-sm rounded-full hover:bg-surface-container">Sedan</button>
+<button class="px-3 py-1 bg-surface text-on-surface border border-outline-variant font-label-sm text-label-sm rounded-full hover:bg-surface-container">SUV</button>
+<button class="px-3 py-1 bg-surface text-on-surface border border-outline-variant font-label-sm text-label-sm rounded-full hover:bg-surface-container">MUV</button>
+</div>
+</div>
+</div>
+<!-- Ad Banner -->
+<div class="bg-surface-container-highest rounded-xl p-stack-md border border-outline-variant flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-secondary text-4xl mb-2" data-icon="build_circle">build_circle</span>
+<h4 class="font-headline-md text-body-lg font-semibold text-on-surface mb-1">Need Help?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-stack-md">Can't find your specific model or part number?</p>
+<button class="w-full bg-transparent border border-primary text-primary px-4 py-2 rounded-lg font-label-md text-label-md hover:bg-surface-container-low transition-colors">Contact Support</button>
+</div>
+</aside>
+<!-- Model Grid -->
+<div class="flex-grow">
+<div class="flex justify-between items-center mb-stack-md">
+<h2 class="font-headline-md text-headline-md text-on-surface">Select Model</h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Showing 8 models</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-stack-md">
+<!-- Card 1: Swift -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant card-shadow card-hover transition-all flex flex-col">
+<div class="h-48 bg-surface-container relative">
+<img alt="Maruti Suzuki Swift" class="w-full h-full object-cover" data-alt="A dynamic, high-quality studio photograph of a modern red hatchback car, resembling a Suzuki Swift. The lighting is dramatic yet clean, highlighting the vehicle's curves and sporty stance against a neutral, bright white studio background. The overall tone is premium, professional, and crisp, suitable for a high-end automotive marketplace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWhVacjfpwSd8lYWCAfo-Gkx9pGPAnTBxjDVk9tokmCeH8wRYSArD2mru5TkhytFsincN3Y8Ss9gS3uiUpawwejeUrI3TINTxPODFs0s3INHxJt5jJZv3Ey0EF7XiX4lMWO2829BxiUGzXWbqcXE5nhu1DkPAIEtUHUZTO7CSxvqCy0DNJ1pOIe6xPnSJAIlifvHU8UUZPcxvqZZbg_4G5szHM4qFSu-1HfIGMZ9owHKrbU1MOMOks-BJqgd2KeZXNrx0-s4YV7-ko"/>
+<div class="absolute top-2 right-2 flex gap-1">
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-on-surface font-semibold shadow-sm">Petrol</span>
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-secondary font-semibold shadow-sm">CNG</span>
+</div>
+</div>
+<div class="p-stack-md flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface">Swift</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2">2005 - Present • Hatchback</p>
+<div class="flex gap-2 mb-stack-md">
+<span class="inline-flex items-center gap-1 text-xs text-on-surface-variant"><span class="material-symbols-outlined text-[16px]" data-icon="settings">settings</span> MT / AMT</span>
+</div>
+</div>
+<button class="w-full bg-secondary text-on-secondary py-2 rounded-lg font-label-md text-label-md hover:bg-secondary-container transition-colors flex justify-center items-center gap-2">
+                                View Parts <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Baleno -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant card-shadow card-hover transition-all flex flex-col">
+<div class="h-48 bg-surface-container relative">
+<img alt="Maruti Suzuki Baleno" class="w-full h-full object-cover" data-alt="A sleek, premium blue hatchback car photographed in a brightly lit, minimalist architectural space. The vehicle's metallic paint reflects the soft, diffused overhead lighting. The composition is clean and focused solely on the car's exterior design, conveying a modern, reliable, and high-quality automotive brand aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqFFbQ2WJAfCrQt-8emdqXWgozjwVSGjJGDzWtGkI5mCc_w7XQucvaryyH7mMOV_Q3KGA7N2pfpghsyP0bnL2YJ-EIZj0BvFbF5Fr48NjkZTwyuBjoXRSbtgfSeeWL4kVq2mjYlFj_FfZhieEV9Zk-gL2P1YauYuV5RHdaaTkTNWwyeCe2R18aLQtfCdD8SIlwWAADcuTrCaAK_hB5s-NcG0ZrvAyhmYeznQ4GUnxl6-v0yXY6tKfThKnZOiK-ZJ-O9BygNktEPw80"/>
+<div class="absolute top-2 right-2 flex gap-1">
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-on-surface font-semibold shadow-sm">Petrol</span>
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-secondary font-semibold shadow-sm">CNG</span>
+</div>
+</div>
+<div class="p-stack-md flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface">Baleno</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2">2015 - Present • Premium Hatchback</p>
+<div class="flex gap-2 mb-stack-md">
+<span class="inline-flex items-center gap-1 text-xs text-on-surface-variant"><span class="material-symbols-outlined text-[16px]" data-icon="settings">settings</span> MT / AGS</span>
+</div>
+</div>
+<button class="w-full bg-secondary text-on-secondary py-2 rounded-lg font-label-md text-label-md hover:bg-secondary-container transition-colors flex justify-center items-center gap-2">
+                                View Parts <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3: Brezza -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden border border-outline-variant card-shadow card-hover transition-all flex flex-col">
+<div class="h-48 bg-surface-container relative">
+<img alt="Maruti Suzuki Brezza" class="w-full h-full object-cover" data-alt="A bold, rugged compact SUV in a metallic grey finish, presented in a bright, polished studio setting. The lighting emphasizes the vehicle's strong lines and elevated stance. The background is a clean, neutral gradient of white and light grey, ensuring the car is the absolute focal point in a premium corporate style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC86g3-wrxRhzLn9ZR57bvb6RKb1idLBXQLBAzTR57w5t3tIcO47Yrw4Yb4QVKR-VJVkxzdAgT-87S4mAVBGDGQj_krEn33gLlloVh7v3k7oUYcFcFjcxGT9yeWmlBOSimBKittKtWvGhOuILKcGoWlRkFCpL_sIZJ5BCyqJyy1qb9LTi_2Oqr80GMMOed4qnoE7BtkRfdusOpyls81tewUEViispWzcC5UBnvzSFblh62RQ51ZdipQSo3VLdgCup2feOA6cQQfK1Ar"/>
+<div class="absolute top-2 right-2 flex gap-1">
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-on-surface font-semibold shadow-sm">Petrol</span>
+<span class="bg-surface/90 backdrop-blur px-2 py-1 rounded text-xs font-label-sm text-secondary font-semibold shadow-sm">CNG</span>
+</div>
+</div>
+<div class="p-stack-md flex-grow flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-body-lg font-semibold text-on-surface">Brezza</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2">2016 - Present • Compact SUV</p>
+<div class="flex gap-2 mb-stack-md">
+<span class="inline-flex items-center gap-1 text-xs text-on-surface-variant"><span class="material-symbols-outlined text-[16px]" data-icon="settings">settings</span> MT / AT</span>
+</div>
+</div>
+<button class="w-full bg-secondary text-on-secondary py-2 rounded-lg font-label-md text-label-md hover:bg-secondary-container transition-colors flex justify-center items-center gap-2">
+                                View Parts <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-surface-container-highest w-full mt-stack-lg border-t border-outline-variant dark:border-outline-variant flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-gutter py-stack-lg max-w-container-max mx-auto">
+<div class="flex flex-col gap-stack-sm">
+<span class="font-display-lg text-headline-md font-bold text-primary dark:text-primary">BEST AUTOPARTS</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant mt-2">© 2024 BEST AUTOPARTS. Precision Engineering. Guaranteed Reliability.</p>
+</div>
+<div class="flex flex-col gap-stack-sm">
+<h4 class="font-label-md text-label-md font-bold text-on-surface mb-1">Company</h4>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">About Us</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">Contact Support</a>
+</div>
+<div class="flex flex-col gap-stack-sm">
+<h4 class="font-label-md text-label-md font-bold text-on-surface mb-1">Policies</h4>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">Shipping Policy</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-stack-sm">
+<h4 class="font-label-md text-label-md font-bold text-on-surface mb-1">Assurance</h4>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">Genuine Parts Guarantee</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors Opacity shift on hover" href="#">Warranty Terms</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shopping Cart &amp; Wishlist | BEST AUTOPARTS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed": "#d5e3fd",
+                        "on-surface-variant": "#45464d",
+                        "on-surface": "#191c1e",
+                        "on-background": "#191c1e",
+                        "on-tertiary-fixed": "#0d1c2f",
+                        "error": "#ba1a1a",
+                        "inverse-surface": "#2d3133",
+                        "inverse-primary": "#bec6e0",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f7f9fb",
+                        "primary-container": "#131b2e",
+                        "error-container": "#ffdad6",
+                        "on-error": "#ffffff",
+                        "surface": "#f7f9fb",
+                        "primary-fixed-dim": "#bec6e0",
+                        "secondary-fixed-dim": "#ffb690",
+                        "on-secondary": "#ffffff",
+                        "tertiary-container": "#0d1c2f",
+                        "outline-variant": "#c6c6cd",
+                        "on-secondary-container": "#5c2400",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-primary": "#ffffff",
+                        "surface-variant": "#e0e3e5",
+                        "on-primary-fixed": "#131b2e",
+                        "on-secondary-fixed-variant": "#783200",
+                        "outline": "#76777d",
+                        "primary": "#000000",
+                        "secondary": "#9d4300",
+                        "on-secondary-fixed": "#341100",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f2f4f6",
+                        "on-tertiary-container": "#76859b",
+                        "surface-tint": "#565e74",
+                        "inverse-on-surface": "#eff1f3",
+                        "primary-fixed": "#dae2fd",
+                        "on-tertiary-fixed-variant": "#3a485c",
+                        "surface-dim": "#d8dadc",
+                        "on-primary-container": "#7c839b",
+                        "secondary-fixed": "#ffdbca",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#eceef0",
+                        "secondary-container": "#fd761a",
+                        "surface-container-high": "#e6e8ea",
+                        "surface-bright": "#f7f9fb",
+                        "tertiary-fixed-dim": "#b9c7e0"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "stack-sm": "4px",
+                        "base": "8px",
+                        "stack-lg": "24px",
+                        "stack-md": "12px",
+                        "margin-mobile": "16px",
+                        "container-max": "1280px",
+                        "margin-desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["Poppins"],
+                        "headline-md": ["Poppins"],
+                        "headline-lg": ["Poppins"],
+                        "body-lg": ["Inter"],
+                        "body-sm": ["Inter"],
+                        "label-md": ["Inter"],
+                        "headline-lg-mobile": ["Poppins"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased min-h-screen flex flex-col pt-[88px]">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-md shadow-sm border-b-0">
+<div class="flex justify-between items-center px-gutter py-stack-md max-w-container-max mx-auto">
+<div class="flex items-center gap-gutter">
+<a class="font-display-lg text-headline-md font-bold tracking-tighter text-primary dark:text-inverse-primary" href="#">BEST AUTOPARTS</a>
+<div class="hidden md:flex items-center gap-stack-lg ml-stack-lg">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg px-2 py-1 transition-all duration-300" href="#">Brands</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg px-2 py-1 transition-all duration-300" href="#">Models</a>
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed border-b-2 border-secondary dark:border-secondary-fixed pb-1" href="#">Marketplace</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg px-2 py-1 transition-all duration-300" href="#">Services</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-tertiary-container hover:text-primary dark:hover:text-inverse-primary transition-colors hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg px-2 py-1 transition-all duration-300" href="#">Offers</a>
+</div>
+</div>
+<div class="flex items-center gap-stack-md text-primary dark:text-inverse-primary">
+<button class="p-2 hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="p-2 hover:bg-surface-container-low dark:hover:bg-inverse-surface rounded-lg transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Canvas -->
+<main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-gutter py-margin-desktop">
+<div class="mb-stack-lg">
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Your Cart</h1>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Cart & Wishlist -->
+<div class="lg:col-span-8 flex flex-col gap-stack-lg">
+<!-- Cart Items Section -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_6px_-1px_rgba(15,23,42,0.05)] border border-outline-variant p-stack-lg">
+<div class="flex justify-between items-end border-b border-surface-variant pb-stack-sm mb-stack-md">
+<h2 class="font-headline-md text-headline-md text-on-surface">Shopping Cart (2 Items)</h2>
+</div>
+<div class="flex flex-col gap-stack-md">
+<!-- Item 1 -->
+<div class="flex flex-col sm:flex-row gap-stack-md py-stack-md border-b border-surface-variant last:border-0 hover:bg-surface-container-low transition-colors rounded-lg p-2">
+<div class="w-full sm:w-[120px] h-[120px] rounded-lg bg-surface-container flex-shrink-0 overflow-hidden">
+<img alt="High-performance air filter" class="w-full h-full object-cover" data-alt="A macro studio shot of a premium, high-performance automotive air filter. The filter features a bright red pleated element enclosed in a sleek, silver metallic frame. The lighting is crisp, high-key studio lighting that emphasizes the precision engineering and textures of the materials. Set against a pure white background consistent with a modern corporate e-commerce aesthetic. The overall mood is technical, reliable, and premium." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhQ1APfKJfENn9suPNm6H_JfJW-SZeOafZtmH-nxW5LGmN5YaYa6n1EVlLyNjbnGBgWAZ8AkFoKkqC63fH2sSMw8gjYJvQn-7yHwY0IEy9TtMhcqIxJGorjnWWvMGdpdzh6V_abEpm5OnX7SuhJutdaD9einWuhGiwbeGI5TMxGqjGIA3AnLfNTU1MVGsrjQg1wX0KZ5IJHlJrhKkfWsiDQo7zIuS3yVD3-ZZPGPJv1M3LjKiA5FafmfV1GwCUP6HL0ea_aClmsp7U"/>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<h3 class="font-body-lg text-body-lg text-on-surface font-semibold">K&amp;N High Performance Air Filter</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Part No: KN-33-2304</p>
+<p class="font-body-sm text-body-sm text-secondary mt-1">In Stock</p>
+</div>
+<div class="flex justify-between items-center mt-stack-md">
+<div class="flex items-center border border-outline-variant rounded-lg">
+<button class="px-3 py-1 text-on-surface hover:bg-surface-variant rounded-l-lg">-</button>
+<span class="px-3 py-1 font-body-md text-body-md border-x border-outline-variant">1</span>
+<button class="px-3 py-1 text-on-surface hover:bg-surface-variant rounded-r-lg">+</button>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface">$54.99</span>
+</div>
+<div class="flex gap-stack-md mt-stack-sm border-t border-surface-variant pt-2">
+<button class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="favorite_border">favorite_border</span>
+                                        Save for later
+                                    </button>
+<button class="font-label-sm text-label-sm text-error hover:text-on-error-container flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="delete">delete</span>
+                                        Remove
+                                    </button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex flex-col sm:flex-row gap-stack-md py-stack-md border-b border-surface-variant last:border-0 hover:bg-surface-container-low transition-colors rounded-lg p-2">
+<div class="w-full sm:w-[120px] h-[120px] rounded-lg bg-surface-container flex-shrink-0 overflow-hidden">
+<img alt="Ceramic Brake Pads" class="w-full h-full object-cover" data-alt="A sleek, professional product shot of a set of advanced ceramic brake pads laid out diagonally. The brake pads have a matte dark grey friction material with shiny, chamfered steel backing plates. The lighting is focused and specular, highlighting the metallic flakes in the material. The background is a stark, minimal white, fitting a high-end corporate identity. The visual tone is robust, safe, and engineered for performance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfD_XAggU0CpGG3HHvwO9wcTMItnAu53rpEgqH-SxYFPSCS2lisciilvYqhDDNUP-Z1Hs3JJeYHsd6IvbtZk-zGVGGlmJe_nAeVVIX1x09j2GTd-3KuQ_IjIcLa8qExd1g30KtDRa2DEFuO2PcuC8Flic4A_Qb7B0VVxqhr4ThuBuQE3RzX_ttBFkfe1FLrDoc0sN4-QYh2Pllxhvjb9ZL6Be9ZchVmuZKzWUO4utGbS5-MfkN6GdGygYIPZf32Y4puI47jiEqPuBC"/>
+</div>
+<div class="flex flex-col justify-between flex-grow">
+<div>
+<h3 class="font-body-lg text-body-lg text-on-surface font-semibold">Brembo Ceramic Front Brake Pads</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Part No: P83071N</p>
+<p class="font-body-sm text-body-sm text-secondary mt-1">In Stock</p>
+</div>
+<div class="flex justify-between items-center mt-stack-md">
+<div class="flex items-center border border-outline-variant rounded-lg">
+<button class="px-3 py-1 text-on-surface hover:bg-surface-variant rounded-l-lg">-</button>
+<span class="px-3 py-1 font-body-md text-body-md border-x border-outline-variant">2</span>
+<button class="px-3 py-1 text-on-surface hover:bg-surface-variant rounded-r-lg">+</button>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface">$118.50</span>
+</div>
+<div class="flex gap-stack-md mt-stack-sm border-t border-surface-variant pt-2">
+<button class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="favorite_border">favorite_border</span>
+                                        Save for later
+                                    </button>
+<button class="font-label-sm text-label-sm text-error hover:text-on-error-container flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="delete">delete</span>
+                                        Remove
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Wishlist Section -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_6px_-1px_rgba(15,23,42,0.05)] border border-outline-variant p-stack-lg mt-stack-md">
+<h2 class="font-headline-md text-headline-md text-on-surface border-b border-surface-variant pb-stack-sm mb-stack-md flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+                        Wishlist
+                    </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md">
+<!-- Wishlist Item -->
+<div class="border border-outline-variant rounded-lg p-stack-md flex flex-col hover:shadow-md transition-shadow">
+<div class="h-[150px] w-full rounded bg-surface-container mb-stack-md overflow-hidden">
+<img alt="Synthetic Motor Oil" class="w-full h-full object-cover" data-alt="A clean, direct product photograph of a premium 5-quart bottle of full synthetic motor oil. The bottle is a deep, glossy black with a vibrant, metallic gold label. The lighting is soft but bright, minimizing reflections on the plastic surface while illuminating the label text clearly. Set against a flawless white background to adhere to modern e-commerce standards. The visual style communicates reliability, luxury, and chemical precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMk6hMi6ao_9DpjSoEaz6padWXA-c4wV7fhRhwUFd86cz0yQgaD6LcUukcezuNKdTbwoANa4sDBcHrVMdhqWSJDsfCaLhj3ZI8LCppKgtMkflqAkfSMKRa6txlLhCj78JJq7w2T9NRsHKwuclUC4gn1ajDmERkAM9XtA87Q_t-HLAa3vHeB_Xiu0ia_m3Tpwny8A1EDTwX1aZ-2tYRz8J59CVlH238hfmLFQTFJ8Hc-IMmfNAdmMUwkQowrIN3QwyiT2Zpc_aAaEwy"/>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-semibold truncate">Castrol EDGE 5W-30 Full Synthetic</h3>
+<p class="font-headline-md text-headline-md text-on-surface mt-auto pt-2">$29.99</p>
+<button class="mt-stack-md w-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md py-2 px-4 rounded-lg border border-outline-variant transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                                Add to Cart
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Order Summary -->
+<div class="lg:col-span-4 flex flex-col gap-stack-md">
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_6px_-1px_rgba(15,23,42,0.05)] border border-outline-variant p-stack-lg sticky top-[100px]">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-stack-lg">Order Summary</h2>
+<div class="flex flex-col gap-stack-sm mb-stack-lg font-body-md text-body-md">
+<div class="flex justify-between text-on-surface-variant">
+<span>Subtotal (3 items)</span>
+<span class="text-on-surface">$173.49</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Shipping</span>
+<span class="text-secondary font-semibold">Free</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Estimated Tax</span>
+<span class="text-on-surface">$14.75</span>
+</div>
+</div>
+<div class="flex justify-between items-center border-t border-surface-variant pt-stack-md mb-stack-lg">
+<span class="font-headline-md text-headline-md text-on-surface">Total</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg text-headline-lg text-on-surface">$188.24</span>
+</div>
+<button class="w-full bg-secondary hover:bg-[#8A3B00] text-on-secondary font-label-md text-label-md py-3 px-4 rounded-lg shadow-sm transition-all duration-300 hover:-translate-y-[1px] flex justify-center items-center gap-2">
+<span class="material-symbols-outlined" data-icon="lock">lock</span>
+                        Proceed to Secure Checkout
+                    </button>
+<div class="mt-stack-md flex justify-center items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]" data-icon="local_shipping">local_shipping</span>
+                        Ships within 24 hours
+                    </div>
+</div>
+<!-- Trust Badges -->
+<div class="bg-surface-container-low rounded-xl p-stack-md grid grid-cols-3 gap-2 text-center border border-outline-variant">
+<div class="flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-secondary" data-icon="verified">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">100% Genuine</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-secondary" data-icon="security">security</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Secure Payments</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<span class="material-symbols-outlined text-secondary" data-icon="assignment_return">assignment_return</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Easy Returns</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-stack-lg bg-surface-container-highest dark:bg-surface-container-highest border-t border-outline-variant dark:border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-gutter py-stack-lg max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<span class="font-display-lg text-headline-md font-bold text-primary dark:text-primary block mb-stack-sm">BEST AUTOPARTS</span>
+<p class="font-body-sm text-body-sm text-on-surface dark:text-on-surface opacity-80">© 2024 BEST AUTOPARTS. Precision Engineering. Guaranteed Reliability.</p>
+</div>
+<div class="col-span-1 md:col-span-3 grid grid-cols-2 md:grid-cols-3 gap-stack-md">
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">About Us</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">Contact Support</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">Shipping Policy</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">Genuine Parts Guarantee</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">Warranty Terms</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant dark:text-on-surface-variant hover:text-secondary transition-colors block" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

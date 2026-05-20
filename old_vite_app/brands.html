@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>All Brands Directory | BEST AUTOPARTS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#fd761a",
+                        "inverse-surface": "#2d3133",
+                        "surface-variant": "#e0e3e5",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#ffdbca",
+                        "surface-dim": "#d8dadc",
+                        "on-background": "#191c1e",
+                        "tertiary-container": "#0d1c2f",
+                        "primary-container": "#131b2e",
+                        "on-tertiary-fixed": "#0d1c2f",
+                        "primary": "#000000",
+                        "surface-container-highest": "#e0e3e5",
+                        "tertiary-fixed": "#d5e3fd",
+                        "surface-container-high": "#e6e8ea",
+                        "outline": "#76777d",
+                        "inverse-on-surface": "#eff1f3",
+                        "primary-fixed-dim": "#bec6e0",
+                        "on-surface-variant": "#45464d",
+                        "background": "#f7f9fb",
+                        "on-primary-container": "#7c839b",
+                        "tertiary-fixed-dim": "#b9c7e0",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#dae2fd",
+                        "on-error": "#ffffff",
+                        "inverse-primary": "#bec6e0",
+                        "secondary-fixed-dim": "#ffb690",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "surface-container-low": "#f2f4f6",
+                        "surface": "#f7f9fb",
+                        "on-secondary-container": "#5c2400",
+                        "on-primary-fixed": "#131b2e",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#565e74",
+                        "on-secondary-fixed-variant": "#783200",
+                        "outline-variant": "#c6c6cd",
+                        "on-surface": "#191c1e",
+                        "tertiary": "#000000",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#3a485c",
+                        "secondary": "#9d4300",
+                        "on-secondary-fixed": "#341100",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#f7f9fb",
+                        "surface-container": "#eceef0",
+                        "on-tertiary-container": "#76859b",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "stack-lg": "24px",
+                        "base": "8px",
+                        "stack-md": "12px",
+                        "stack-sm": "4px",
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "body-sm": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "headline-lg-mobile": ["Poppins"],
+                        "headline-md": ["Poppins"],
+                        "display-lg": ["Poppins"],
+                        "label-md": ["Inter"],
+                        "headline-lg": ["Poppins"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .brand-card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.08);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md">
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest dark:bg-inverse-surface w-full sticky top-0 z-50 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop h-20">
+<div class="flex items-center gap-stack-lg">
+<span class="text-headline-md font-headline-md font-bold tracking-tight text-primary dark:text-on-primary-fixed">BEST AUTOPARTS</span>
+<nav class="hidden md:flex gap-6 ml-8">
+<a class="text-secondary font-bold border-b-2 border-secondary pb-1" href="#">Brands</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Models</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Marketplace</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Services</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-secondary-container/20 text-body-sm" placeholder="Search components..." type="text"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-surface-container-low p-2 rounded-full transition-all">shopping_cart</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-surface-container-low p-2 rounded-full transition-all">account_circle</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md hover:bg-primary/90 transition-transform active:scale-95">Sign In</button>
+</div>
+</div>
+</div>
+</header>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="bg-surface-container-lowest py-20 border-b border-outline-variant/30">
+<div class="max-w-container-max mx-auto px-margin-desktop text-center">
+<h1 class="font-display-lg text-display-lg text-primary mb-4">Explore All Brands</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Choose from our extensive catalog of genuine and premium aftermarket parts for all major manufacturers. Engineering precision for every drive.
+                </p>
+</div>
+</section>
+<!-- Search & Filter -->
+<section class="sticky top-20 z-40 bg-background/80 backdrop-blur-md py-6 border-b border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-margin-desktop space-y-6">
+<div class="relative max-w-xl mx-auto">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-xl">search</span>
+<input class="w-full pl-12 pr-6 py-4 bg-surface-container-lowest border-outline-variant border rounded-xl shadow-sm focus:ring-2 focus:ring-secondary-container/20 transition-all text-body-md" placeholder="Find your brand (e.g., Maruti Suzuki, BMW)" type="text"/>
+</div>
+<div class="flex items-center justify-center gap-2 overflow-x-auto pb-2 custom-scrollbar">
+<button class="px-6 py-2 rounded-full bg-secondary-container text-on-primary font-label-md">All</button>
+<button class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-md">Indian</button>
+<button class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-md">Japanese</button>
+<button class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-md">European</button>
+<button class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-md">Korean</button>
+<button class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-md">Luxury</button>
+</div>
+</div>
+</section>
+<!-- Brand Grid -->
+<section class="max-w-container-max mx-auto px-margin-desktop py-12">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-gutter">
+<!-- Maruti Suzuki -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Maruti Suzuki Swift" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0ugE4cRD9aeRWJWMDwU14jo3gJ4rAxUomDjAHDce7k_g4AcoCfSNA_0k8ulvkOxtFexfzWJb9a0vtyuTAm1LUhVpXG4VnRHTDy2klCDqf9s0MuxiQK3Y3mSipR1v1cDxvZUQeQldjx41qdVfuaZHTNnrtSC6Dsw3dhpBuG6Ty0-PK0cJWiJ6T13gNXx0rDLQ9XyvzJWB_hi8BDsSXtQecoKIpEPpg9xk5NusJnOWmxEtTdNAhx8lpRBzKTs"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Maruti Suzuki</h3>
+<p class="text-body-sm text-on-surface-variant">24 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Tata Motors -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Tata Nexon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0uizjW4Un_QitLDk1bUsmPkq_RTTMqwnqsGFaDfs0Ggf2JxbxqEOrjtkjIi66IavoeGbHEyQ2x_RzC4qTsVEe919frDYrDn2MFfcPXquPoKd02BfNwPaKJH45-vKKefF7yOq5-Z9NnSeIgsRf484Uh3RodDg8rgEcqQYkaIifvvUauw8dEUZSPT82Zayol2R82O5MsB-w3ESzvjf5j2dDtjox2eQ_6VLC9FJOyN0uUBQgpad26a17EHM-Fs"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Tata Motors</h3>
+<p class="text-body-sm text-on-surface-variant">18 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Mahindra -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Mahindra XUV700" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0uiPpzqUDDQ6K9OVAKCZDiv3uKl45VaoJWhNi1lh8Qj0vP-Q-nvNufm54A5uz6RCEl15Ip9pdAK8ciNVrazScDGnQo2_QEEbhP0kicMhnwOgDH3ASXjPHcldxasYKy1-8Dsb1KVsIWNg9KwxztKvFnsisQIdzyy3KCmPn5NcZqWCwXCkMbGn3rmKuprbcs8t6uYDLl3wv7TUrVIem4bKdYJ_jNhfAoURBhoMd4oK0jzxdGAG6j5lrznDsAmc"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Mahindra</h3>
+<p class="text-body-sm text-on-surface-variant">12 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Hyundai -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Hyundai Tucson" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0ujYG9TVhhLuguvZheOUNwcjC0Pr6Ccpo3r_8vNPVJt0Td8d_WXpewRbAq61UAvTssftld6iKRQF1727rxuGRSQvNC5BdfACAoxbXvCZisrQFJNn7TYkA2NDvyo8ajYaSKU8TE8j34W8RsAOSWV571p27Ho_jwBYerMALkESRgZGEOJemrittJ-cjvjxaeErKrdsaBPbu80ZwWmrid4UYadnGA1-ww0xA3ikoO5oQ-FywT27IWoI8vr5dnNn"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Hyundai</h3>
+<p class="text-body-sm text-on-surface-variant">20 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Toyota -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Toyota Camry" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0ugIT9rqW8KyA2VAPnYlnDWUT78gWf8a1PtoQ8_MnCVKKoJI02PMn_NMdLhF6T02azQXILkwz36Pz-kyc7YFMG4a1XCu6RA7HQQuc65Lp1TXe9BuTz1g1Bp8MO-9MbFX5nl-neWZJnJiaiaO8TWY4e0_Lu4Ty1E3zNOl9QqN4Hi4a9XTdIGZ-DP5lHsu5ffhYVLP86NUIHoFZN1wXuYYZWDyyFM7smXEJQ2gVvdu85DFVe8UrxMv7Ag-YlY"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Toyota</h3>
+<p class="text-body-sm text-on-surface-variant">15 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Honda -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img alt="Honda City" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/ADBb0uhda3_f5RRmyF6bAaQ5jg0CY7J7CeaAiXN4Uu-qsqMHPkH0I7LlPIHhL_nQWhYBSoGkMdpZ4L18v_zDj698xUbG40SipZxODEYOFTCg1yEs7x44X-TFeJtg6ldcKPzRlVIWHSb-aMI56HvdBemHn_HAO6F_gH05oTolWhZPmyxwPBf0v_49BzKLSFiHuR8EpjyBuF7XwUbZ3h5vqYAoSMFqC1Jl9BVZDPJ2Iax2X2PBzTfM5icKomSYDLh8"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Honda</h3>
+<p class="text-body-sm text-on-surface-variant">10 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- BMW -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<div class="w-full h-full bg-surface-variant flex items-center justify-center relative">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/30"></div>
+<img class="w-full h-full object-cover" data-alt="A side-profile studio shot of a sleek black BMW 3 Series sedan. The lighting is dramatic and high-contrast, highlighting the sharp character lines and iconic kidney grille. The background is a clean, neutral grey gallery space, maintaining a premium and high-end automotive editorial aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7kPoTwLnBp13XInKk8COFa6Z5lRRS9PGpfxfanppXvSrR_A_W_d3gzGdnocR41Zhb072HpEGBTaTI7yBcCIqfQPQjqx3BHnE-dQ7OBWXYF5bGk-K8A1O9fl3-_dhDUsZ6GN1MON2xZrUTD6yjS59zSUApNA7jIg6EIWr9pxMPgGNFuU9I4Ah2kxerjFkVezOvisrWaYBfn6qDRNC8D8VK-fzUy1Zv1ZzNPzJE-e2ISbtLBrZt092uI7ane8SQ4-hRbXDE7hLTZmDN"/>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">BMW</h3>
+<p class="text-body-sm text-on-surface-variant">32 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Mercedes-Benz -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<div class="w-full h-full bg-surface-variant flex items-center justify-center relative">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/30"></div>
+<img class="w-full h-full object-cover" data-alt="A professional studio photograph of a silver Mercedes-Benz E-Class sedan. The car is positioned at a three-quarter angle under soft, diffused overhead studio lighting that emphasizes its fluid, elegant curves. The minimalist white environment creates a bright, modern look consistent with luxury automotive branding." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaHoJ0tk-wbPF0sPEccua5xIMEBxlBv6Xy8I4BfPpjlM-q8XHbeL0aKU8Eed0AdUVRer1i0lX_cqWCuuPlLoKzs7cYQcebT39ZNMOtZ0-Oj2-qeJG8vu0Afr_cKUqTIN0S_74LTDeZvZZtYOekDxh-noo9XEanL8BIGf-D202UimikLRoOlzZinC7d_-44Q6KeP_eYjB3c5t7bPMlL6Lz-aVK5lwOQEcZk4hdCgrAZvfiXVFVr0TvWTBQ865rqN2OwXp4rvp6P_zX_"/>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Mercedes-Benz</h3>
+<p class="text-body-sm text-on-surface-variant">28 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Additional Placeholder Brand -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="A precision studio shot of a dark grey Porsche 911 in a high-tech minimalist garage setting. The lighting is focused and cinematic, catching the iconic silhouette and wide rear haunches of the vehicle. The overall atmosphere is sophisticated, moody, and premium, reflecting ultimate mechanical performance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2jBtPw42wbNB4nvzh_TLgynZTSQ7tw7Do7bxGSYHy63oe3FsX4sDPSBBN7N5arhRkDuf6W4xMtMAeGoZtlmgu1jrLqH7rLHDN50hChxMWDmPJvLGZYCeWBOYrpA5eoibtVwEaG0xNCwnFiVkEpoPA8H5_eqJXdnWF-QxQISdp68bCqBYdsPyZwP1EWCpV8w6fAmvcrFrCP44mIxSFgb6mHOzyAlRGrfsLKYNYCY1GTmdiJYmKP8Va5ih9Y_oAw3QR5uo4mX0F6HkB"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Porsche</h3>
+<p class="text-body-sm text-on-surface-variant">14 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Audi -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist studio shot of a white Audi A6. The car is presented in a bright, high-key lighting setup that accentuates its precise technological design. The setting is a pristine white studio with soft shadows, embodying a corporate, modern, and high-performance visual style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDErHiHRl-iIeBQ7lWqQXydsVG2OUGS8xNuOU_7xB3MeJIyb106VDHutVZHiovkOkVezej4aFOCmV-MedB4WH5Lwq8XjFVSg-JHWrs78pqs4_HvSTUPAj-yo8mfAvvJnDoL-AP9kZ0bGE3L-JzRZUEcFaYhWkvqEk_FnUeQuqormucN_yspABy_jF9nLeGWqoyZr7f0f-c3n8tIs0wgaEU9V6_8pLlLQAguY4PFssSwCHFVOb1EWptUK0tbqQnazN5fMrbnSKpb1_jb"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Audi</h3>
+<p class="text-body-sm text-on-surface-variant">22 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Volkswagen -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="A professional studio photo of a blue Volkswagen Virtus. The shot is clean and bright, with neutral lighting that showcases the car's practical yet premium engineering. The background is a simple, light grey studio space, emphasizing reliability and corporate precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChhETdQXSxGPg2FV9EsM2KUDowm-co9jmZvPOZWoqjcHIiFd3QKM6G_Pt8Up14rcJxCIPxYwD7s1S-2FXN4WyFLXBxPaKgZB0dNdPqU8LVgMnESWM-SPxE_ai8Czj6m37vpiLQ2B5jq3jRXVSNymFqXetxudwTl_sdtvc0SOUnJz1japfTzG4X6hC7jlgliuw3R3HeQrvQyVvkD-9CfzJqNhfsvR0dkakq0zl6jMAGsXhaww-Q7FGiJy7Yb5H6Nvl52UyqfWNUzO3T"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Volkswagen</h3>
+<p class="text-body-sm text-on-surface-variant">12 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Kia -->
+<div class="group bg-surface-container-lowest rounded-xl border border-outline-variant/30 overflow-hidden brand-card-hover transition-all duration-300">
+<div class="aspect-[4/3] relative overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="A sharp, detailed studio portrait of a silver Kia Seltos. The car is set against a dark, modern background with subtle neon light accents that highlight its bold design language. The overall visual style is energetic, precise, and tech-forward, matching a modern automotive marketplace aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaZSe9YTzYuPZKJYTuY57TKdpJ7m-OoS8EZQUJ5lbRazXm27iXgP-To6EFncxIhnCwT8fnbXmiTbX4OMaXHkbOU-nmlUJtA3YePQWWHIrDOzxd-ERHo3doM7LFVNXkmVx6414-xypmG_NjZy_mlxLThj0SIfLHvU1jfRtSbpx5G8pCezlcCToNgxwxWq5ycAXqqC0RRYQqC_Z42x79xTqs45pYRcvioJU1q33ZkPfTDDLk6WdBJBJ0mlEw8GD9DdIYBVyvYETQgYR3"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Kia</h3>
+<p class="text-body-sm text-on-surface-variant">14 Models Available</p>
+</div>
+<div class="w-10 h-10 bg-surface-container-low rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline">directions_car</span>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
+                            View Parts
+                            <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-high dark:bg-surface-container-highest w-full py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto px-margin-desktop">
+<div class="space-y-4">
+<span class="font-headline-md text-headline-md font-bold text-primary">BEST AUTOPARTS</span>
+<p class="text-body-sm text-on-surface-variant">Precision Engineered Solutions for professional mechanics and automotive enthusiasts. Genuine parts, guaranteed performance.</p>
+</div>
+<div>
+<h4 class="font-label-md text-primary mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">About Us</a></li>
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">Terms of Service</a></li>
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-primary mb-6">Support</h4>
+<ul class="space-y-3">
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">Contact Support</a></li>
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">Warranty Policy</a></li>
+<li><a class="text-body-sm text-on-surface-variant hover:text-secondary hover:underline transition-all" href="#">Returns</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-md text-primary mb-6">Newsletter</h4>
+<p class="text-body-sm text-on-surface-variant mb-4">Stay updated with the latest arrivals and technical guides.</p>
+<div class="flex gap-2">
+<input class="bg-surface-container-low border-none rounded-lg px-4 py-2 text-body-sm flex-1 focus:ring-2 focus:ring-secondary-container/20" placeholder="Your email" type="email"/>
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg material-symbols-outlined">send</button>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop mt-12 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4">
+<span class="text-body-sm text-on-surface-variant">© 2024 BEST AUTOPARTS. Precision Engineered Solutions.</span>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer">Notebook</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer">potted_plant</span> <!-- Placeholder for custom social icon -->
+<span class="material-symbols-outlined text-on-surface-variant hover:text-secondary cursor-pointer">share</span>
+</div>
+</div>
+</footer>
+</body></html>
