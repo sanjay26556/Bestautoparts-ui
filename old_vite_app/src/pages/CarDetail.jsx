@@ -615,7 +615,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Swift",
         subtitle: "The Sporty Hatchback Icon.",
         category: "Hatchback",
-        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Z-Series 3-Cylinder Petrol",
           power: "80 bhp @ 5,700 rpm",
@@ -629,7 +629,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Baleno",
         subtitle: "Modern Luxury Re-engineered.",
         category: "Premium Hatchback",
-        image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L DualJet 4-Cylinder Petrol",
           power: "89 bhp @ 6,000 rpm",
@@ -643,7 +643,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Brezza",
         subtitle: "The Bold, Dynamic City SUV.",
         category: "Compact SUV",
-        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L K15C Smart Hybrid I4",
           power: "102 bhp @ 6,000 rpm",
@@ -657,7 +657,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Grand Vitara",
         subtitle: "The Premium Intelligent Hybrid SUV.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L Intelligent Strong Hybrid",
           power: "114 bhp @ 5,500 rpm",
@@ -690,7 +690,7 @@ const vehicleDatabase = {
         name: "Tata Punch",
         subtitle: "The Rugged, High-Altitude SUV.",
         category: "Compact SUV",
-        image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1638618830478-39c9d4c7edc3?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Revotron 3-Cylinder Petrol",
           power: "87 bhp @ 6,000 rpm",

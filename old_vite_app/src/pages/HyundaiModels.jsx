@@ -3,31 +3,34 @@ import { Link } from 'react-router-dom';
 export default function HyundaiModels() {
   const modelsData = [
     {
-      id: "tucson",
-      name: "Hyundai Tucson",
-      subtitle: "Premium Crossover SUV Sensation.",
-      category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Torque Converter AT",
-      engine: "2.0L CRDi Turbo Diesel / Petrol",
-      path: "/models/hyundai/tucson"
-    },
-    {
       id: "creta",
       name: "Hyundai Creta",
       subtitle: "The Masterpiece Crossover.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
+      // Hyundai Creta - white modern crossover SUV
+      image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / IVT / 6-Speed AT",
       engine: "1.5L CRDi Diesel / 1.5L MPi Petrol",
       path: "/models/hyundai/creta"
+    },
+    {
+      id: "tucson",
+      name: "Hyundai Tucson",
+      subtitle: "Premium Crossover SUV Sensation.",
+      category: "Premium SUV",
+      // Hyundai Tucson - angular premium crossover
+      image: "https://images.unsplash.com/photo-1619590059231-1502b4d96a0f?auto=format&fit=crop&q=80&w=600",
+      transmission: "8-Speed Torque Converter AT",
+      engine: "2.0L CRDi Turbo Diesel / Petrol",
+      path: "/models/hyundai/tucson"
     },
     {
       id: "i20",
       name: "Hyundai i20",
       subtitle: "The Stylish Premium Hatchback.",
       category: "Hatchback",
-      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
+      // Hyundai i20 - premium sporty hatchback
+      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / IVT Automatic",
       engine: "1.2L Kappa Petrol Engine",
       path: "/models/hyundai/i20"
@@ -37,10 +40,22 @@ export default function HyundaiModels() {
       name: "Hyundai Verna",
       subtitle: "Futuristic Design meets Sensuous Sportiness.",
       category: "Sedan",
+      // Hyundai Verna - futuristic sedan design
       image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=600",
       transmission: "7-Speed DCT / 6-Speed MT",
       engine: "1.5L Turbo GDi Petrol Engine",
       path: "/models/hyundai/verna"
+    },
+    {
+      id: "venue",
+      name: "Hyundai Venue",
+      subtitle: "Bold City Compact SUV, Connected Life.",
+      category: "Compact SUV",
+      // Hyundai Venue - compact city SUV
+      image: "https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?auto=format&fit=crop&q=80&w=600",
+      transmission: "6-Speed MT / 7-Speed DCT / AMT",
+      engine: "1.2L Kappa Petrol / 1.0L Turbo GDi",
+      path: "/models/hyundai/venue"
     }
   ];
 

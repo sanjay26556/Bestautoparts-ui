@@ -7,6 +7,7 @@ export default function BMWModels() {
       name: "BMW M5",
       subtitle: "Pure Track Performance Sealed in a Sedan.",
       category: "Super Sedan",
+      // BMW M5 - blue M-series sports sedan
       image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
       transmission: "8-Speed M Steptronic",
       engine: "4.4L TwinPower V8 Bi-Turbo",
@@ -17,6 +18,7 @@ export default function BMWModels() {
       name: "BMW 3 Series",
       subtitle: "The Benchmark for Sports Sedans.",
       category: "Sports Sedan",
+      // BMW 3 Series - classic BMW sedan
       image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=600",
       transmission: "8-Speed Steptronic Sport",
       engine: "2.0L TwinPower Turbo I4",
@@ -27,6 +29,7 @@ export default function BMWModels() {
       name: "BMW 5 Series",
       subtitle: "Business Athlete Sedan.",
       category: "Luxury Sedan",
+      // BMW 5 Series - white luxury sports sedan
       image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=600",
       transmission: "8-Speed Steptronic",
       engine: "2.0L TwinPower Turbo I4",
@@ -37,7 +40,8 @@ export default function BMWModels() {
       name: "BMW X5",
       subtitle: "The Boss of Luxury SUVs.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      // BMW X5 - black premium SUV
+      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
       transmission: "8-Speed Steptronic",
       engine: "3.0L TwinPower Turbo I6",
       path: "/models/bmw/x5"
@@ -47,7 +51,8 @@ export default function BMWModels() {
       name: "BMW X1",
       subtitle: "Spirited Performance in a Compact Package.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
+      // BMW X1 - compact BMW crossover SUV
+      image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=600",
       transmission: "7-Speed Dual-Clutch AT",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/x1"
@@ -57,6 +62,7 @@ export default function BMWModels() {
       name: "BMW iX",
       subtitle: "Pioneering a New Age of Electrified Utility.",
       category: "Electric SUV",
+      // BMW iX - modern electric SUV
       image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
       transmission: "Single-Speed Automatic",
       engine: "Dual Electric Motors",

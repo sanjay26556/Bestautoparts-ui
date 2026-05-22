@@ -7,7 +7,8 @@ export default function MahindraModels() {
       name: "Mahindra XUV700",
       subtitle: "Sci-Fi Luxury SUV Command Center.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
+      // Mahindra XUV700 - large premium dark SUV
+      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT",
       engine: "2.2L mHawk Turbo Diesel",
       path: "/models/mahindra/xuv700"
@@ -17,6 +18,7 @@ export default function MahindraModels() {
       name: "Mahindra Scorpio N",
       subtitle: "The Big Daddy of SUVs.",
       category: "SUV",
+      // Mahindra Scorpio N - bold dark SUV
       image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT with 4XPLOR",
       engine: "2.2L mHawk Turbo Diesel",
@@ -26,8 +28,9 @@ export default function MahindraModels() {
       id: "thar",
       name: "Mahindra Thar",
       subtitle: "The Ultimate Rugged Off-Road Companion.",
-      category: "SUV",
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      category: "Off-Road SUV",
+      // Mahindra Thar - rugged red off-road 4x4
+      image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / AT with 4x4",
       engine: "2.0L mStallion Turbo / 2.2L mHawk",
       path: "/models/mahindra/thar"
@@ -37,7 +40,8 @@ export default function MahindraModels() {
       name: "Mahindra Bolero",
       subtitle: "Utilitarian Heavy Duty Reliability.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      // Mahindra Bolero - utilitarian robust SUV
+      image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed Manual Transmission",
       engine: "1.5L mHawk75 Turbocharged I3",
       path: "/models/mahindra/bolero"
@@ -46,8 +50,9 @@ export default function MahindraModels() {
       id: "xuv3xo",
       name: "Mahindra XUV 3XO",
       subtitle: "Thrill of SUV, Smartness of City.",
-      category: "SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
+      category: "Compact SUV",
+      // Mahindra XUV 3XO - compact SUV
+      image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / AT / AMT",
       engine: "1.2L mStallion TGDi Petrol",
       path: "/models/mahindra/xuv3xo"

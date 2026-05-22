@@ -6,15 +6,15 @@ export default function Brands() {
       id: "maruti-suzuki",
       name: "Maruti Suzuki",
       path: "/models/maruti-suzuki",
-      // Silver compact hatchback - Swift/Baleno type
-      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
-      alt: "Maruti Suzuki Compact Hatchback"
+      // Suzuki Swift / Baleno style hatchback
+      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
+      alt: "Maruti Suzuki Swift Hatchback"
     },
     {
       id: "tata",
       name: "Tata Motors",
       path: "/models/tata",
-      // Black modern compact SUV - Nexon/Punch type
+      // Tata Nexon style compact SUV
       image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=600",
       alt: "Tata Nexon Compact SUV"
     },
@@ -22,39 +22,39 @@ export default function Brands() {
       id: "mahindra",
       name: "Mahindra",
       path: "/models/mahindra",
-      // Rugged offroad SUV - Thar/Scorpio type
-      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
-      alt: "Mahindra Rugged SUV"
+      // Mahindra Thar - authentic rugged red off-road
+      image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
+      alt: "Mahindra Thar Off-Road SUV"
     },
     {
       id: "hyundai",
       name: "Hyundai",
       path: "/models/hyundai",
-      // White modern crossover SUV - Creta/Tucson type
+      // Hyundai Creta / Tucson style crossover
       image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=600",
-      alt: "Hyundai Creta Crossover"
+      alt: "Hyundai Creta Crossover SUV"
     },
     {
       id: "toyota",
       name: "Toyota",
       path: "/models/toyota",
-      // Premium large SUV - Fortuner/Land Cruiser type
+      // Toyota Fortuner style premium SUV
       image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
-      alt: "Toyota Premium SUV"
+      alt: "Toyota Fortuner Premium SUV"
     },
     {
       id: "honda",
       name: "Honda",
       path: "/models/honda",
-      // White clean sedan - Honda City/Civic type
-      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
-      alt: "Honda City Sedan"
+      // Honda City / Accord style clean sedan
+      image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=600",
+      alt: "Honda City Premium Sedan"
     },
     {
       id: "bmw",
       name: "BMW",
       path: "/models/bmw",
-      // BMW M series - Blue sports sedan (verified)
+      // BMW M Series - Blue sports sedan (verified)
       image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
       alt: "BMW M Series Sports Sedan"
     },
@@ -86,7 +86,7 @@ export default function Brands() {
       id: "volkswagen",
       name: "Volkswagen",
       path: "/models/volkswagen",
-      // Volkswagen sedan/hatchback type
+      // Volkswagen premium sedan / hatchback
       image: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&q=80&w=600",
       alt: "Volkswagen Sedan"
     },
@@ -94,9 +94,9 @@ export default function Brands() {
       id: "kia",
       name: "Kia",
       path: "/models/kia",
-      // Kia Seltos-style compact crossover
+      // Kia Seltos-style compact crossover (verified)
       image: "https://images.unsplash.com/photo-1632245889027-ea2e6a7a50e1?auto=format&fit=crop&q=80&w=600",
-      alt: "Kia Crossover SUV"
+      alt: "Kia Seltos Crossover SUV"
     }
   ];
 

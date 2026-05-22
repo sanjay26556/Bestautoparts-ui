@@ -7,6 +7,7 @@ export default function TataModels() {
       name: "Tata Nexon",
       subtitle: "India's Best Selling Safety SUV.",
       category: "SUV",
+      // Tata Nexon style - black compact SUV
       image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / AMT / 7-Speed DCA",
       engine: "1.2L Revotron Turbo Petrol / Diesel",
@@ -15,32 +16,46 @@ export default function TataModels() {
     {
       id: "punch",
       name: "Tata Punch",
-      subtitle: "The Rugged, High-Altitude SUV.",
-      category: "Compact SUV",
-      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
+      subtitle: "The Rugged, High-Altitude Micro SUV.",
+      category: "Micro SUV",
+      // Tata Punch - small urban SUV look
+      image: "https://images.unsplash.com/photo-1638618830478-39c9d4c7edc3?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Revotron 3-Cylinder Petrol",
       path: "/models/tata/punch"
-    },
-    {
-      id: "safari",
-      name: "Tata Safari",
-      subtitle: "The Magnificent Flagship SUV Legend.",
-      category: "SUV",
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
-      transmission: "6-Speed AT / 6-Speed MT",
-      engine: "2.0L Kryotec Turbo Diesel",
-      path: "/models/tata/safari"
     },
     {
       id: "harrier",
       name: "Tata Harrier",
       subtitle: "Pure Command Performance on the Road.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      // Tata Harrier - dark premium SUV
+      image: "https://images.unsplash.com/photo-1621007947382-cc34a621123a?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT",
       engine: "2.0L Kryotec Diesel Engine",
       path: "/models/tata/harrier"
+    },
+    {
+      id: "safari",
+      name: "Tata Safari",
+      subtitle: "The Magnificent Flagship SUV Legend.",
+      category: "SUV",
+      // Tata Safari - large imposing dark SUV
+      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
+      transmission: "6-Speed AT / 6-Speed MT",
+      engine: "2.0L Kryotec Turbo Diesel",
+      path: "/models/tata/safari"
+    },
+    {
+      id: "tiago",
+      name: "Tata Tiago",
+      subtitle: "Vibrant Hatchback, Pure Value.",
+      category: "Hatchback",
+      // Tata Tiago - compact hatchback
+      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
+      transmission: "5-Speed MT / AMT Automatic",
+      engine: "1.2L Revotron Petrol",
+      path: "/models/tata/tiago"
     }
   ];
 

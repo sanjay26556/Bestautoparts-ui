@@ -7,40 +7,55 @@ export default function ToyotaModels() {
       name: "Toyota Fortuner",
       subtitle: "The Undisputed King of the Off-Road.",
       category: "Premium SUV",
+      // Toyota Fortuner - large white premium SUV
       image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT",
       engine: "2.8L D-4D Turbo Diesel",
       path: "/models/toyota/fortuner"
     },
     {
+      id: "innovacrysta",
+      name: "Toyota Innova Crysta",
+      subtitle: "Unmatched Comfort, Unrivalled Durability.",
+      category: "Premium MPV",
+      // Toyota Innova Crysta - premium MPV
+      image: "https://images.unsplash.com/photo-1619590059231-1502b4d96a0f?auto=format&fit=crop&q=80&w=600",
+      transmission: "5-Speed Manual",
+      engine: "2.4L 2GD-FTV Turbo I4",
+      path: "/models/toyota/innovacrysta"
+    },
+    {
       id: "camry",
       name: "Toyota Camry",
       subtitle: "Premium Hybrid Sophistication.",
       category: "Luxury Sedan",
+      // Toyota Camry - premium red hybrid sedan
       image: "https://images.unsplash.com/photo-1621007947382-cc34a621123a?auto=format&fit=crop&q=80&w=600",
       transmission: "e-CVT Automatic",
       engine: "2.5L Hybrid Dynamic Force",
       path: "/models/toyota/camry"
     },
     {
-      id: "innovacrysta",
-      name: "Toyota Innova Crysta",
-      subtitle: "Unmatched Comfort, Unrivalled Durability.",
-      category: "Premium MPV",
-      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
-      transmission: "5-Speed Manual",
-      engine: "2.4L 2GD-FTV Turbo I4",
-      path: "/models/toyota/innovacrysta"
-    },
-    {
       id: "glanza",
       name: "Toyota Glanza",
       subtitle: "Hatchback Elegance Sourced with Efficiency.",
       category: "Premium Hatchback",
-      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
+      // Toyota Glanza - small premium hatchback
+      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed AMT / MT",
       engine: "1.2L K-Series Dual Jet",
       path: "/models/toyota/glanza"
+    },
+    {
+      id: "hilux",
+      name: "Toyota Hilux",
+      subtitle: "Indestructible, Legendary Pickup Truck.",
+      category: "Pickup Truck",
+      // Toyota Hilux - rugged pickup truck
+      image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&q=80&w=600",
+      transmission: "6-Speed AT / 6-Speed MT",
+      engine: "2.8L GD-FTV Turbo Diesel",
+      path: "/models/toyota/hilux"
     }
   ];
 
