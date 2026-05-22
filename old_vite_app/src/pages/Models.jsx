@@ -60,7 +60,7 @@ export default function Models() {
 {/* Sidebar Filters */}
 <aside className="w-full md:w-64 flex-shrink-0 flex flex-col gap-stack-md">
 <div className="bg-surface-container-lowest rounded-xl p-stack-md border border-outline-variant card-shadow">
-<h3 className="font-headline-md text-body-lg font-semibold mb-stack-md pb-stack-sm border-b border-outline-variant text-on-surface">Filter Models</h3>
+<h3 className="font-headline-md text-body-lg font-semibold mb-stack-md pb-stack-sm border-b border-outline-variant text-on-surface">Filter</h3>
 {/* Search within models */}
 <div className="relative mb-stack-md">
 <input className="w-full pl-8 pr-3 py-2 bg-surface rounded-lg border border-outline-variant text-body-sm focus:ring-1 focus:ring-secondary focus:border-secondary outline-none" placeholder="Quick search..." type="text"/>
@@ -110,7 +110,7 @@ export default function Models() {
 {/* Model Grid */}
 <div className="flex-grow">
 <div className="flex justify-between items-center mb-stack-md">
-<h2 className="font-headline-md text-headline-md text-on-surface">Select Model</h2>
+<h2 className="font-headline-md text-headline-md text-on-surface">Select</h2>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Showing 8 models</span>
 </div>
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-stack-md">
