@@ -6,7 +6,7 @@ export default function Brands() {
       id: "maruti-suzuki",
       name: "Maruti Suzuki",
       path: "/models/maruti-suzuki",
-      // Suzuki Swift / Baleno style hatchback
+      // Maruti Suzuki Swift - red sporty hatchback
       image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
       alt: "Maruti Suzuki Swift Hatchback"
     },
@@ -14,15 +14,15 @@ export default function Brands() {
       id: "tata",
       name: "Tata Motors",
       path: "/models/tata",
-      // Tata Nexon style compact SUV
-      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=600",
+      // Tata Nexon - compact SUV front view
+      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
       alt: "Tata Nexon Compact SUV"
     },
     {
       id: "mahindra",
       name: "Mahindra",
       path: "/models/mahindra",
-      // Mahindra Thar - authentic rugged red off-road
+      // Mahindra Thar - rugged 4x4 off-road SUV
       image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
       alt: "Mahindra Thar Off-Road SUV"
     },
@@ -30,39 +30,39 @@ export default function Brands() {
       id: "hyundai",
       name: "Hyundai",
       path: "/models/hyundai",
-      // Hyundai Creta / Tucson style crossover
-      image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=600",
-      alt: "Hyundai Creta Crossover SUV"
+      // Hyundai Tucson / Creta - modern crossover SUV
+      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=600",
+      alt: "Hyundai Tucson Crossover SUV"
     },
     {
       id: "toyota",
       name: "Toyota",
       path: "/models/toyota",
-      // Toyota Fortuner style premium SUV
-      image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
+      // Toyota Fortuner - large premium SUV
+      image: "https://images.unsplash.com/photo-1621007947382-cc34a621123a?auto=format&fit=crop&q=80&w=600",
       alt: "Toyota Fortuner Premium SUV"
     },
     {
       id: "honda",
       name: "Honda",
       path: "/models/honda",
-      // Honda City / Accord style clean sedan
-      image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=600",
-      alt: "Honda City Premium Sedan"
+      // Honda Civic - classic clean white sedan
+      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
+      alt: "Honda Civic Sedan"
     },
     {
       id: "bmw",
       name: "BMW",
       path: "/models/bmw",
-      // BMW M Series - Blue sports sedan (verified)
+      // BMW M5 - iconic blue performance sedan
       image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
-      alt: "BMW M Series Sports Sedan"
+      alt: "BMW M5 Performance Sedan"
     },
     {
       id: "mercedes",
       name: "Mercedes-Benz",
       path: "/models/mercedes",
-      // Mercedes-Benz AMG GT (verified)
+      // Mercedes-Benz AMG GT - silver luxury sports car
       image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600",
       alt: "Mercedes-Benz AMG GT"
     },
@@ -70,32 +70,32 @@ export default function Brands() {
       id: "porsche",
       name: "Porsche",
       path: "/models/porsche",
-      // Porsche 911 / sports car (verified)
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+      // Porsche 911 - iconic rear-engine sports car
+      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
       alt: "Porsche 911 Sports Car"
     },
     {
       id: "audi",
       name: "Audi",
       path: "/models/audi",
-      // Audi executive sedan (verified)
-      image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=600",
-      alt: "Audi Executive Sedan"
+      // Audi e-tron GT / A6 - sleek luxury sedan
+      image: "https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=600",
+      alt: "Audi e-tron GT Luxury Sedan"
     },
     {
       id: "volkswagen",
       name: "Volkswagen",
       path: "/models/volkswagen",
-      // Volkswagen premium sedan / hatchback
-      image: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&q=80&w=600",
-      alt: "Volkswagen Sedan"
+      // Volkswagen Golf GTI - iconic hot hatchback
+      image: "https://images.unsplash.com/photo-1471444928139-48c5bf5173f8?auto=format&fit=crop&q=80&w=600",
+      alt: "Volkswagen Golf GTI Hatchback"
     },
     {
       id: "kia",
       name: "Kia",
       path: "/models/kia",
-      // Kia Seltos-style compact crossover (verified)
-      image: "https://images.unsplash.com/photo-1632245889027-ea2e6a7a50e1?auto=format&fit=crop&q=80&w=600",
+      // Kia Seltos / Sportage - bold crossover SUV
+      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
       alt: "Kia Seltos Crossover SUV"
     }
   ];
