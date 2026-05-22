@@ -49,7 +49,7 @@ export default function Home() {
               </Link>
               {/* Brand Card 2 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/audi">
-                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=300" />
+                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&q=80&w=300" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Audi</div></div>
               </Link>
               {/* Brand Card 3 */}
@@ -64,12 +64,12 @@ export default function Home() {
               </Link>
               {/* Brand Card 5 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/honda">
-                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=300" />
+                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=300" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Honda</div></div>
               </Link>
               {/* Brand Card 6 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/mahindra">
-                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=300" />
+                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Mahindra</div></div>
               </Link>
             </div>

@@ -6,63 +6,55 @@ export default function Brands() {
       id: "maruti-suzuki",
       name: "Maruti Suzuki",
       path: "/models/maruti-suzuki",
-      // Maruti Suzuki Swift - red sporty hatchback
-      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
-      alt: "Maruti Suzuki Swift Hatchback"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/159099/swift-exterior-right-front-three-quarter.jpeg",
+      alt: "Maruti Suzuki Swift"
     },
     {
       id: "tata",
       name: "Tata Motors",
       path: "/models/tata",
-      // Tata Nexon - compact SUV front view
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
-      alt: "Tata Nexon Compact SUV"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141867/nexon-facelift-exterior-right-front-three-quarter.jpeg",
+      alt: "Tata Nexon"
     },
     {
       id: "mahindra",
       name: "Mahindra",
       path: "/models/mahindra",
-      // Mahindra Thar - rugged 4x4 off-road SUV
-      image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
-      alt: "Mahindra Thar Off-Road SUV"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg",
+      alt: "Mahindra XUV700"
     },
     {
       id: "hyundai",
       name: "Hyundai",
       path: "/models/hyundai",
-      // Hyundai Tucson / Creta - modern crossover SUV
-      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=600",
-      alt: "Hyundai Tucson Crossover SUV"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/106815/creta-exterior-right-front-three-quarter.jpeg",
+      alt: "Hyundai Creta"
     },
     {
       id: "toyota",
       name: "Toyota",
       path: "/models/toyota",
-      // Toyota Fortuner - large premium SUV
-      image: "https://images.unsplash.com/photo-1621007947382-cc34a621123a?auto=format&fit=crop&q=80&w=600",
-      alt: "Toyota Fortuner Premium SUV"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg",
+      alt: "Toyota Fortuner"
     },
     {
       id: "honda",
       name: "Honda",
       path: "/models/honda",
-      // Honda Civic - classic clean white sedan
-      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
-      alt: "Honda Civic Sedan"
+      image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=600",
+      alt: "Honda City"
     },
     {
       id: "bmw",
       name: "BMW",
       path: "/models/bmw",
-      // BMW M5 - iconic blue performance sedan
       image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600",
-      alt: "BMW M5 Performance Sedan"
+      alt: "BMW 3 Series"
     },
     {
       id: "mercedes",
       name: "Mercedes-Benz",
       path: "/models/mercedes",
-      // Mercedes-Benz AMG GT - silver luxury sports car
       image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600",
       alt: "Mercedes-Benz AMG GT"
     },
@@ -70,33 +62,29 @@ export default function Brands() {
       id: "porsche",
       name: "Porsche",
       path: "/models/porsche",
-      // Porsche 911 - iconic rear-engine sports car
       image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
-      alt: "Porsche 911 Sports Car"
+      alt: "Porsche 911"
     },
     {
       id: "audi",
       name: "Audi",
       path: "/models/audi",
-      // Audi e-tron GT / A6 - sleek luxury sedan
-      image: "https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=600",
-      alt: "Audi e-tron GT Luxury Sedan"
+      image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&q=80&w=600",
+      alt: "Audi A4"
     },
     {
       id: "volkswagen",
       name: "Volkswagen",
       path: "/models/volkswagen",
-      // Volkswagen Golf GTI - iconic hot hatchback
-      image: "https://images.unsplash.com/photo-1471444928139-48c5bf5173f8?auto=format&fit=crop&q=80&w=600",
-      alt: "Volkswagen Golf GTI Hatchback"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/124839/virtus-exterior-right-front-three-quarter.jpeg",
+      alt: "Volkswagen Virtus"
     },
     {
       id: "kia",
       name: "Kia",
       path: "/models/kia",
-      // Kia Seltos / Sportage - bold crossover SUV
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
-      alt: "Kia Seltos Crossover SUV"
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/seltos-exterior-right-front-three-quarter.jpeg",
+      alt: "Kia Seltos"
     }
   ];
 
