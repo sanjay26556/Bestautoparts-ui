@@ -17,7 +17,7 @@ export default function HondaModels() {
       name: "Honda Civic",
       subtitle: "Aggressive Design Meets Dynamic Response.",
       category: "Premium Sedan",
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / CVT",
       engine: "1.8L i-VTEC / 1.6L i-DTEC",
       path: "/models/honda/civic"
@@ -27,7 +27,7 @@ export default function HondaModels() {
       name: "Honda Amaze",
       subtitle: "Smart Styling with Solid Reliability.",
       category: "Compact Sedan",
-      image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / CVT",
       engine: "1.2L i-VTEC SOHC I4",
       path: "/models/honda/amaze"
@@ -37,7 +37,7 @@ export default function HondaModels() {
       name: "Honda Elevate",
       subtitle: "The Bold, Spacious Urban SUV.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / 7-Speed CVT",
       engine: "1.5L i-VTEC DOHC Petrol",
       path: "/models/honda/elevate"
@@ -78,7 +78,8 @@ export default function HondaModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

@@ -66,7 +66,7 @@ const vehicleDatabase = {
         name: "Audi Q5",
         subtitle: "Premium Versatility for Every Journey.",
         category: "Premium SUV",
-        image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "2.0L TFSI Inline-4 Turbo",
           power: "249 bhp @ 5,000 rpm",
@@ -80,7 +80,7 @@ const vehicleDatabase = {
         name: "Audi e-tron GT",
         subtitle: "Pure Electric Performance Art.",
         category: "Electric Supercar",
-        image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "Dual Electric Motors with AWD",
           power: "522 bhp (Boost Mode)",
@@ -202,7 +202,7 @@ const vehicleDatabase = {
         name: "Mercedes-Benz S-Class",
         subtitle: "The Pinnacle of Automotive Luxury.",
         category: "Luxury Sedan",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "3.0L Turbocharged Inline-6",
           power: "362 bhp @ 5,500 rpm",
@@ -324,7 +324,7 @@ const vehicleDatabase = {
         name: "Toyota Fortuner",
         subtitle: "The Undisputed King of the Off-Road.",
         category: "Premium SUV",
-        image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "2.8L D-4D Turbocharged Diesel",
           power: "201 bhp @ 3,400 rpm",
@@ -352,7 +352,7 @@ const vehicleDatabase = {
         name: "Toyota Innova Crysta",
         subtitle: "Unmatched Comfort, Unrivalled Durability.",
         category: "Premium MPV",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "2.4L 2GD-FTV Turbocharged I4",
           power: "148 bhp @ 3,400 rpm",
@@ -366,7 +366,7 @@ const vehicleDatabase = {
         name: "Toyota Glanza",
         subtitle: "Hatchback Elegance Sourced with Efficiency.",
         category: "Premium Hatchback",
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L K-Series Dual Jet Engine",
           power: "89 bhp @ 6,000 rpm",
@@ -399,7 +399,7 @@ const vehicleDatabase = {
         name: "Honda Civic",
         subtitle: "Aggressive Design Meets Dynamic Response.",
         category: "Premium Sedan",
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.8L i-VTEC / 1.6L i-DTEC",
           power: "140 bhp @ 6,500 rpm",
@@ -413,7 +413,7 @@ const vehicleDatabase = {
         name: "Honda Amaze",
         subtitle: "Smart Styling with Solid Reliability.",
         category: "Compact Sedan",
-        image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L i-VTEC SOHC 4-Cylinder",
           power: "89 bhp @ 6,000 rpm",
@@ -427,7 +427,7 @@ const vehicleDatabase = {
         name: "Honda Elevate",
         subtitle: "The Bold, Spacious Urban SUV.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L i-VTEC DOHC Petrol Engine",
           power: "119 bhp @ 6,600 rpm",
@@ -446,7 +446,7 @@ const vehicleDatabase = {
         name: "Hyundai Tucson",
         subtitle: "Premium Crossover SUV Sensation.",
         category: "Premium SUV",
-        image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "2.0L CRDi Turbocharged Diesel",
           power: "184 bhp @ 4,000 rpm",
@@ -460,7 +460,7 @@ const vehicleDatabase = {
         name: "Hyundai Creta",
         subtitle: "The Masterpiece Crossover.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L CRDi Diesel / 1.5L MPi Petrol",
           power: "113 bhp @ 4,000 rpm",
@@ -474,7 +474,7 @@ const vehicleDatabase = {
         name: "Hyundai i20",
         subtitle: "The Stylish Premium Hatchback.",
         category: "Hatchback",
-        image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Kappa Petrol Engine",
           power: "82 bhp @ 6,000 rpm",
@@ -535,7 +535,7 @@ const vehicleDatabase = {
         name: "Kia Carens",
         subtitle: "Premium 3-Row Seating Reimagined.",
         category: "MPV",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L Turbocharged CRDi Diesel",
           power: "114 bhp @ 4,000 rpm",
@@ -549,7 +549,7 @@ const vehicleDatabase = {
         name: "Kia EV6",
         subtitle: "A High-Performance Electric Revolution.",
         category: "Electric Crossover",
-        image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "Dual Electric Motors with AWD",
           power: "320 bhp @ 0 rpm",
@@ -568,7 +568,7 @@ const vehicleDatabase = {
         name: "Volkswagen Virtus",
         subtitle: "The Thrill of German Engineering.",
         category: "Sedan",
-        image: "https://images.unsplash.com/photo-1486496146582-9ffcd0b2b2b7?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L TSI EVO Turbo Petrol",
           power: "148 bhp @ 5,000 rpm",
@@ -615,7 +615,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Swift",
         subtitle: "The Sporty Hatchback Icon.",
         category: "Hatchback",
-        image: "https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Z-Series 3-Cylinder Petrol",
           power: "80 bhp @ 5,700 rpm",
@@ -629,7 +629,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Baleno",
         subtitle: "Modern Luxury Re-engineered.",
         category: "Premium Hatchback",
-        image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L DualJet 4-Cylinder Petrol",
           power: "89 bhp @ 6,000 rpm",
@@ -643,7 +643,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Brezza",
         subtitle: "The Bold, Dynamic City SUV.",
         category: "Compact SUV",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L K15C Smart Hybrid I4",
           power: "102 bhp @ 6,000 rpm",
@@ -657,7 +657,7 @@ const vehicleDatabase = {
         name: "Maruti Suzuki Grand Vitara",
         subtitle: "The Premium Intelligent Hybrid SUV.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L Intelligent Strong Hybrid",
           power: "114 bhp @ 5,500 rpm",
@@ -676,7 +676,7 @@ const vehicleDatabase = {
         name: "Tata Nexon",
         subtitle: "India's Best Selling Safety SUV.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.2L Revotron Turbocharged Petrol",
           power: "118 bhp @ 5,500 rpm",
@@ -751,7 +751,7 @@ const vehicleDatabase = {
         name: "Mahindra Scorpio N",
         subtitle: "The Big Daddy of SUVs.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "2.2L mHawk Turbo Diesel Engine",
           power: "172 bhp @ 3,500 rpm",
@@ -779,7 +779,7 @@ const vehicleDatabase = {
         name: "Mahindra Bolero",
         subtitle: "Utilitarian Heavy Duty Reliability.",
         category: "SUV",
-        image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=800",
+        image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
         specs: {
           engine: "1.5L mHawk75 Turbocharged I3",
           power: "75 bhp @ 3,600 rpm",
@@ -815,7 +815,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Brembo Premium Braking Kit",
       brand: "BREMBO",
       price: 4850,
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&q=80&w=300",
       description: "High-friction carbon-ceramic brake pads engineered to exceed OEM durability and temperature standards.",
       category: "Brakes"
     },
@@ -824,7 +824,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Bosch Premium Double-Filtration Oil Filter",
       brand: "BOSCH",
       price: 650,
-      image: "https://images.unsplash.com/photo-1631651365765-c6b06e741453?auto=format&fit=crop&q=80&w=300",
+      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=300",
       description: "Advanced synthetic blend media captures 99% of engine wear contaminants, ensuring perfect lubrication flow.",
       category: "Filters"
     },
@@ -833,7 +833,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "NGK Laser Iridium Spark Plug (Set of 4)",
       brand: "NGK",
       price: 2450,
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=300",
+      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCLG0w54ZGgdkZi9Y_LZj_pQadbE0eUJ9ntuAfNK8y_FbYWqTVTkx18zmm0EEN3lWMFAG4No13L3z7EmBlNmGzLevKSwAlLTVXCeTT0ijvG1TcEiiP74B-d0TtdV325D6GjLZpSosO-dnA-dSsscGltin2Exha9tfxHy3QvicoQxgIOTh83Ys0SWK40eh4tnxQxYeF4sd_CXwzq5xv0hGQgyyJtC0GxgLcnyc5mW8Nq8umoe2PjWIcqyz86hP4XnrJ2eXzaB0gB_bXe",
       description: "Laser-welded iridium electrode tips deliver ultimate spark precision, complete fuel ignition, and better throttle response.",
       category: "Engine Parts"
     },
@@ -842,7 +842,7 @@ const generateSparesForVehicle = (vehicleName) => {
       name: "Bosch High-Flow Cabin Active Carbon Air Filter",
       brand: "BOSCH",
       price: 890,
-      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=300",
+      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBxVGdg3Kc25V37Sg-sY1NbzSiU6EdW7-mV0CQ03MZdhCY0066tu1_fTr8FuZ4sbBgqLGothUy8pM1TsdMbUBXbC4W5ViNKl-YjmexmkES2ROyhEgzG28qe5O-28D_RYy5gl_1f6a_RsYCuEpqe0IWetBt02g8Lkm7qnCTcc47CDyY_hStgJsFr1KqmY6gI3ZPVNPvllzHmKGi9l1mL_cxQQPSiI_7NWXi1gpg9hpaJ-ZNQOmhup-ggYlBxBQqYT9McfqNWhqK8vmzF",
       description: "Active carbon layers block fine dust, pollen, exhaust smells, and airborne micro-particles from cabin vents.",
       category: "Filters"
     }

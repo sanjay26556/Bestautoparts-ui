@@ -7,7 +7,7 @@ export default function HyundaiModels() {
       name: "Hyundai Tucson",
       subtitle: "Premium Crossover SUV Sensation.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=600",
       transmission: "8-Speed Torque Converter AT",
       engine: "2.0L CRDi Turbo Diesel / Petrol",
       path: "/models/hyundai/tucson"
@@ -17,7 +17,7 @@ export default function HyundaiModels() {
       name: "Hyundai Creta",
       subtitle: "The Masterpiece Crossover.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed MT / IVT / 6-Speed AT",
       engine: "1.5L CRDi Diesel / 1.5L MPi Petrol",
       path: "/models/hyundai/creta"
@@ -27,7 +27,7 @@ export default function HyundaiModels() {
       name: "Hyundai i20",
       subtitle: "The Stylish Premium Hatchback.",
       category: "Hatchback",
-      image: "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / IVT Automatic",
       engine: "1.2L Kappa Petrol Engine",
       path: "/models/hyundai/i20"
@@ -70,7 +70,7 @@ export default function HyundaiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -78,7 +78,8 @@ export default function HyundaiModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

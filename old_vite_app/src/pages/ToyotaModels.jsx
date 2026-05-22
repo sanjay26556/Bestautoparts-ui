@@ -7,7 +7,7 @@ export default function ToyotaModels() {
       name: "Toyota Fortuner",
       subtitle: "The Undisputed King of the Off-Road.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT",
       engine: "2.8L D-4D Turbo Diesel",
       path: "/models/toyota/fortuner"
@@ -27,7 +27,7 @@ export default function ToyotaModels() {
       name: "Toyota Innova Crysta",
       subtitle: "Unmatched Comfort, Unrivalled Durability.",
       category: "Premium MPV",
-      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed Manual",
       engine: "2.4L 2GD-FTV Turbo I4",
       path: "/models/toyota/innovacrysta"
@@ -37,7 +37,7 @@ export default function ToyotaModels() {
       name: "Toyota Glanza",
       subtitle: "Hatchback Elegance Sourced with Efficiency.",
       category: "Premium Hatchback",
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed AMT / MT",
       engine: "1.2L K-Series Dual Jet",
       path: "/models/toyota/glanza"
@@ -70,7 +70,7 @@ export default function ToyotaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -78,7 +78,8 @@ export default function ToyotaModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

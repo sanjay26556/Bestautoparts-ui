@@ -17,7 +17,7 @@ export default function MahindraModels() {
       name: "Mahindra Scorpio N",
       subtitle: "The Big Daddy of SUVs.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
       transmission: "6-Speed AT / MT with 4XPLOR",
       engine: "2.2L mHawk Turbo Diesel",
       path: "/models/mahindra/scorpio"
@@ -37,7 +37,7 @@ export default function MahindraModels() {
       name: "Mahindra Bolero",
       subtitle: "Utilitarian Heavy Duty Reliability.",
       category: "SUV",
-      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed Manual Transmission",
       engine: "1.5L mHawk75 Turbocharged I3",
       path: "/models/mahindra/bolero"
@@ -88,7 +88,8 @@ export default function MahindraModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

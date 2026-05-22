@@ -27,7 +27,7 @@ export default function KiaModels() {
       name: "Kia Carens",
       subtitle: "Premium 3-Row Seating Reimagined.",
       category: "MPV",
-      image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
       transmission: "6-speed AT / MT",
       engine: "1.5L Turbocharged CRDi Diesel",
       path: "/models/kia/carens"
@@ -37,7 +37,7 @@ export default function KiaModels() {
       name: "Kia EV6",
       subtitle: "A High-Performance Electric Revolution.",
       category: "Electric Crossover",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
       transmission: "Single-Speed Reduction Gear",
       engine: "Dual Electric Motors (AWD)",
       path: "/models/kia/ev6"
@@ -70,7 +70,7 @@ export default function KiaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -78,7 +78,8 @@ export default function KiaModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

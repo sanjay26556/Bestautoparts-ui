@@ -47,7 +47,7 @@ export default function AudiModels() {
       name: "Audi Q5",
       subtitle: "Versatility and Sport Elegance.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI Turbo",
       path: "/models/audi/q5"
@@ -57,7 +57,7 @@ export default function AudiModels() {
       name: "Audi e-tron GT",
       subtitle: "Pure Electric Performance Art.",
       category: "Electric Supercar",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+      image: "https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=600",
       transmission: "2-Speed Electric AT",
       engine: "Dual Electric Motors",
       path: "/models/audi/etron"
@@ -90,7 +90,7 @@ export default function AudiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1614026480209-cd9cd33c18ee?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
@@ -98,7 +98,7 @@ export default function AudiModels() {
         {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mb-12">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   <Link to={model.path} className="aspect-[16/10] bg-surface-container-low p-6 overflow-hidden flex items-center justify-center relative block">

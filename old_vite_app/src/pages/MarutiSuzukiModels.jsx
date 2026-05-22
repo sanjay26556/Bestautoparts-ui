@@ -7,8 +7,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Swift",
       subtitle: "The Sporty Hatchback Icon.",
       category: "Hatchback",
-      // Small sporty hatchback car
-      image: "https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=600",
+      // Small sporty hatchback
+      image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Z-Series 3-Cylinder Petrol",
       path: "/models/maruti-suzuki/swift"
@@ -18,8 +18,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Baleno",
       subtitle: "Modern Luxury Re-engineered.",
       category: "Premium Hatchback",
-      // White premium hatchback / compact sedan
-      image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=600",
+      // Premium compact car
+      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / AGS Automatic",
       engine: "1.2L DualJet 4-Cylinder Petrol",
       path: "/models/maruti-suzuki/baleno"
@@ -29,8 +29,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Brezza",
       subtitle: "The Bold, Dynamic City SUV.",
       category: "Compact SUV",
-      // Compact city crossover SUV
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
+      // Compact city crossover
+      image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=600",
       transmission: "5-Speed MT / 6-Speed AT",
       engine: "1.5L K15C Smart Hybrid I4",
       path: "/models/maruti-suzuki/brezza"
@@ -40,8 +40,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Grand Vitara",
       subtitle: "The Premium Intelligent Hybrid SUV.",
       category: "SUV",
-      // Mid-size hybrid SUV
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      // Mid-size SUV
+      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&q=80&w=600",
       transmission: "e-CVT / 6-Speed AT / 5-Speed MT",
       engine: "1.5L Intelligent Strong Hybrid",
       path: "/models/maruti-suzuki/grandvitara"
@@ -74,15 +74,15 @@ export default function MarutiSuzukiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              {/* Maruti Suzuki Swift hatchback - correct car image */}
-              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1609000099860-01f59f93fdee?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-cover drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>
 
-        {/* Model Grid - NO "Select Your Model" header as requested */}
+        {/* Model Selection Grid */}
         <section className="py-20 bg-surface">
           <div className="max-w-container-max mx-auto px-margin-desktop">
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
               {modelsData.map((model) => (
                 <div key={model.id} className="group bg-surface-container-lowest border border-outline-variant/30 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300">
