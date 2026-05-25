@@ -7,7 +7,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Virtus",
       subtitle: "The Thrill of German Engineering.",
       category: "Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Volkswagen_Virtus_Highline_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/1280px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png",
       transmission: "7-Speed DSG / 6-Speed MT",
       engine: "1.5L TSI EVO Turbo Petrol",
       path: "/models/volkswagen/virtus"
@@ -17,7 +17,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Taigun",
       subtitle: "Playful Design Meets Safe Structure.",
       category: "SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Volkswagen_Taigun_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Volkswagen_Taigun_front_20230528.jpg/1280px-Volkswagen_Taigun_front_20230528.jpg",
       transmission: "6-Speed AT / 6-Speed MT",
       engine: "1.0L TSI Turbo Petrol",
       path: "/models/volkswagen/taigun"
@@ -27,7 +27,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Tiguan",
       subtitle: "Pure Premium Command on All Terrains.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Volkswagen_Tiguan_R-Line_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg/1280px-Volkswagen_Tiguan_III_IMG_8823_%28cropped%29.jpg",
       transmission: "7-Speed DSG 4MOTION",
       engine: "2.0L TSI Turbocharged I4",
       path: "/models/volkswagen/tiguan"
@@ -60,7 +60,7 @@ export default function VolkswagenModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Volkswagen Virtus" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/2022_Volkswagen_Virtus_Highline_(India)_front_view.png?width=800"/>
+              <img alt="Volkswagen Virtus" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/1280px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png"/>
             </div>
           </div>
         </section>

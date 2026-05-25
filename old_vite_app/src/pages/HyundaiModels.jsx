@@ -7,7 +7,7 @@ export default function HyundaiModels() {
       name: "Hyundai Tucson",
       subtitle: "Premium Crossover SUV Sensation.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hyundai_Tucson_(NX4)_EX_IMG_4966.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg/1280px-2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg",
       transmission: "8-Speed Torque Converter AT",
       engine: "2.0L CRDi Turbo Diesel / Petrol",
       path: "/models/hyundai/tucson"
@@ -17,7 +17,7 @@ export default function HyundaiModels() {
       name: "Hyundai Creta",
       subtitle: "The Masterpiece Crossover.",
       category: "SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Hyundai_Creta_1.4_SX_(O)_(India)_front_view_01.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Moscow%2C_Hyundai_Creta_%282nd_gen%29_Aug_2025_01_%28cropped%29.jpg/1280px-Moscow%2C_Hyundai_Creta_%282nd_gen%29_Aug_2025_01_%28cropped%29.jpg",
       transmission: "6-Speed MT / IVT / 6-Speed AT",
       engine: "1.5L CRDi Diesel / 1.5L MPi Petrol",
       path: "/models/hyundai/creta"
@@ -27,7 +27,7 @@ export default function HyundaiModels() {
       name: "Hyundai i20",
       subtitle: "The Stylish Premium Hatchback.",
       category: "Hatchback",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Hyundai_i20_1.0_T-GDi_MHEV_Premium_front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg/1280px-Hyundai_i20_%28III%2C_Facelift%29_%E2%80%93_f_11102025.jpg",
       transmission: "5-Speed MT / IVT Automatic",
       engine: "1.2L Kappa Petrol Engine",
       path: "/models/hyundai/i20"
@@ -37,7 +37,7 @@ export default function HyundaiModels() {
       name: "Hyundai Verna",
       subtitle: "Futuristic Design meets Sensuous Sportiness.",
       category: "Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2023_Hyundai_Verna_1.5_SX_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hyundai_Accent_1.5_MPI_Smart%2B_%28VI%29_%E2%80%93_f_08032025.jpg/1280px-Hyundai_Accent_1.5_MPI_Smart%2B_%28VI%29_%E2%80%93_f_08032025.jpg",
       transmission: "7-Speed DCT / 6-Speed MT",
       engine: "1.5L Turbo GDi Petrol Engine",
       path: "/models/hyundai/verna"
@@ -70,7 +70,7 @@ export default function HyundaiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hyundai_Tucson_(NX4)_EX_IMG_4966.jpg?width=800"/>
+              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg/1280px-2022_Hyundai_Tucson_Preferred%2C_Front_Right%2C_05-24-2021.jpg"/>
             </div>
           </div>
         </section>

@@ -7,7 +7,7 @@ export default function AudiModels() {
       name: "Audi R8",
       subtitle: "Naturally Aspirated V10 Legend.",
       category: "Supercar",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Audi_R8_Coupe_V10_plus_Front.jpg/1280px-2018_Audi_R8_Coupe_V10_plus_Front.jpg",
       transmission: "S-Tronic Automatic",
       engine: "5.2L V10 FSI",
       path: "/models/audi/r8"
@@ -17,7 +17,7 @@ export default function AudiModels() {
       name: "Audi A6",
       subtitle: "High-Tech Executive Sedan.",
       category: "Luxury Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Audi_A6_S_Line_TDI_MHEV_S-A_2.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Audi_A6_C9_IAA_2025_DSC_1920.jpg/1280px-Audi_A6_C9_IAA_2025_DSC_1920.jpg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI I4",
       path: "/models/audi/a6"
@@ -27,7 +27,7 @@ export default function AudiModels() {
       name: "Audi Q7",
       subtitle: "Luxury Seven-Seater Powerhouse.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Audi_Q7_S_Line_TDI_Quattro_Automatic_3.0.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Audi_Q7_4M_FL2_3.0_V6_MHEV_quattro_Satellite_Silver_Metallic_01_%28cropped%29.jpg/1280px-Audi_Q7_4M_FL2_3.0_V6_MHEV_quattro_Satellite_Silver_Metallic_01_%28cropped%29.jpg",
       transmission: "Tiptronic Automatic",
       engine: "3.0L V6 TFSI",
       path: "/models/audi/q7"
@@ -37,7 +37,7 @@ export default function AudiModels() {
       name: "Audi A4",
       subtitle: "Comfort Meets Dynamic Precision.",
       category: "Executive Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Audi_A4_Sport_TDI_Ultra_1.9.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/1280px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI Turbo",
       path: "/models/audi/a4"
@@ -47,7 +47,7 @@ export default function AudiModels() {
       name: "Audi Q5",
       subtitle: "Versatility and Sport Elegance.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Audi_Q5_S_Line_TDI_Quattro_S-A_2.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Audi_Q5_2.0_TDI_quattro_S_line_%28GU%29_%E2%80%93_f_13102025.jpg/1280px-Audi_Q5_2.0_TDI_quattro_S_line_%28GU%29_%E2%80%93_f_13102025.jpg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI Turbo",
       path: "/models/audi/q5"
@@ -57,7 +57,7 @@ export default function AudiModels() {
       name: "Audi e-tron GT",
       subtitle: "Pure Electric Performance Art.",
       category: "Electric Supercar",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Audi_e-tron_GT_IAA_2021_1X7A0063.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Audi_e-tron_GT_IMG_5689.jpg/1280px-Audi_e-tron_GT_IMG_5689.jpg",
       transmission: "2-Speed Electric AT",
       engine: "Dual Electric Motors",
       path: "/models/audi/etron"
@@ -90,7 +90,7 @@ export default function AudiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg?width=800"/>
+              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Audi_R8_Coupe_V10_plus_Front.jpg/1280px-2018_Audi_R8_Coupe_V10_plus_Front.jpg"/>
             </div>
           </div>
         </section>

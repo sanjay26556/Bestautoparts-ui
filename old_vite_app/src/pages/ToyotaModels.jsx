@@ -7,7 +7,7 @@ export default function ToyotaModels() {
       name: "Toyota Fortuner",
       subtitle: "The Undisputed King of the Off-Road.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_(GUN156R;_02-23-2022),_South_Tangerang.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/1280px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg",
       transmission: "6-Speed AT / MT",
       engine: "2.8L D-4D Turbo Diesel",
       path: "/models/toyota/fortuner"
@@ -17,7 +17,7 @@ export default function ToyotaModels() {
       name: "Toyota Camry",
       subtitle: "Premium Hybrid Sophistication.",
       category: "Luxury Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Toyota_Camry_(ASV70R)_Ascent_sedan_(2018-08-27)_01.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg/1280px-2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg",
       transmission: "e-CVT Automatic",
       engine: "2.5L Hybrid Dynamic Force",
       path: "/models/toyota/camry"
@@ -27,7 +27,7 @@ export default function ToyotaModels() {
       name: "Toyota Innova Crysta",
       subtitle: "Unmatched Comfort, Unrivalled Durability.",
       category: "Premium MPV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Toyota_Kijang_Innova_2.0_V_(TGN140R;_02-09-2022),_South_Tangerang.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/2022_Toyota_Kijang_Innova_2.4_G_GUN142R_%2820220302%29.jpg/1280px-2022_Toyota_Kijang_Innova_2.4_G_GUN142R_%2820220302%29.jpg",
       transmission: "5-Speed Manual",
       engine: "2.4L 2GD-FTV Turbo I4",
       path: "/models/toyota/innovacrysta"
@@ -37,7 +37,7 @@ export default function ToyotaModels() {
       name: "Toyota Glanza",
       subtitle: "Hatchback Elegance Sourced with Efficiency.",
       category: "Premium Hatchback",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Toyota_Glanza_V_(India)_front_view_01.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2017_Suzuki_Baleno_SZ3_Dualjet_1.2_Front.jpg/1280px-2017_Suzuki_Baleno_SZ3_Dualjet_1.2_Front.jpg",
       transmission: "5-Speed AMT / MT",
       engine: "1.2L K-Series Dual Jet",
       path: "/models/toyota/glanza"
@@ -70,7 +70,7 @@ export default function ToyotaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_(GUN156R;_02-23-2022),_South_Tangerang.jpg?width=800"/>
+              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/1280px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg"/>
             </div>
           </div>
         </section>

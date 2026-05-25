@@ -6,84 +6,84 @@ export default function Brands() {
       id: "maruti-suzuki",
       name: "Maruti Suzuki",
       path: "/models/maruti-suzuki",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Suzuki_Swift_SZ5_Boosterjet_MHEV_1.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/1280px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg",
       alt: "Maruti Suzuki Swift"
     },
     {
       id: "tata",
       name: "Tata Motors",
       path: "/models/tata",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tata_Nexon_XZA%2B_O_Dark_Edition_Front_Left.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tata_Nexon_Blue_Dual_Tone.jpg/1280px-Tata_Nexon_Blue_Dual_Tone.jpg",
       alt: "Tata Nexon"
     },
     {
       id: "mahindra",
       name: "Mahindra",
       path: "/models/mahindra",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Mahindra_XUV700_AX7_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png/1280px-2021_Mahindra_XUV700_2.2_AX7_%28India%29_front_view.png",
       alt: "Mahindra XUV700"
     },
     {
       id: "hyundai",
       name: "Hyundai",
       path: "/models/hyundai",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Hyundai_Creta_1.4_SX_(O)_(India)_front_view_01.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Moscow%2C_Hyundai_Creta_%282nd_gen%29_Aug_2025_01_%28cropped%29.jpg/1280px-Moscow%2C_Hyundai_Creta_%282nd_gen%29_Aug_2025_01_%28cropped%29.jpg",
       alt: "Hyundai Creta"
     },
     {
       id: "toyota",
       name: "Toyota",
       path: "/models/toyota",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_(GUN156R;_02-23-2022),_South_Tangerang.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2015_Toyota_Fortuner_%28New_Zealand%29.jpg/1280px-2015_Toyota_Fortuner_%28New_Zealand%29.jpg",
       alt: "Toyota Fortuner"
     },
     {
       id: "honda",
       name: "Honda",
       path: "/models/honda",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Honda_City_SV.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2022_Honda_City_ZX_i-VTEC_%28India%29_front_view_%28cropped%29.jpg/1280px-2022_Honda_City_ZX_i-VTEC_%28India%29_front_view_%28cropped%29.jpg",
       alt: "Honda City"
     },
     {
       id: "bmw",
       name: "BMW",
       path: "/models/bmw",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_M5_Competition_Facelift_IMG_3160.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg",
       alt: "BMW 3 Series"
     },
     {
       id: "mercedes",
       name: "Mercedes-Benz",
       path: "/models/mercedes",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-AMG_GT_C_Edition_50_(C_190)_–_Frontansicht,_2._September_2018,_Düsseldorf.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Festival_automobile_international_2015_-_Mercedes_AMG_GT_-_003.jpg/1280px-Festival_automobile_international_2015_-_Mercedes_AMG_GT_-_003.jpg",
       alt: "Mercedes-Benz AMG GT"
     },
     {
       id: "porsche",
       name: "Porsche",
       path: "/models/porsche",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche_992_Carrera_S_at_Retro_Classics_2020_IMG_0051.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg/1280px-Porsche_911_No_1000000%2C_70_Years_Porsche_Sports_Car%2C_Berlin_%281X7A3888%29.jpg",
       alt: "Porsche 911"
     },
     {
       id: "audi",
       name: "Audi",
       path: "/models/audi",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Audi_R8_Coupe_V10_plus_Front.jpg/1280px-2018_Audi_R8_Coupe_V10_plus_Front.jpg",
       alt: "Audi A4"
     },
     {
       id: "volkswagen",
       name: "Volkswagen",
       path: "/models/volkswagen",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Volkswagen_Virtus_Highline_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png/1280px-2022_Volkswagen_Virtus_1.5_GT_%28India%29_front_view_02.png",
       alt: "Volkswagen Virtus"
     },
     {
       id: "kia",
       name: "Kia",
       path: "/models/kia",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kia_Seltos_SP2_EX_1.6_GDI_2020_(50444369018).jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/1280px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg",
       alt: "Kia Seltos"
     }
   ];

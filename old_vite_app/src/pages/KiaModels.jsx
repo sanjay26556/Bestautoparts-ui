@@ -7,7 +7,7 @@ export default function KiaModels() {
       name: "Kia Seltos",
       subtitle: "Badass Design Meets Smart Connected Tech.",
       category: "SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kia_Seltos_SP2_EX_1.6_GDI_2020_(50444369018).jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg/1280px-Kia_Seltos_SP2_PE_Snow_White_Pearl_%2817%29_%28cropped%29.jpg",
       transmission: "6-Speed Automatic / 6-Speed iMT",
       engine: "1.5L CRDi Clean Diesel / Petrol",
       path: "/models/kia/seltos"
@@ -17,7 +17,7 @@ export default function KiaModels() {
       name: "Kia Sonet",
       subtitle: "Muscular Styling Loaded with Smart Gadgets.",
       category: "Compact SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Kia_Sonet_GTX%2B_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_02.jpg/1280px-2021_Kia_Sonet_1.5_Premiere_%28Indonesia%29_front_view_02.jpg",
       transmission: "7-speed DCT / 6-speed iMT",
       engine: "1.0L Turbocharged GDi Petrol",
       path: "/models/kia/sonet"
@@ -27,7 +27,7 @@ export default function KiaModels() {
       name: "Kia Carens",
       subtitle: "Premium 3-Row Seating Reimagined.",
       category: "MPV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Kia_Carens_1.4_Premium_(India)_front_view.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg/1280px-2016_Kia_Rondo_LX_Value_in_Sterling_Metallic%2C_Front_Right%2C_05-18-2023.jpg",
       transmission: "6-speed AT / MT",
       engine: "1.5L Turbocharged CRDi Diesel",
       path: "/models/kia/carens"
@@ -37,7 +37,7 @@ export default function KiaModels() {
       name: "Kia EV6",
       subtitle: "A High-Performance Electric Revolution.",
       category: "Electric Crossover",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kia_EV6_CV_GT-Line_AWD_Yacht_Blue_(2).jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/1280px-2021_Kia_EV6_GT-Line_S.jpg",
       transmission: "Single-Speed Reduction Gear",
       engine: "Dual Electric Motors (AWD)",
       path: "/models/kia/ev6"
@@ -70,7 +70,7 @@ export default function KiaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kia_EV6_CV_GT-Line_AWD_Yacht_Blue_(2).jpg?width=800"/>
+              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2021_Kia_EV6_GT-Line_S.jpg/1280px-2021_Kia_EV6_GT-Line_S.jpg"/>
             </div>
           </div>
         </section>

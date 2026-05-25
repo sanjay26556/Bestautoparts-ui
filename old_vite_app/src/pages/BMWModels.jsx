@@ -7,7 +7,7 @@ export default function BMWModels() {
       name: "BMW M5",
       subtitle: "Pure Track Performance Sealed in a Sedan.",
       category: "Super Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_M5_Competition_Facelift_IMG_3160.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg",
       transmission: "8-Speed M Steptronic",
       engine: "4.4L TwinPower V8 Bi-Turbo",
       path: "/models/bmw/m5"
@@ -17,7 +17,7 @@ export default function BMWModels() {
       name: "BMW 3 Series",
       subtitle: "The Benchmark for Sports Sedans.",
       category: "Sports Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2019_BMW_320d_M_Sport_Automatic_2.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BMW_G20_%282022%29_IMG_7316_%282%29.jpg/1280px-BMW_G20_%282022%29_IMG_7316_%282%29.jpg",
       transmission: "8-Speed Steptronic Sport",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/3series"
@@ -27,7 +27,7 @@ export default function BMWModels() {
       name: "BMW 5 Series",
       subtitle: "Business Athlete Sedan.",
       category: "Luxury Sedan",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2017_BMW_520d_M_Sport_Automatic_2.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BMW_G60_520i_1X7A2443.jpg/1280px-BMW_G60_520i_1X7A2443.jpg",
       transmission: "8-Speed Steptronic",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/5series"
@@ -37,7 +37,7 @@ export default function BMWModels() {
       name: "BMW X5",
       subtitle: "The Boss of Luxury SUVs.",
       category: "Premium SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_X5_xDrive45e_eDrive_M_Sport_(G05)_–_Frontansicht,_6._Juni_2021,_Düsseldorf.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_BMW_X5_M50d_Automatic_3.0.jpg/1280px-2019_BMW_X5_M50d_Automatic_3.0.jpg",
       transmission: "8-Speed Steptronic",
       engine: "3.0L TwinPower Turbo I6",
       path: "/models/bmw/x5"
@@ -47,7 +47,7 @@ export default function BMWModels() {
       name: "BMW X1",
       subtitle: "Spirited Performance in a Compact Package.",
       category: "SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_iX1_xDrive30_(U11)_–_f_14042023.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BMW_U11_1X7A6826.jpg/1280px-BMW_U11_1X7A6826.jpg",
       transmission: "7-Speed Dual-Clutch AT",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/x1"
@@ -57,7 +57,7 @@ export default function BMWModels() {
       name: "BMW iX",
       subtitle: "Pioneering a New Age of Electrified Utility.",
       category: "Electric SUV",
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_iX_xDrive50_(I20)_1X7A6224.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/BMW_iX_IAA_2021_1X7A0204.jpg/1280px-BMW_iX_IAA_2021_1X7A0204.jpg",
       transmission: "Single-Speed Automatic",
       engine: "Dual Electric Motors",
       path: "/models/bmw/ix"
@@ -90,7 +90,7 @@ export default function BMWModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/BMW_M5_Competition_Facelift_IMG_3160.jpg?width=800"/>
+              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg"/>
             </div>
           </div>
         </section>

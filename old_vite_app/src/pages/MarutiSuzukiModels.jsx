@@ -8,7 +8,7 @@ export default function MarutiSuzukiModels() {
       subtitle: "The Sporty Hatchback Icon.",
       category: "Hatchback",
       // Small sporty hatchback
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2018_Suzuki_Swift_SZ5_Boosterjet_MHEV_1.0_Front.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/1280px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Z-Series 3-Cylinder Petrol",
       path: "/models/maruti-suzuki/swift"
@@ -19,7 +19,7 @@ export default function MarutiSuzukiModels() {
       subtitle: "Modern Luxury Re-engineered.",
       category: "Premium Hatchback",
       // Premium compact car
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Maruti_Suzuki_Baleno_Alpha_(India)_front_view.png?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Suzuki_Baleno_front_20071004.jpg/1280px-Suzuki_Baleno_front_20071004.jpg",
       transmission: "5-Speed MT / AGS Automatic",
       engine: "1.2L DualJet 4-Cylinder Petrol",
       path: "/models/maruti-suzuki/baleno"
@@ -30,7 +30,7 @@ export default function MarutiSuzukiModels() {
       subtitle: "The Bold, Dynamic City SUV.",
       category: "Compact SUV",
       // Compact city crossover
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Maruti_Suzuki_Brezza_ZXi+_(India)_front_view.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png/1280px-2022_Maruti_Suzuki_Brezza_ZXi%2B_%28India%29_front_view_03.png",
       transmission: "5-Speed MT / 6-Speed AT",
       engine: "1.5L K15C Smart Hybrid I4",
       path: "/models/maruti-suzuki/brezza"
@@ -41,7 +41,7 @@ export default function MarutiSuzukiModels() {
       subtitle: "The Premium Intelligent Hybrid SUV.",
       category: "SUV",
       // Mid-size SUV
-      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Suzuki_Grand_Vitara_(India)_front_view.jpg?width=800",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2024_Suzuki_Vitara_%284th_generation%29_DSC_6083.jpg/1280px-2024_Suzuki_Vitara_%284th_generation%29_DSC_6083.jpg",
       transmission: "e-CVT / 6-Speed AT / 5-Speed MT",
       engine: "1.5L Intelligent Strong Hybrid",
       path: "/models/maruti-suzuki/grandvitara"
@@ -74,7 +74,7 @@ export default function MarutiSuzukiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-cover drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/2018_Suzuki_Swift_SZ5_Boosterjet_MHEV_1.0_Front.jpg?width=800"/>
+              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-cover drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg/1280px-Suzuki_Swift_%282024%29_hybrid_DSC_6076.jpg"/>
             </div>
           </div>
         </section>
