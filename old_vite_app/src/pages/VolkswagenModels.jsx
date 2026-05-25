@@ -7,7 +7,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Virtus",
       subtitle: "The Thrill of German Engineering.",
       category: "Sedan",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/02/2022_Volkswagen_Virtus_Highline_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/124839/virtus-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed DSG / 6-Speed MT",
       engine: "1.5L TSI EVO Turbo Petrol",
       path: "/models/volkswagen/virtus"
@@ -17,7 +17,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Taigun",
       subtitle: "Playful Design Meets Safe Structure.",
       category: "SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/8/8c/2021_Volkswagen_Taigun_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/47051/taigun-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed AT / 6-Speed MT",
       engine: "1.0L TSI Turbo Petrol",
       path: "/models/volkswagen/taigun"
@@ -27,7 +27,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Tiguan",
       subtitle: "Pure Premium Command on All Terrains.",
       category: "Premium SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0d/2021_Volkswagen_Tiguan_R-Line_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/tiguan-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed DSG 4MOTION",
       engine: "2.0L TSI Turbocharged I4",
       path: "/models/volkswagen/tiguan"
@@ -60,7 +60,7 @@ export default function VolkswagenModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Volkswagen Virtus" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/0/02/2022_Volkswagen_Virtus_Highline_%28India%29_front_view.png"/>
+              <img alt="Volkswagen Virtus" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/124839/virtus-exterior-right-front-three-quarter.jpeg"/>
             </div>
           </div>
         </section>

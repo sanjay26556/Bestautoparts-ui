@@ -6,84 +6,84 @@ export default function Brands() {
       id: "maruti-suzuki",
       name: "Maruti Suzuki",
       path: "/models/maruti-suzuki",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/22/2018_Suzuki_Swift_SZ5_Boosterjet_MHEV_1.0_Front.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/159099/swift-exterior-right-front-three-quarter.jpeg",
       alt: "Maruti Suzuki Swift"
     },
     {
       id: "tata",
       name: "Tata Motors",
       path: "/models/tata",
-      image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tata_Nexon_XZA%2B_O_Dark_Edition_Front_Left.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141867/nexon-facelift-exterior-right-front-three-quarter.jpeg",
       alt: "Tata Nexon"
     },
     {
       id: "mahindra",
       name: "Mahindra",
       path: "/models/mahindra",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/71/2021_Mahindra_XUV700_AX7_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg",
       alt: "Mahindra XUV700"
     },
     {
       id: "hyundai",
       name: "Hyundai",
       path: "/models/hyundai",
-      image: "https://upload.wikimedia.org/wikipedia/commons/8/8b/2020_Hyundai_Creta_1.4_SX_%28O%29_%28India%29_front_view_01.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/106815/creta-exterior-right-front-three-quarter.jpeg",
       alt: "Hyundai Creta"
     },
     {
       id: "toyota",
       name: "Toyota",
       path: "/models/toyota",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_%28GUN156R%3B_02-23-2022%29%2C_South_Tangerang.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg",
       alt: "Toyota Fortuner"
     },
     {
       id: "honda",
       name: "Honda",
       path: "/models/honda",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/2020_Honda_City_SV.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/city-exterior-right-front-three-quarter.jpeg",
       alt: "Honda City"
     },
     {
       id: "bmw",
       name: "BMW",
       path: "/models/bmw",
-      image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/BMW_M5_Competition_Facelift_IMG_3160.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/192525/m5-exterior-right-front-three-quarter.jpeg",
       alt: "BMW 3 Series"
     },
     {
       id: "mercedes",
       name: "Mercedes-Benz",
       path: "/models/mercedes",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/00/Mercedes-AMG_GT_C_Edition_50_%28C_190%29_%E2%80%93_Frontansicht%2C_2._September_2018%2C_D%C3%BCsseldorf.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/168707/amg-gt-coupe-exterior-right-front-three-quarter.jpeg",
       alt: "Mercedes-Benz AMG GT"
     },
     {
       id: "porsche",
       name: "Porsche",
       path: "/models/porsche",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Porsche_992_Carrera_S_at_Retro_Classics_2020_IMG_0051.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39232/911-exterior-right-front-three-quarter.jpeg",
       alt: "Porsche 911"
     },
     {
       id: "audi",
       name: "Audi",
       path: "/models/audi",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/29/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/r8-exterior-right-front-three-quarter.jpeg",
       alt: "Audi A4"
     },
     {
       id: "volkswagen",
       name: "Volkswagen",
       path: "/models/volkswagen",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/02/2022_Volkswagen_Virtus_Highline_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/124839/virtus-exterior-right-front-three-quarter.jpeg",
       alt: "Volkswagen Virtus"
     },
     {
       id: "kia",
       name: "Kia",
       path: "/models/kia",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Kia_Seltos_SP2_EX_1.6_GDI_2020_%2850444369018%29.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/seltos-exterior-right-front-three-quarter.jpeg",
       alt: "Kia Seltos"
     }
   ];

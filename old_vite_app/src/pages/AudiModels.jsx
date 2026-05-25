@@ -7,7 +7,7 @@ export default function AudiModels() {
       name: "Audi R8",
       subtitle: "Naturally Aspirated V10 Legend.",
       category: "Supercar",
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/29/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/r8-exterior-right-front-three-quarter.jpeg",
       transmission: "S-Tronic Automatic",
       engine: "5.2L V10 FSI",
       path: "/models/audi/r8"
@@ -17,7 +17,7 @@ export default function AudiModels() {
       name: "Audi A6",
       subtitle: "High-Tech Executive Sedan.",
       category: "Luxury Sedan",
-      image: "https://upload.wikimedia.org/wikipedia/commons/f/fb/2019_Audi_A6_S_Line_TDI_MHEV_S-A_2.0_Front.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39472/a6-exterior-right-front-three-quarter.jpeg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI I4",
       path: "/models/audi/a6"
@@ -27,7 +27,7 @@ export default function AudiModels() {
       name: "Audi Q7",
       subtitle: "Luxury Seven-Seater Powerhouse.",
       category: "Premium SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/2016_Audi_Q7_S_Line_TDI_Quattro_Automatic_3.0.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51954/q7-exterior-right-front-three-quarter.jpeg",
       transmission: "Tiptronic Automatic",
       engine: "3.0L V6 TFSI",
       path: "/models/audi/q7"
@@ -37,7 +37,7 @@ export default function AudiModels() {
       name: "Audi A4",
       subtitle: "Comfort Meets Dynamic Precision.",
       category: "Executive Sedan",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/2016_Audi_A4_Sport_TDI_Ultra_1.9.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/28379/a4-exterior-right-front-three-quarter.jpeg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI Turbo",
       path: "/models/audi/a4"
@@ -47,7 +47,7 @@ export default function AudiModels() {
       name: "Audi Q5",
       subtitle: "Versatility and Sport Elegance.",
       category: "Premium SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2018_Audi_Q5_S_Line_TDI_Quattro_S-A_2.0_Front.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39735/q5-exterior-right-front-three-quarter.jpeg",
       transmission: "S-Tronic Automatic",
       engine: "2.0L TFSI Turbo",
       path: "/models/audi/q5"
@@ -57,7 +57,7 @@ export default function AudiModels() {
       name: "Audi e-tron GT",
       subtitle: "Pure Electric Performance Art.",
       category: "Electric Supercar",
-      image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Audi_e-tron_GT_IAA_2021_1X7A0063.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51940/e-tron-gt-exterior-right-front-three-quarter.jpeg",
       transmission: "2-Speed Electric AT",
       engine: "Dual Electric Motors",
       path: "/models/audi/etron"
@@ -90,7 +90,7 @@ export default function AudiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/2/29/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg"/>
+              <img alt="Audi e-tron GT" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/r8-exterior-right-front-three-quarter.jpeg"/>
             </div>
           </div>
         </section>

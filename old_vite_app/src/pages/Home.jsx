@@ -44,32 +44,32 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-gutter">
               {/* Brand Card 1 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/bmw">
-                <img alt="BMW" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/BMW_M5_Competition_Facelift_IMG_3160.jpg" />
+                <img alt="BMW" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/192525/m5-exterior-right-front-three-quarter.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">BMW</div></div>
               </Link>
               {/* Brand Card 2 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/audi">
-                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/2/29/2016_Audi_R8_Plus_Quattro_V10_Automatic_5.2.jpg" />
+                <img alt="Audi" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/r8-exterior-right-front-three-quarter.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Audi</div></div>
               </Link>
               {/* Brand Card 3 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/mercedes">
-                <img alt="Mercedes" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Mercedes-AMG_GT_C_Edition_50_%28C_190%29_%E2%80%93_Frontansicht%2C_2._September_2018%2C_D%C3%BCsseldorf.jpg" />
+                <img alt="Mercedes" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/168707/amg-gt-coupe-exterior-right-front-three-quarter.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Mercedes</div></div>
               </Link>
               {/* Brand Card 4 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/porsche">
-                <img alt="Porsche" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Porsche_992_Carrera_S_at_Retro_Classics_2020_IMG_0051.jpg" />
+                <img alt="Porsche" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/39232/911-exterior-right-front-three-quarter.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Porsche</div></div>
               </Link>
               {/* Brand Card 5 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/honda">
-                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/2020_Honda_City_SV.jpg" />
+                <img alt="Honda" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/city-exterior-right-front-three-quarter.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Honda</div></div>
               </Link>
               {/* Brand Card 6 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/mahindra">
-                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/7/71/2021_Mahindra_XUV700_AX7_%28India%29_front_view.png" />
+                <img alt="Mahindra" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg" />
                 <div className="text-center"><div className="font-label-md text-on-surface font-semibold">Mahindra</div></div>
               </Link>
             </div>

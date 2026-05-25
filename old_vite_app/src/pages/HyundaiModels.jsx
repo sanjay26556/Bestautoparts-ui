@@ -7,7 +7,7 @@ export default function HyundaiModels() {
       name: "Hyundai Tucson",
       subtitle: "Premium Crossover SUV Sensation.",
       category: "Premium SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hyundai_Tucson_%28NX4%29_EX_IMG_4966.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/48067/tucson-exterior-right-front-three-quarter.jpeg",
       transmission: "8-Speed Torque Converter AT",
       engine: "2.0L CRDi Turbo Diesel / Petrol",
       path: "/models/hyundai/tucson"
@@ -17,7 +17,7 @@ export default function HyundaiModels() {
       name: "Hyundai Creta",
       subtitle: "The Masterpiece Crossover.",
       category: "SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/8/8b/2020_Hyundai_Creta_1.4_SX_%28O%29_%28India%29_front_view_01.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/106815/creta-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed MT / IVT / 6-Speed AT",
       engine: "1.5L CRDi Diesel / 1.5L MPi Petrol",
       path: "/models/hyundai/creta"
@@ -27,7 +27,7 @@ export default function HyundaiModels() {
       name: "Hyundai i20",
       subtitle: "The Stylish Premium Hatchback.",
       category: "Hatchback",
-      image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/2020_Hyundai_i20_1.0_T-GDi_MHEV_Premium_front.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/40530/i20-exterior-right-front-three-quarter-5.jpeg",
       transmission: "5-Speed MT / IVT Automatic",
       engine: "1.2L Kappa Petrol Engine",
       path: "/models/hyundai/i20"
@@ -37,7 +37,7 @@ export default function HyundaiModels() {
       name: "Hyundai Verna",
       subtitle: "Futuristic Design meets Sensuous Sportiness.",
       category: "Sedan",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/77/2023_Hyundai_Verna_1.5_SX_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141113/verna-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed DCT / 6-Speed MT",
       engine: "1.5L Turbo GDi Petrol Engine",
       path: "/models/hyundai/verna"
@@ -70,7 +70,7 @@ export default function HyundaiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Hyundai_Tucson_%28NX4%29_EX_IMG_4966.jpg"/>
+              <img alt="Hyundai Tucson" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/48067/tucson-exterior-right-front-three-quarter.jpeg"/>
             </div>
           </div>
         </section>

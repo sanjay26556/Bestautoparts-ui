@@ -7,7 +7,7 @@ export default function ToyotaModels() {
       name: "Toyota Fortuner",
       subtitle: "The Undisputed King of the Off-Road.",
       category: "Premium SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_%28GUN156R%3B_02-23-2022%29%2C_South_Tangerang.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg",
       transmission: "6-Speed AT / MT",
       engine: "2.8L D-4D Turbo Diesel",
       path: "/models/toyota/fortuner"
@@ -17,7 +17,7 @@ export default function ToyotaModels() {
       name: "Toyota Camry",
       subtitle: "Premium Hybrid Sophistication.",
       category: "Luxury Sedan",
-      image: "https://upload.wikimedia.org/wikipedia/commons/a/ac/2018_Toyota_Camry_%28ASV70R%29_Ascent_sedan_%282018-08-27%29_01.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/192443/camry-exterior-right-front-three-quarter.jpeg",
       transmission: "e-CVT Automatic",
       engine: "2.5L Hybrid Dynamic Force",
       path: "/models/toyota/camry"
@@ -27,7 +27,7 @@ export default function ToyotaModels() {
       name: "Toyota Innova Crysta",
       subtitle: "Unmatched Comfort, Unrivalled Durability.",
       category: "Premium MPV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/2021_Toyota_Kijang_Innova_2.0_V_%28TGN140R%3B_02-09-2022%29%2C_South_Tangerang.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51435/innova-crysta-exterior-right-front-three-quarter.jpeg",
       transmission: "5-Speed Manual",
       engine: "2.4L 2GD-FTV Turbo I4",
       path: "/models/toyota/innovacrysta"
@@ -37,7 +37,7 @@ export default function ToyotaModels() {
       name: "Toyota Glanza",
       subtitle: "Hatchback Elegance Sourced with Efficiency.",
       category: "Premium Hatchback",
-      image: "https://upload.wikimedia.org/wikipedia/commons/1/15/2022_Toyota_Glanza_V_%28India%29_front_view_01.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/glanza-exterior-right-front-three-quarter.jpeg",
       transmission: "5-Speed AMT / MT",
       engine: "1.2L K-Series Dual Jet",
       path: "/models/toyota/glanza"
@@ -70,7 +70,7 @@ export default function ToyotaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Toyota_Fortuner_2.8_VRZ_4WD_wagon_%28GUN156R%3B_02-23-2022%29%2C_South_Tangerang.jpg"/>
+              <img alt="Toyota Fortuner" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg"/>
             </div>
           </div>
         </section>

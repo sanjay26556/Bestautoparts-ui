@@ -7,7 +7,7 @@ export default function KiaModels() {
       name: "Kia Seltos",
       subtitle: "Badass Design Meets Smart Connected Tech.",
       category: "SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Kia_Seltos_SP2_EX_1.6_GDI_2020_%2850444369018%29.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/seltos-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed Automatic / 6-Speed iMT",
       engine: "1.5L CRDi Clean Diesel / Petrol",
       path: "/models/kia/seltos"
@@ -17,7 +17,7 @@ export default function KiaModels() {
       name: "Kia Sonet",
       subtitle: "Muscular Styling Loaded with Smart Gadgets.",
       category: "Compact SUV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/2020_Kia_Sonet_GTX%2B_%28India%29_front_view.png",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/169289/sonet-exterior-right-front-three-quarter.jpeg",
       transmission: "7-speed DCT / 6-speed iMT",
       engine: "1.0L Turbocharged GDi Petrol",
       path: "/models/kia/sonet"
@@ -27,7 +27,7 @@ export default function KiaModels() {
       name: "Kia Carens",
       subtitle: "Premium 3-Row Seating Reimagined.",
       category: "MPV",
-      image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/2022_Kia_Carens_1.4_Premium_%28India%29_front_view.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/144185/carens-exterior-right-front-three-quarter.jpeg",
       transmission: "6-speed AT / MT",
       engine: "1.5L Turbocharged CRDi Diesel",
       path: "/models/kia/carens"
@@ -37,7 +37,7 @@ export default function KiaModels() {
       name: "Kia EV6",
       subtitle: "A High-Performance Electric Revolution.",
       category: "Electric Crossover",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Kia_EV6_CV_GT-Line_AWD_Yacht_Blue_%282%29.jpg",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51940/ev6-exterior-right-front-three-quarter.jpeg",
       transmission: "Single-Speed Reduction Gear",
       engine: "Dual Electric Motors (AWD)",
       path: "/models/kia/ev6"
@@ -70,7 +70,7 @@ export default function KiaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Kia_EV6_CV_GT-Line_AWD_Yacht_Blue_%282%29.jpg"/>
+              <img alt="Kia EV6" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/51940/ev6-exterior-right-front-three-quarter.jpeg"/>
             </div>
           </div>
         </section>
