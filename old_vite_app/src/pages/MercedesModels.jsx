@@ -7,7 +7,7 @@ export default function MercedesModels() {
       name: "Mercedes-AMG GT",
       subtitle: "Driving Performance in Exquisite Form.",
       category: "Supercar",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/168707/amg-gt-coupe-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-AMG_GT_C_Edition_50_(C_190)_–_Frontansicht,_2._September_2018,_Düsseldorf.jpg?width=800",
       transmission: "7-Speed AMG SPEEDSHIFT DCT",
       engine: "4.0L V8 Biturbo AMG",
       path: "/models/mercedes/amggt"
@@ -17,7 +17,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz S-Class",
       subtitle: "The Pinnacle of Automotive Luxury.",
       category: "Luxury Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/48057/s-class-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz_S_500_4MATIC_(W_223)_–_f_08042021.jpg?width=800",
       transmission: "9G-TRONIC 9-Speed AT",
       engine: "3.0L Turbocharged I6",
       path: "/models/mercedes/sclass"
@@ -27,7 +27,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz E-Class",
       subtitle: "Masterpiece of Intelligence.",
       category: "Premium Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/177129/e-class-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2016_Mercedes-Benz_E220d_AMG_Line_Premium_Automatic_2.0_Front.jpg?width=800",
       transmission: "9G-TRONIC Automatic",
       engine: "2.0L Turbocharged I4",
       path: "/models/mercedes/eclass"
@@ -37,7 +37,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz C-Class",
       subtitle: "Dynamic Sophistication in Motion.",
       category: "Premium Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/c-class-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz_C_200_AMG_Line_(W_206)_–_f_09052022.jpg?width=800",
       transmission: "9G-TRONIC Automatic",
       engine: "1.5L Turbocharged I4",
       path: "/models/mercedes/cclass"
@@ -47,7 +47,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz GLE",
       subtitle: "Commanding Power with Premium Space.",
       category: "Luxury SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51954/gle-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz_GLE_450_4MATIC_(V_167)_–_Frontansicht,_18._Mai_2019,_Düsseldorf.jpg?width=800",
       transmission: "9G-TRONIC 4MATIC",
       engine: "3.0L Turbocharged Diesel I6",
       path: "/models/mercedes/gle"
@@ -80,7 +80,7 @@ export default function MercedesModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Mercedes-Benz" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/168707/amg-gt-coupe-exterior-right-front-three-quarter.jpeg"/>
+              <img alt="Mercedes-Benz" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-AMG_GT_C_Edition_50_(C_190)_–_Frontansicht,_2._September_2018,_Düsseldorf.jpg?width=800"/>
             </div>
           </div>
         </section>

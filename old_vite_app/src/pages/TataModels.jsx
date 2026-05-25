@@ -7,7 +7,7 @@ export default function TataModels() {
       name: "Tata Nexon",
       subtitle: "India's Best Selling Safety SUV.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141867/nexon-facelift-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tata_Nexon_XZA%2B_O_Dark_Edition_Front_Left.jpg?width=800",
       transmission: "6-Speed MT / AMT / 7-Speed DCA",
       engine: "1.2L Revotron Turbo Petrol / Diesel",
       path: "/models/tata/nexon"
@@ -17,7 +17,7 @@ export default function TataModels() {
       name: "Tata Punch",
       subtitle: "The Rugged, High-Altitude SUV.",
       category: "Compact SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39015/punch-exterior-right-front-three-quarter-57.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Tata_Punch_Creative_(India)_front_view_02.png?width=800",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Revotron 3-Cylinder Petrol",
       path: "/models/tata/punch"
@@ -27,7 +27,7 @@ export default function TataModels() {
       name: "Tata Safari",
       subtitle: "The Magnificent Flagship SUV Legend.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/139651/safari-facelift-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2021_Tata_Safari_XZA%2B_front_view.png?width=800",
       transmission: "6-Speed AT / 6-Speed MT",
       engine: "2.0L Kryotec Turbo Diesel",
       path: "/models/tata/safari"
@@ -37,7 +37,7 @@ export default function TataModels() {
       name: "Tata Harrier",
       subtitle: "Pure Command Performance on the Road.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/139647/harrier-facelift-exterior-right-front-three-quarter.jpeg",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Tata_Harrier.jpg?width=800",
       transmission: "6-Speed AT / MT",
       engine: "2.0L Kryotec Diesel Engine",
       path: "/models/tata/harrier"
@@ -70,7 +70,7 @@ export default function TataModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Tata Nexon" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/141867/nexon-facelift-exterior-right-front-three-quarter.jpeg"/>
+              <img alt="Tata Nexon" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://commons.wikimedia.org/wiki/Special:FilePath/2019_Tata_Harrier.jpg?width=800"/>
             </div>
           </div>
         </section>
