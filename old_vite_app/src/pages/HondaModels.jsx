@@ -7,7 +7,7 @@ export default function HondaModels() {
       name: "Honda City",
       subtitle: "The Ultimate Premium Sedan.",
       category: "Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/city-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/2020_Honda_City_SV.jpg",
       transmission: "6-Speed MT / 7-Speed CVT",
       engine: "1.5L i-VTEC DOHC I4",
       path: "/models/honda/city"
@@ -17,7 +17,7 @@ export default function HondaModels() {
       name: "Honda Civic",
       subtitle: "Aggressive Design Meets Dynamic Response.",
       category: "Premium Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/27074/civic-exterior-right-front-three-quarter-2.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/2022_Honda_Civic_LX_Sedan%2C_front_11.2.22.jpg",
       transmission: "6-Speed MT / CVT",
       engine: "1.8L i-VTEC / 1.6L i-DTEC",
       path: "/models/honda/civic"
@@ -27,7 +27,7 @@ export default function HondaModels() {
       name: "Honda Amaze",
       subtitle: "Smart Styling with Solid Reliability.",
       category: "Compact Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/45951/amaze-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/8/87/2018_Honda_Amaze_VX_1.2.jpg",
       transmission: "5-Speed MT / CVT",
       engine: "1.2L i-VTEC SOHC I4",
       path: "/models/honda/amaze"
@@ -37,7 +37,7 @@ export default function HondaModels() {
       name: "Honda Elevate",
       subtitle: "The Bold, Spacious Urban SUV.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/151109/elevate-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/f/fc/2023_Honda_Elevate_1.5_ZX_%28India%29_front_view.jpg",
       transmission: "6-Speed MT / 7-Speed CVT",
       engine: "1.5L i-VTEC DOHC Petrol",
       path: "/models/honda/elevate"
@@ -70,7 +70,7 @@ export default function HondaModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Honda City" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Honda City" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/2020_Honda_City_SV.jpg"/>
             </div>
           </div>
         </section>

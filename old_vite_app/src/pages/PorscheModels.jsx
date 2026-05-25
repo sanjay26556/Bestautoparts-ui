@@ -7,7 +7,7 @@ export default function PorscheModels() {
       name: "Porsche 911",
       subtitle: "The Eternal Sports Car Icon.",
       category: "Sports Car",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39232/911-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Porsche_992_Carrera_S_at_Retro_Classics_2020_IMG_0051.jpg",
       transmission: "8-speed PDK",
       engine: "3.0L Twin-Turbocharged Flat-6",
       path: "/models/porsche/911"
@@ -17,7 +17,7 @@ export default function PorscheModels() {
       name: "Porsche Cayenne",
       subtitle: "Sports Car Performance for Five.",
       category: "Premium SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/181139/cayenne-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/2/20/Porsche_Cayenne_S_%28E3%29_%E2%80%93_Frontansicht%2C_25._April_2018%2C_Messe_D%C3%BCsseldorf.jpg",
       transmission: "8-speed Tiptronic S",
       engine: "3.0L Turbocharged V6 Engine",
       path: "/models/porsche/cayenne"
@@ -27,7 +27,7 @@ export default function PorscheModels() {
       name: "Porsche Panamera",
       subtitle: "Pure Racing Soul Configured for Four.",
       category: "Sports Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/181141/panamera-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/2/23/Porsche_Panamera_4S_%28971%29_%E2%80%93_Frontansicht%2C_16._Dezember_2017%2C_D%C3%BCsseldorf.jpg",
       transmission: "8-speed PDK Automatic",
       engine: "2.9L Twin-Turbocharged V6",
       path: "/models/porsche/panamera"
@@ -37,7 +37,7 @@ export default function PorscheModels() {
       name: "Porsche Taycan",
       subtitle: "Electrified Performance Art in Motion.",
       category: "Electric Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39270/taycan-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Porsche_Taycan_Turbo_S_%281%29.jpg",
       transmission: "2-Speed Automatic",
       engine: "Permanent Magnet Synchronous Motors",
       path: "/models/porsche/taycan"
@@ -70,7 +70,7 @@ export default function PorscheModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Porsche 911" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Porsche 911" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Porsche_992_Carrera_S_at_Retro_Classics_2020_IMG_0051.jpg"/>
             </div>
           </div>
         </section>

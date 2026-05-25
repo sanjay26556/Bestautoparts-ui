@@ -7,7 +7,7 @@ export default function MahindraModels() {
       name: "Mahindra XUV700",
       subtitle: "Sci-Fi Luxury SUV Command Center.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/71/2021_Mahindra_XUV700_AX7_%28India%29_front_view.png",
       transmission: "6-Speed AT / MT",
       engine: "2.2L mHawk Turbo Diesel",
       path: "/models/mahindra/xuv700"
@@ -17,7 +17,7 @@ export default function MahindraModels() {
       name: "Mahindra Scorpio N",
       subtitle: "The Big Daddy of SUVs.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b5/2022_Mahindra_Scorpio-N_Z8_%28India%29_front_view_01.png",
       transmission: "6-Speed AT / MT with 4XPLOR",
       engine: "2.2L mHawk Turbo Diesel",
       path: "/models/mahindra/scorpio"
@@ -27,7 +27,7 @@ export default function MahindraModels() {
       name: "Mahindra Thar",
       subtitle: "The Ultimate Rugged Off-Road Companion.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/8/84/2020_Mahindra_Thar_LX_%28India%29_front_view.png",
       transmission: "6-Speed MT / AT with 4x4",
       engine: "2.0L mStallion Turbo / 2.2L mHawk",
       path: "/models/mahindra/thar"
@@ -37,7 +37,7 @@ export default function MahindraModels() {
       name: "Mahindra Bolero",
       subtitle: "Utilitarian Heavy Duty Reliability.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/131825/bolero-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Mahindra_Bolero_Neo_Front.jpg",
       transmission: "5-Speed Manual Transmission",
       engine: "1.5L mHawk75 Turbocharged I3",
       path: "/models/mahindra/bolero"
@@ -47,7 +47,7 @@ export default function MahindraModels() {
       name: "Mahindra XUV 3XO",
       subtitle: "Thrill of SUV, Smartness of City.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/171211/xuv-3xo-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/d/de/Mahindra_XUV300.jpg",
       transmission: "6-Speed MT / AT / AMT",
       engine: "1.2L mStallion TGDi Petrol",
       path: "/models/mahindra/xuv3xo"
@@ -80,7 +80,7 @@ export default function MahindraModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Mahindra XUV700" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1625217527288-93919c996509?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Mahindra XUV700" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/7/71/2021_Mahindra_XUV700_AX7_%28India%29_front_view.png"/>
             </div>
           </div>
         </section>

@@ -7,7 +7,7 @@ export default function BMWModels() {
       name: "BMW M5",
       subtitle: "Pure Track Performance Sealed in a Sedan.",
       category: "Super Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/192525/m5-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/BMW_M5_Competition_Facelift_IMG_3160.jpg",
       transmission: "8-Speed M Steptronic",
       engine: "4.4L TwinPower V8 Bi-Turbo",
       path: "/models/bmw/m5"
@@ -17,7 +17,7 @@ export default function BMWModels() {
       name: "BMW 3 Series",
       subtitle: "The Benchmark for Sports Sedans.",
       category: "Sports Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/3-series-gran-limousine-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/9/91/2019_BMW_320d_M_Sport_Automatic_2.0_Front.jpg",
       transmission: "8-Speed Steptronic Sport",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/3series"
@@ -27,7 +27,7 @@ export default function BMWModels() {
       name: "BMW 5 Series",
       subtitle: "Business Athlete Sedan.",
       category: "Luxury Sedan",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/175951/5-series-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/2017_BMW_520d_M_Sport_Automatic_2.0_Front.jpg",
       transmission: "8-Speed Steptronic",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/5series"
@@ -37,7 +37,7 @@ export default function BMWModels() {
       name: "BMW X5",
       subtitle: "The Boss of Luxury SUVs.",
       category: "Premium SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/44686/x5-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/76/BMW_X5_xDrive45e_eDrive_M_Sport_%28G05%29_%E2%80%93_Frontansicht%2C_6._Juni_2021%2C_D%C3%BCsseldorf.jpg",
       transmission: "8-Speed Steptronic",
       engine: "3.0L TwinPower Turbo I6",
       path: "/models/bmw/x5"
@@ -47,7 +47,7 @@ export default function BMWModels() {
       name: "BMW X1",
       subtitle: "Spirited Performance in a Compact Package.",
       category: "SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/120049/x1-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/b/b8/BMW_iX1_xDrive30_%28U11%29_%E2%80%93_f_14042023.jpg",
       transmission: "7-Speed Dual-Clutch AT",
       engine: "2.0L TwinPower Turbo I4",
       path: "/models/bmw/x1"
@@ -57,7 +57,7 @@ export default function BMWModels() {
       name: "BMW iX",
       subtitle: "Pioneering a New Age of Electrified Utility.",
       category: "Electric SUV",
-      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51940/ix-exterior-right-front-three-quarter.jpeg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/8/86/BMW_iX_xDrive50_%28I20%29_1X7A6224.jpg",
       transmission: "Single-Speed Automatic",
       engine: "Dual Electric Motors",
       path: "/models/bmw/ix"
@@ -90,7 +90,7 @@ export default function BMWModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="BMW M5" className="w-full h-auto object-contain drop-shadow-2xl rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/BMW_M5_Competition_Facelift_IMG_3160.jpg"/>
             </div>
           </div>
         </section>
