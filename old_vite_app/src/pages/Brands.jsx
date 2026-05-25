@@ -130,7 +130,7 @@ export default function Brands() {
                   </div>
                 </div>
                 <Link to={brand.path} className="w-full py-3 bg-primary text-on-primary rounded-lg font-label-md hover:bg-secondary transition-colors flex items-center justify-center gap-2 group/btn">
-                  View Parts
+                  View Models
                   <span className="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
                 </Link>
               </div>

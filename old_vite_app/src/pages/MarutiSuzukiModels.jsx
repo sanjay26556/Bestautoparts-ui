@@ -7,8 +7,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Swift",
       subtitle: "The Sporty Hatchback Icon.",
       category: "Hatchback",
-      // Suzuki Swift - sporty red hatchback
-      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
+      // Small sporty hatchback
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/159099/swift-exterior-right-front-three-quarter.jpeg",
       transmission: "5-Speed MT / AMT Automatic",
       engine: "1.2L Z-Series 3-Cylinder Petrol",
       path: "/models/maruti-suzuki/swift"
@@ -18,8 +18,8 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Baleno",
       subtitle: "Modern Luxury Re-engineered.",
       category: "Premium Hatchback",
-      // Suzuki Baleno - premium compact hatchback
-      image: "https://images.unsplash.com/photo-1559416523-140ddc3d238c?auto=format&fit=crop&q=80&w=600",
+      // Premium compact car
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/107543/baleno-exterior-right-front-three-quarter.jpeg",
       transmission: "5-Speed MT / AGS Automatic",
       engine: "1.2L DualJet 4-Cylinder Petrol",
       path: "/models/maruti-suzuki/baleno"
@@ -29,30 +29,19 @@ export default function MarutiSuzukiModels() {
       name: "Maruti Suzuki Brezza",
       subtitle: "The Bold, Dynamic City SUV.",
       category: "Compact SUV",
-      // Compact city SUV - Brezza style
-      image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=600",
+      // Compact city crossover
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/107543/brezza-exterior-right-front-three-quarter.jpeg",
       transmission: "5-Speed MT / 6-Speed AT",
       engine: "1.5L K15C Smart Hybrid I4",
       path: "/models/maruti-suzuki/brezza"
-    },
-    {
-      id: "fronx",
-      name: "Maruti Suzuki Fronx",
-      subtitle: "Bold Crossover SUV, Urban Bred.",
-      category: "Crossover SUV",
-      // Suzuki crossover SUV - Fronx style
-      image: "https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?auto=format&fit=crop&q=80&w=600",
-      transmission: "5-Speed MT / 6-Speed AT",
-      engine: "1.0L BoosterJet Turbo Petrol",
-      path: "/models/maruti-suzuki/fronx"
     },
     {
       id: "grandvitara",
       name: "Maruti Suzuki Grand Vitara",
       subtitle: "The Premium Intelligent Hybrid SUV.",
       category: "SUV",
-      // Grand Vitara - mid-size Hybrid SUV
-      image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80&w=600",
+      // Mid-size SUV
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/108109/grand-vitara-exterior-right-front-three-quarter.jpeg",
       transmission: "e-CVT / 6-Speed AT / 5-Speed MT",
       engine: "1.5L Intelligent Strong Hybrid",
       path: "/models/maruti-suzuki/grandvitara"
@@ -85,7 +74,7 @@ export default function MarutiSuzukiModels() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary-fixed/30 to-transparent rounded-full blur-3xl -z-10 transform scale-125"></div>
-              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-cover drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=800"/>
+              <img alt="Maruti Suzuki Swift" className="w-full h-auto object-cover drop-shadow-2xl rounded-xl" src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800"/>
             </div>
           </div>
         </section>

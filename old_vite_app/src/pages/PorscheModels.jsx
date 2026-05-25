@@ -7,7 +7,7 @@ export default function PorscheModels() {
       name: "Porsche 911",
       subtitle: "The Eternal Sports Car Icon.",
       category: "Sports Car",
-      image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39232/911-exterior-right-front-three-quarter.jpeg",
       transmission: "8-speed PDK",
       engine: "3.0L Twin-Turbocharged Flat-6",
       path: "/models/porsche/911"
@@ -17,7 +17,7 @@ export default function PorscheModels() {
       name: "Porsche Cayenne",
       subtitle: "Sports Car Performance for Five.",
       category: "Premium SUV",
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/181139/cayenne-exterior-right-front-three-quarter.jpeg",
       transmission: "8-speed Tiptronic S",
       engine: "3.0L Turbocharged V6 Engine",
       path: "/models/porsche/cayenne"
@@ -27,7 +27,7 @@ export default function PorscheModels() {
       name: "Porsche Panamera",
       subtitle: "Pure Racing Soul Configured for Four.",
       category: "Sports Sedan",
-      image: "https://images.unsplash.com/photo-1611245781467-33e1431f478a?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/181141/panamera-exterior-right-front-three-quarter.jpeg",
       transmission: "8-speed PDK Automatic",
       engine: "2.9L Twin-Turbocharged V6",
       path: "/models/porsche/panamera"
@@ -37,7 +37,7 @@ export default function PorscheModels() {
       name: "Porsche Taycan",
       subtitle: "Electrified Performance Art in Motion.",
       category: "Electric Sedan",
-      image: "https://images.unsplash.com/photo-1611245798538-4e1b3cb1c1d0?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/39270/taycan-exterior-right-front-three-quarter.jpeg",
       transmission: "2-Speed Automatic",
       engine: "Permanent Magnet Synchronous Motors",
       path: "/models/porsche/taycan"

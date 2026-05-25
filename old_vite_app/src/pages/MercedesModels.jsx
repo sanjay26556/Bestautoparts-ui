@@ -7,8 +7,7 @@ export default function MercedesModels() {
       name: "Mercedes-AMG GT",
       subtitle: "Driving Performance in Exquisite Form.",
       category: "Supercar",
-      // Mercedes AMG GT - genuine AMG sports coupe
-      image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/168707/amg-gt-coupe-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed AMG SPEEDSHIFT DCT",
       engine: "4.0L V8 Biturbo AMG",
       path: "/models/mercedes/amggt"
@@ -18,8 +17,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz S-Class",
       subtitle: "The Pinnacle of Automotive Luxury.",
       category: "Luxury Sedan",
-      // Mercedes S-Class - black luxury sedan
-      image: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/48057/s-class-exterior-right-front-three-quarter.jpeg",
       transmission: "9G-TRONIC 9-Speed AT",
       engine: "3.0L Turbocharged I6",
       path: "/models/mercedes/sclass"
@@ -29,8 +27,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz E-Class",
       subtitle: "Masterpiece of Intelligence.",
       category: "Premium Sedan",
-      // Mercedes E-Class - silver premium sedan (corrected from VW SUV)
-      image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/177129/e-class-exterior-right-front-three-quarter.jpeg",
       transmission: "9G-TRONIC Automatic",
       engine: "2.0L Turbocharged I4",
       path: "/models/mercedes/eclass"
@@ -40,8 +37,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz C-Class",
       subtitle: "Dynamic Sophistication in Motion.",
       category: "Premium Sedan",
-      // Mercedes C-Class - white premium sedan
-      image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51909/c-class-exterior-right-front-three-quarter.jpeg",
       transmission: "9G-TRONIC Automatic",
       engine: "1.5L Turbocharged I4",
       path: "/models/mercedes/cclass"
@@ -51,8 +47,7 @@ export default function MercedesModels() {
       name: "Mercedes-Benz GLE",
       subtitle: "Commanding Power with Premium Space.",
       category: "Luxury SUV",
-      // Mercedes GLE - large luxury SUV
-      image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51954/gle-exterior-right-front-three-quarter.jpeg",
       transmission: "9G-TRONIC 4MATIC",
       engine: "3.0L Turbocharged Diesel I6",
       path: "/models/mercedes/gle"

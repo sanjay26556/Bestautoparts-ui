@@ -7,8 +7,7 @@ export default function KiaModels() {
       name: "Kia Seltos",
       subtitle: "Badass Design Meets Smart Connected Tech.",
       category: "SUV",
-      // Kia Seltos - bold compact crossover
-      image: "https://images.unsplash.com/photo-1632245889027-ea2e6a7a50e1?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/seltos-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed Automatic / 6-Speed iMT",
       engine: "1.5L CRDi Clean Diesel / Petrol",
       path: "/models/kia/seltos"
@@ -18,8 +17,7 @@ export default function KiaModels() {
       name: "Kia Sonet",
       subtitle: "Muscular Styling Loaded with Smart Gadgets.",
       category: "Compact SUV",
-      // Kia Sonet - compact SUV with bold lines
-      image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/169289/sonet-exterior-right-front-three-quarter.jpeg",
       transmission: "7-speed DCT / 6-speed iMT",
       engine: "1.0L Turbocharged GDi Petrol",
       path: "/models/kia/sonet"
@@ -29,8 +27,7 @@ export default function KiaModels() {
       name: "Kia Carens",
       subtitle: "Premium 3-Row Seating Reimagined.",
       category: "MPV",
-      // Kia Carens - 3-row family MPV
-      image: "https://images.unsplash.com/photo-1619590059231-1502b4d96a0f?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/144185/carens-exterior-right-front-three-quarter.jpeg",
       transmission: "6-speed AT / MT",
       engine: "1.5L Turbocharged CRDi Diesel",
       path: "/models/kia/carens"
@@ -40,22 +37,10 @@ export default function KiaModels() {
       name: "Kia EV6",
       subtitle: "A High-Performance Electric Revolution.",
       category: "Electric Crossover",
-      // Kia EV6 - sleek modern electric crossover
-      image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/51940/ev6-exterior-right-front-three-quarter.jpeg",
       transmission: "Single-Speed Reduction Gear",
       engine: "Dual Electric Motors (AWD)",
       path: "/models/kia/ev6"
-    },
-    {
-      id: "sportage",
-      name: "Kia Sportage",
-      subtitle: "Confident, Capable and Remarkably Versatile.",
-      category: "Premium SUV",
-      // Kia Sportage - premium midsize crossover
-      image: "https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?auto=format&fit=crop&q=80&w=600",
-      transmission: "8-Speed Automatic / 6-Speed iMT",
-      engine: "2.0L CRDi Diesel / 1.6L T-GDi Petrol",
-      path: "/models/kia/sportage"
     }
   ];
 

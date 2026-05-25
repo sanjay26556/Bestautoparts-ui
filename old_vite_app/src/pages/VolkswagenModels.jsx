@@ -7,8 +7,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Virtus",
       subtitle: "The Thrill of German Engineering.",
       category: "Sedan",
-      // Volkswagen Virtus - premium German sedan
-      image: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/124839/virtus-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed DSG / 6-Speed MT",
       engine: "1.5L TSI EVO Turbo Petrol",
       path: "/models/volkswagen/virtus"
@@ -18,8 +17,7 @@ export default function VolkswagenModels() {
       name: "Volkswagen Taigun",
       subtitle: "Playful Design Meets Safe Structure.",
       category: "SUV",
-      // Volkswagen Taigun - bold compact crossover (corrected from generic)
-      image: "https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/47051/taigun-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed AT / 6-Speed MT",
       engine: "1.0L TSI Turbo Petrol",
       path: "/models/volkswagen/taigun"
@@ -29,22 +27,10 @@ export default function VolkswagenModels() {
       name: "Volkswagen Tiguan",
       subtitle: "Pure Premium Command on All Terrains.",
       category: "Premium SUV",
-      // Volkswagen Tiguan - authentic VW premium SUV (corrected from Audi Q5)
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115777/tiguan-exterior-right-front-three-quarter.jpeg",
       transmission: "7-Speed DSG 4MOTION",
       engine: "2.0L TSI Turbocharged I4",
       path: "/models/volkswagen/tiguan"
-    },
-    {
-      id: "polo",
-      name: "Volkswagen Polo",
-      subtitle: "German Precision in a Compact Package.",
-      category: "Hatchback",
-      // Volkswagen Polo - premium compact hatchback
-      image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=600",
-      transmission: "5-Speed MT / 7-Speed DSG",
-      engine: "1.0L TSI Turbocharged I3",
-      path: "/models/volkswagen/polo"
     }
   ];
 

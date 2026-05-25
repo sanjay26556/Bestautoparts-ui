@@ -7,55 +7,40 @@ export default function HondaModels() {
       name: "Honda City",
       subtitle: "The Ultimate Premium Sedan.",
       category: "Sedan",
-      // Honda City - clean white Honda sedan
-      image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/city-exterior-right-front-three-quarter.jpeg",
       transmission: "6-Speed MT / 7-Speed CVT",
       engine: "1.5L i-VTEC DOHC I4",
       path: "/models/honda/city"
-    },
-    {
-      id: "elevate",
-      name: "Honda Elevate",
-      subtitle: "The Bold, Spacious Urban SUV.",
-      category: "SUV",
-      // Honda Elevate - Honda crossover SUV
-      image: "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?auto=format&fit=crop&q=80&w=600",
-      transmission: "6-Speed MT / 7-Speed CVT",
-      engine: "1.5L i-VTEC DOHC Petrol",
-      path: "/models/honda/elevate"
-    },
-    {
-      id: "amaze",
-      name: "Honda Amaze",
-      subtitle: "Smart Styling with Solid Reliability.",
-      category: "Compact Sedan",
-      // Honda Amaze - compact Honda sedan
-      image: "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?auto=format&fit=crop&q=80&w=600",
-      transmission: "5-Speed MT / CVT",
-      engine: "1.2L i-VTEC SOHC I4",
-      path: "/models/honda/amaze"
     },
     {
       id: "civic",
       name: "Honda Civic",
       subtitle: "Aggressive Design Meets Dynamic Response.",
       category: "Premium Sedan",
-      // Honda Civic - premium sporty Honda sedan
-      image: "https://images.unsplash.com/photo-1618083707368-b3823daa2726?auto=format&fit=crop&q=80&w=600",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/27074/civic-exterior-right-front-three-quarter-2.jpeg",
       transmission: "6-Speed MT / CVT",
       engine: "1.8L i-VTEC / 1.6L i-DTEC",
       path: "/models/honda/civic"
     },
     {
-      id: "wrv",
-      name: "Honda WR-V",
-      subtitle: "Urban Adventure Packed in a Compact SUV.",
-      category: "Compact SUV",
-      // Honda WR-V - small compact Honda SUV
-      image: "https://images.unsplash.com/photo-1580274455191-1c62238fa1c4?auto=format&fit=crop&q=80&w=600",
-      transmission: "5-Speed MT / CVT Automatic",
-      engine: "1.5L i-VTEC SOHC Petrol",
-      path: "/models/honda/wrv"
+      id: "amaze",
+      name: "Honda Amaze",
+      subtitle: "Smart Styling with Solid Reliability.",
+      category: "Compact Sedan",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/45951/amaze-exterior-right-front-three-quarter.jpeg",
+      transmission: "5-Speed MT / CVT",
+      engine: "1.2L i-VTEC SOHC I4",
+      path: "/models/honda/amaze"
+    },
+    {
+      id: "elevate",
+      name: "Honda Elevate",
+      subtitle: "The Bold, Spacious Urban SUV.",
+      category: "SUV",
+      image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/151109/elevate-exterior-right-front-three-quarter.jpeg",
+      transmission: "6-Speed MT / 7-Speed CVT",
+      engine: "1.5L i-VTEC DOHC Petrol",
+      path: "/models/honda/elevate"
     }
   ];
 
