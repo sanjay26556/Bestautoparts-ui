@@ -66,12 +66,29 @@ export default function Hero3D({ children }) {
         let offsetX = 0;
         let offsetY = 0;
         
-        if (canvasRatio > imgRatio) {
-          drawHeight = canvasWidth / imgRatio;
-          offsetY = (canvasHeight - drawHeight) / 2;
+        const isMobile = canvasWidth < canvasHeight; // Portrait mode
+
+        if (isMobile) {
+          // On mobile, ensure the whole car fits horizontally (contain)
+          if (canvasRatio > imgRatio) {
+            drawHeight = canvasWidth / imgRatio;
+            offsetY = (canvasHeight - drawHeight) / 2;
+          } else {
+            drawWidth = canvasWidth;
+            drawHeight = canvasWidth / imgRatio;
+            offsetX = 0;
+            // Push it slightly lower so it doesn't overlap the header text too much
+            offsetY = (canvasHeight - drawHeight) / 2 + (canvasHeight * 0.15);
+          }
         } else {
-          drawWidth = canvasHeight * imgRatio;
-          offsetX = (canvasWidth - drawWidth) / 2;
+          // Desktop cover logic
+          if (canvasRatio > imgRatio) {
+            drawHeight = canvasWidth / imgRatio;
+            offsetY = (canvasHeight - drawHeight) / 2;
+          } else {
+            drawWidth = canvasHeight * imgRatio;
+            offsetX = (canvasWidth - drawWidth) / 2;
+          }
         }
         
         context.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
@@ -156,10 +173,6 @@ export default function Hero3D({ children }) {
           <div className="pointer-events-auto h-full w-full">
             {children}
           </div>
-        </div>
-        <div className="scroll-instruction z-30 pointer-events-none text-[#333333]/50 absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <span className="animate-bounce">↓</span>
-          <span className="font-label-md text-sm uppercase tracking-widest text-[#333333]/70">Scroll to Assemble</span>
         </div>
       </div>
     </div>
