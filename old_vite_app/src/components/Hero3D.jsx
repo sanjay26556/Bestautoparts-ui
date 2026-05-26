@@ -79,8 +79,9 @@ export default function Hero3D({ children }) {
           // Using a slight offset bias to keep the front wheel visible
           offsetX = (canvasWidth - drawWidth) * 0.6; 
           
-          // Push it toward the bottom half
-          offsetY = canvasHeight - drawHeight + (canvasHeight * 0.1);
+          // Move the animation upward so it begins immediately below the navbar
+          // (canvasHeight - drawHeight) * 0.2 anchors it much closer to the top edge
+          offsetY = (canvasHeight - drawHeight) * 0.2;
         } else {
           // Desktop cover logic
           if (canvasRatio > imgRatio) {
