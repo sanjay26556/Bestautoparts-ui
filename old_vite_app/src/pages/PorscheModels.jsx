@@ -55,7 +55,7 @@ export default function PorscheModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Porsche Genuine Parts</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Porsche Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 There is no substitute. Sourced directly from Porsche authorized networks, keeping your racing machine performing at peak German precision.
               </p>

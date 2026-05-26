@@ -15,7 +15,7 @@ export default function Models() {
 </div>
 <span className="font-label-md text-label-md text-on-primary tracking-widest uppercase opacity-80">Official Partner</span>
 </div>
-<h1 className="font-display-lg text-display-lg text-on-primary mb-stack-md leading-tight">Maruti Suzuki <br/><span className="text-secondary-fixed">Genuine Parts</span></h1>
+<h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-on-primary mb-stack-md leading-tight">Maruti Suzuki <br/><span className="text-secondary-fixed">Genuine Parts</span></h1>
 <p className="font-body-lg text-body-lg text-on-primary/90 mb-stack-lg">Precision-engineered components for every Maruti Suzuki model. Ensure peak performance, reliability, and longevity with 100% authentic spares.</p>
 <div className="flex gap-stack-md">
 <Link to="/marketplace" className="bg-secondary text-on-secondary px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary-container transition-colors shadow-sm flex items-center gap-2 w-max">

@@ -45,7 +45,7 @@ export default function VolkswagenModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Volkswagen Spares</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Volkswagen Spares</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 German engineering. Built to last. Keep your Volkswagen executing with original German spare parts and certified components.
               </p>

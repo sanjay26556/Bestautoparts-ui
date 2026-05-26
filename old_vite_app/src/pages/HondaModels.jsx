@@ -55,7 +55,7 @@ export default function HondaModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Honda Genuine Parts</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Honda Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 Engineering precision for the long haul. Browse certified genuine parts, filters, engine spares, and accessories built for your Honda.
               </p>

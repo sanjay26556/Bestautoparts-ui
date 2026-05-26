@@ -9,7 +9,7 @@ export default function Home() {
         <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter flex flex-col justify-center h-full">
           <div className="max-w-2xl">
             <span className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-stack-sm block">ENGINEERING EXCELLENCE</span>
-            <h1 className="font-display-lg text-display-lg text-primary mb-stack-lg drop-shadow-sm">Find Parts for Your Performance</h1>
+            <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-stack-lg drop-shadow-sm">Find Parts for Your Performance</h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-stack-lg max-w-xl">
               Precision-engineered components for every make and model. Guaranteed reliability for DIY enthusiasts and professional mechanics alike.
             </p>
@@ -78,7 +78,7 @@ export default function Home() {
           {/* Genuine Spare Parts Category Grid (Bento Style) */}
           <section>
             <h2 className="font-headline-lg text-headline-lg text-primary mb-stack-lg text-center">Browse by Component</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter h-[600px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter h-auto md:h-[600px] auto-rows-[250px] md:auto-rows-auto">
               {/* Large Feature Box */}
               <Link className="md:col-span-2 md:row-span-2 relative rounded-xl overflow-hidden group bg-surface border border-outline-variant hover:shadow-md transition-shadow" to="/marketplace">
                 <img alt="Engine Parts" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=800" />

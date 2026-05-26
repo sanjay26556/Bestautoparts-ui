@@ -59,7 +59,7 @@ export default function MarutiSuzukiModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Maruti Suzuki Genuine Parts</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Maruti Suzuki Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 Way of Life. Keep your Maruti Suzuki running at its best with genuine OEM replacement parts sourced directly from authorized Maruti distributors.
               </p>

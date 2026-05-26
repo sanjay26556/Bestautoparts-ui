@@ -93,7 +93,7 @@ export default function Brands() {
       {/* Hero Section */}
       <section className="bg-surface-container-lowest py-20 border-b border-outline-variant/30">
         <div className="max-w-container-max mx-auto px-margin-desktop text-center">
-          <h1 className="font-display-lg text-display-lg text-primary mb-4">Explore All Brands</h1>
+          <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-4">Explore All Brands</h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
             Choose from our extensive catalog of genuine and premium aftermarket parts for all major manufacturers. Engineering precision for every drive.
           </p>

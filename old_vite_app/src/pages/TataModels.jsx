@@ -55,7 +55,7 @@ export default function TataModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Tata Genuine Parts</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Tata Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 New Forever. Maintain your Tata vehicle's high safety standards and reliable mechanical execution with 100% factory-certified components.
               </p>

@@ -55,7 +55,7 @@ export default function ToyotaModels() {
                 <span className="material-symbols-outlined text-[18px]">verified</span>
                 <span className="font-label-sm text-label-sm uppercase tracking-wider">Official Partner</span>
               </div>
-              <h1 className="font-display-lg text-display-lg text-primary mb-6 leading-tight">Toyota Genuine Parts</h1>
+              <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-6 leading-tight">Toyota Genuine Parts</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
                 Quality Service & Parts. Protect your Toyota's legendary reliability with 100% genuine factory-certified parts sourced directly from authorized distributors.
               </p>
