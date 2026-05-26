@@ -12,6 +12,12 @@
     overflow: hidden;
 }
 
+@media (max-width: 767px) {
+    .scroll-container, .canvas-sticky-wrapper {
+        height: 75svh;
+    }
+}
+
 .car-canvas-container {
     display: block;
     width: 100% !important;

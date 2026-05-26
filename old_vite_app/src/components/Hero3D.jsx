@@ -24,7 +24,7 @@ export default function Hero3D({ children }) {
     const setCanvasSize = () => {
       const dpr = Math.min(window.devicePixelRatio || 1, 2); // Cap at 2 for performance
       canvas.width = window.innerWidth * dpr;
-      canvas.height = window.innerHeight * dpr;
+      canvas.height = containerRef.current.clientHeight * dpr;
       renderFrame(currentFrame.frame);
     };
 
@@ -69,19 +69,18 @@ export default function Hero3D({ children }) {
         const isMobile = canvasWidth < canvasHeight; // Portrait mode
 
         if (isMobile) {
-          // Cinematic mobile composition: 
-          // Scale it so it's large and overflows naturally, but not massively over-cropped.
-          // Set height to ~65% of the screen height to maintain the premium cinematic depth.
-          drawHeight = canvasHeight * 0.65;
+          // Use physical screen height to maintain the exact same premium cinematic scale 
+          // even though the container height was reduced in CSS to eliminate empty bottom space.
+          const windowHeight = window.innerHeight * Math.min(window.devicePixelRatio || 1, 2);
+          
+          drawHeight = windowHeight * 0.65;
           drawWidth = drawHeight * imgRatio;
           
           // Shift it to the right side of the screen by pushing the image slightly left
-          // Using a slight offset bias to keep the front wheel visible
           offsetX = (canvasWidth - drawWidth) * 0.6; 
           
           // Move the animation upward so it begins immediately below the navbar
-          // (canvasHeight - drawHeight) * 0.2 anchors it much closer to the top edge
-          offsetY = (canvasHeight - drawHeight) * 0.2;
+          offsetY = (windowHeight - drawHeight) * 0.2;
         } else {
           // Desktop cover logic
           if (canvasRatio > imgRatio) {
@@ -130,7 +129,7 @@ export default function Hero3D({ children }) {
         scrollTrigger: {
           trigger: containerRef.current,
           start: 'top top',
-          end: '+=1500', // Pinned and scroll smoothly for 1500px of scrolling (more time to enjoy the animation)
+          end: window.innerWidth < 768 ? '+=800' : '+=1500', // Shorter scroll on mobile to avoid excessive vertical gap
           scrub: 0.1,    // Responsive scrub to ensure frame updates match scrollbar instantly and avoid unpin lag
           pin: true,
           pinSpacing: true, // Pushes down content so the user sees the full animation!
