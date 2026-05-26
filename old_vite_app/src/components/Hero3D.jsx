@@ -147,24 +147,20 @@ export default function Hero3D({ children }) {
         }
       }, 0);
 
-      // Only for mobile resolution: cinematic text fade and parallax
-      let mm = gsap.matchMedia(containerRef);
-      mm.add("(max-width: 767px)", () => {
-        // Cinematic Parallax: move the canvas slightly up while scrolling
-        tl.to(canvasRef.current, {
-          y: '-10%',
-          ease: 'none',
-          duration: 1
-        }, 0);
+      // Cinematic Parallax: move the canvas slightly up while scrolling
+      tl.to(canvasRef.current, {
+        y: '-10%',
+        ease: 'none',
+        duration: 1
+      }, 0);
 
-        // Cinematic Fade/Slide: text smooth transition
-        tl.to('.hero-text-content', {
-          y: -80,
-          opacity: 0,
-          ease: 'power1.in',
-          duration: 0.5
-        }, 0);
-      });
+      // Cinematic Fade/Slide: text smooth transition
+      tl.to('.hero-text-content', {
+        y: -80,
+        opacity: 0,
+        ease: 'power1.in',
+        duration: 0.5
+      }, 0);
 
       // 2. Hold at TOTAL_FRAMES (fully assembled car) for the remaining 20% of the timeline
       // This guarantees the user sees the fully assembled car stationary before unpinning/scrolling up.

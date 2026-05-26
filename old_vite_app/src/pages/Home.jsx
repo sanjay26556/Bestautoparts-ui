@@ -1,9 +1,40 @@
 import { Link } from 'react-router-dom';
+import { useLayoutEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Hero3D from '../components/Hero3D';
 
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Home() {
+  const mainRef = useRef();
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      const revealElements = gsap.utils.toArray('.scroll-reveal');
+      
+      revealElements.forEach((el) => {
+        gsap.fromTo(el, 
+          { y: 50, opacity: 0 },
+          { 
+            y: 0, 
+            opacity: 1, 
+            duration: 0.8, 
+            ease: 'power2.out',
+            scrollTrigger: {
+              trigger: el,
+              start: 'top 85%',
+              toggleActions: 'play none none reverse'
+            }
+          }
+        );
+      });
+    }, mainRef);
+    
+    return () => ctx.revert();
+  }, []);
   return (
-    <main className="w-full">
+    <main className="w-full" ref={mainRef}>
       <Hero3D>
         {/* Content Overlay */}
         <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter flex flex-col justify-start pt-32 md:justify-center md:pt-0 h-full">
@@ -32,7 +63,7 @@ export default function Home() {
         <div className="max-w-container-max mx-auto px-gutter py-16 md:py-20 space-y-32">
           {/* Select Your Brand */}
           <section>
-            <div className="flex justify-between items-end mb-stack-lg">
+            <div className="flex justify-between items-end mb-stack-lg scroll-reveal">
               <div>
                 <h2 className="font-headline-lg text-headline-lg text-primary mb-stack-sm">Select Your Brand</h2>
                 <p className="font-body-md text-body-md text-on-surface-variant">OEM and premium aftermarket parts for top manufacturers.</p>
@@ -41,7 +72,7 @@ export default function Home() {
                 View All Brands <span className="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
               </Link>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-gutter">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-gutter scroll-reveal">
               {/* Brand Card 1 */}
               <Link className="group bg-surface border border-outline-variant rounded-xl p-4 flex flex-col items-center justify-center hover:shadow-md hover:-translate-y-1 transition-all duration-300" to="/models/bmw">
                 <img alt="BMW" className="w-full h-24 object-cover rounded-lg mb-3 transition-transform group-hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg" />
@@ -76,7 +107,7 @@ export default function Home() {
           </section>
 
           {/* Genuine Spare Parts Category Grid (Bento Style) */}
-          <section>
+          <section className="scroll-reveal">
             <h2 className="font-headline-lg text-headline-lg text-primary mb-stack-lg text-center">Browse by Component</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter h-auto md:h-[600px] auto-rows-[250px] md:auto-rows-auto">
               {/* Large Feature Box */}
