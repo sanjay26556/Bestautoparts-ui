@@ -136,7 +136,7 @@ export default function Hero3D({ children }) {
         }
       });
 
-      // 1. Animate the assembly of the car from frame 2 to TOTAL_FRAMES over the first 80% of the timeline
+      // 1. Animate the assembly of the car from frame 2 to TOTAL_FRAMES
       tl.to(currentFrame, {
         frame: TOTAL_FRAMES,
         snap: 'frame',
@@ -145,6 +145,25 @@ export default function Hero3D({ children }) {
         onUpdate: () => {
           renderFrame(currentFrame.frame);
         }
+      }, 0);
+
+      // Only for mobile resolution: cinematic text fade and parallax
+      let mm = gsap.matchMedia(containerRef);
+      mm.add("(max-width: 767px)", () => {
+        // Cinematic Parallax: move the canvas slightly up while scrolling
+        tl.to(canvasRef.current, {
+          y: '-10%',
+          ease: 'none',
+          duration: 1
+        }, 0);
+
+        // Cinematic Fade/Slide: text smooth transition
+        tl.to('.hero-text-content', {
+          y: -80,
+          opacity: 0,
+          ease: 'power1.in',
+          duration: 0.5
+        }, 0);
       });
 
       // 2. Hold at TOTAL_FRAMES (fully assembled car) for the remaining 20% of the timeline
@@ -171,7 +190,7 @@ export default function Hero3D({ children }) {
         <canvas ref={canvasRef} className="car-canvas-container absolute inset-0 z-0 w-full h-full" />
         <div className="absolute inset-y-0 left-0 w-full md:w-[45%] bg-gradient-to-r from-[#eaeaea] via-[#eaeaea]/85 to-transparent z-10 pointer-events-none"></div>
         <div className="absolute inset-0 z-20 pointer-events-none">
-          <div className="pointer-events-auto h-full w-full">
+          <div className="pointer-events-auto h-full w-full hero-text-content">
             {children}
           </div>
         </div>

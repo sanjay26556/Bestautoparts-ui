@@ -6,9 +6,9 @@ export default function Home() {
     <main className="w-full">
       <Hero3D>
         {/* Content Overlay */}
-        <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter flex flex-col justify-center h-full">
+        <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter flex flex-col justify-start pt-32 md:justify-center md:pt-0 h-full">
           <div className="max-w-2xl">
-            <span className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-stack-sm block">ENGINEERING EXCELLENCE</span>
+            <span className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-stack-sm block md:mt-0 mt-4">ENGINEERING EXCELLENCE</span>
             <h1 className="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary mb-stack-lg drop-shadow-sm">Find Parts for Your Performance</h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-stack-lg max-w-xl">
               Precision-engineered components for every make and model. Guaranteed reliability for DIY enthusiasts and professional mechanics alike.
@@ -28,8 +28,8 @@ export default function Home() {
       </Hero3D>
 
       {/* Main Content Wrapper (Full width solid background to cover pinned hero) */}
-      <div className="w-full bg-background relative z-30 shadow-[0_-15px_30px_rgba(0,0,0,0.03)]">
-        <div className="max-w-container-max mx-auto px-gutter py-20 space-y-32">
+      <div className="w-full bg-background relative z-30 shadow-[0_-15px_30px_rgba(0,0,0,0.05)] -mt-8 pt-8 rounded-t-3xl md:-mt-0 md:pt-0 md:rounded-t-none md:shadow-[0_-15px_30px_rgba(0,0,0,0.03)]">
+        <div className="max-w-container-max mx-auto px-gutter py-16 md:py-20 space-y-32">
           {/* Select Your Brand */}
           <section>
             <div className="flex justify-between items-end mb-stack-lg">
