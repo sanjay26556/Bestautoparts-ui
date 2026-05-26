@@ -154,13 +154,12 @@ export default function Hero3D({ children }) {
         duration: 1
       }, 0);
 
-      // Cinematic Fade/Slide: text smooth transition
-      tl.to('.hero-text-content', {
-        y: -80,
-        opacity: 0,
-        ease: 'power1.in',
-        duration: 0.5
-      }, 0);
+      // Cinematic Fade/Slide: text appears (fades in) while scrolling down
+      tl.fromTo('.hero-text-content', 
+        { y: 80, opacity: 0 },
+        { y: 0, opacity: 1, ease: 'power2.out', duration: 0.5 },
+        0
+      );
 
       // 2. Hold at TOTAL_FRAMES (fully assembled car) for the remaining 20% of the timeline
       // This guarantees the user sees the fully assembled car stationary before unpinning/scrolling up.
