@@ -69,17 +69,18 @@ export default function Hero3D({ children }) {
         const isMobile = canvasWidth < canvasHeight; // Portrait mode
 
         if (isMobile) {
-          // On mobile, ensure the whole car fits horizontally (contain)
-          if (canvasRatio > imgRatio) {
-            drawHeight = canvasWidth / imgRatio;
-            offsetY = (canvasHeight - drawHeight) / 2;
-          } else {
-            drawWidth = canvasWidth;
-            drawHeight = canvasWidth / imgRatio;
-            offsetX = 0;
-            // Push it slightly lower so it doesn't overlap the header text too much
-            offsetY = (canvasHeight - drawHeight) / 2 + (canvasHeight * 0.15);
-          }
+          // Cinematic mobile composition: 
+          // Scale it so it's large and overflows naturally, but not massively over-cropped.
+          // Set height to ~65% of the screen height to maintain the premium cinematic depth.
+          drawHeight = canvasHeight * 0.65;
+          drawWidth = drawHeight * imgRatio;
+          
+          // Shift it to the right side of the screen by pushing the image slightly left
+          // Using a slight offset bias to keep the front wheel visible
+          offsetX = (canvasWidth - drawWidth) * 0.6; 
+          
+          // Push it toward the bottom half
+          offsetY = canvasHeight - drawHeight + (canvasHeight * 0.1);
         } else {
           // Desktop cover logic
           if (canvasRatio > imgRatio) {
